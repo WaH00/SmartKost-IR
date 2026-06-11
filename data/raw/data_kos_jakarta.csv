@@ -1,0 +1,910 @@
+id_kos,nama_kos,kota,wilayah,harga_per_bulan,tipe_kos,ukuran_kamar,ac,kamar_mandi_dalam,wifi,listrik_include,parkir,dapur,laundry,security_24jam,jarak_ke_kampus_km,kampus_terdekat,jarak_ke_transportasi_km,rating,jumlah_kamar,jumlah_review
+KOS-0001,Kos Kebayoran Baru 1,Jakarta Selatan,Kebayoran Baru,2350000,Putri,9,1,1,1,0,0,0,1,1,9.7,Binus,4.2,3.8,16,26
+KOS-0002,Kos Pesanggrahan 2,Jakarta Selatan,Pesanggrahan,2250000,Putri,12,0,1,0,0,1,0,1,0,0.9,Binus,3.1,4.9,18,13
+KOS-0003,Kos Setiabudi 3,Jakarta Selatan,Setiabudi,2250000,Putri,12,0,1,1,0,1,0,1,0,5.4,Binus,2.8,4.7,6,194
+KOS-0004,Kos Kebayoran Baru 4,Jakarta Selatan,Kebayoran Baru,2150000,Campur,12,1,1,0,0,0,0,0,0,3.2,UI Depok,2.8,3.6,11,92
+KOS-0005,Kos Pancoran 5,Jakarta Selatan,Pancoran,1900000,Putra,18,0,0,1,1,1,1,0,0,6.4,Universitas Pancasila,1.8,4.0,7,108
+KOS-0006,Kos Cilandak 6,Jakarta Selatan,Cilandak,2900000,Putri,12,1,1,0,1,1,0,1,1,0.7,Binus,0.7,4.0,8,155
+KOS-0007,Kos Jagakarsa 7,Jakarta Selatan,Jagakarsa,3300000,Putri,18,1,1,1,0,0,0,1,1,8.1,Atmajaya,1.1,4.7,29,194
+KOS-0008,Kos Pancoran 8,Jakarta Selatan,Pancoran,2350000,Putri,9,0,1,0,0,1,0,0,1,2.8,Binus,1.0,4.1,21,56
+KOS-0009,Kos Jagakarsa 9,Jakarta Selatan,Jagakarsa,2950000,Campur,9,1,0,1,0,1,0,0,0,1.9,Universitas Pancasila,2.5,4.5,15,127
+KOS-0010,Kos Pancoran 10,Jakarta Selatan,Pancoran,1900000,Putra,9,1,0,1,1,1,0,1,0,6.1,Universitas Pancasila,3.5,3.8,11,165
+KOS-0011,Kos Mampang Prapatan 11,Jakarta Selatan,Mampang Prapatan,2300000,Putri,18,1,1,0,0,0,1,1,0,5.8,Universitas Pancasila,2.7,4.8,9,13
+KOS-0012,Kos Pesanggrahan 12,Jakarta Selatan,Pesanggrahan,3200000,Campur,15,1,1,1,1,1,1,0,0,0.6,Binus,0.7,3.7,22,58
+KOS-0013,Kos Pasar Minggu 13,Jakarta Selatan,Pasar Minggu,2450000,Putri,12,1,0,1,0,1,1,0,1,1.4,Atmajaya,2.0,5.0,17,186
+KOS-0014,Kos Mampang Prapatan 14,Jakarta Selatan,Mampang Prapatan,3400000,Putra,15,1,1,1,1,1,0,1,0,2.2,UI Depok,4.7,4.1,13,28
+KOS-0015,Kos Pancoran 15,Jakarta Selatan,Pancoran,2250000,Putri,12,1,1,1,0,1,0,0,1,8.5,Binus,4.7,4.5,27,131
+KOS-0016,Kos Setiabudi 16,Jakarta Selatan,Setiabudi,3400000,Campur,20,1,1,1,1,1,0,1,1,5.4,Binus,2.6,4.6,20,119
+KOS-0017,Kos Jagakarsa 17,Jakarta Selatan,Jagakarsa,2950000,Campur,9,0,1,1,1,1,0,1,1,0.9,Universitas Pancasila,1.7,4.7,16,9
+KOS-0018,Kos Jagakarsa 18,Jakarta Selatan,Jagakarsa,2000000,Putra,15,0,0,1,1,1,1,1,1,3.1,Atmajaya,2.3,4.9,27,141
+KOS-0019,Kos Kebayoran Lama 19,Jakarta Selatan,Kebayoran Lama,2200000,Putri,15,0,1,1,0,0,0,1,1,4.6,UI Depok,3.7,3.7,26,33
+KOS-0020,Kos Kebayoran Lama 20,Jakarta Selatan,Kebayoran Lama,2700000,Putri,15,0,0,1,0,0,1,1,0,1.0,Binus,4.8,3.5,23,100
+KOS-0021,Kos Pancoran 21,Jakarta Selatan,Pancoran,3550000,Putri,12,1,1,1,1,1,1,0,1,1.7,Binus,4.1,4.7,12,47
+KOS-0022,Kos Tebet 22,Jakarta Selatan,Tebet,2200000,Putri,15,0,1,1,1,1,1,0,0,3.8,Binus,4.7,5.0,8,105
+KOS-0023,Kos Pesanggrahan 23,Jakarta Selatan,Pesanggrahan,2500000,Putra,15,1,1,1,0,0,0,1,1,7.5,Binus,1.3,4.2,29,145
+KOS-0024,Kos Pasar Minggu 24,Jakarta Selatan,Pasar Minggu,2850000,Putri,12,1,0,1,0,1,1,1,1,3.3,Atmajaya,1.8,4.7,29,113
+KOS-0025,Kos Kebayoran Lama 25,Jakarta Selatan,Kebayoran Lama,2900000,Putri,15,1,0,1,0,1,0,0,0,1.5,UI Depok,0.6,4.7,6,33
+KOS-0026,Kos Kebayoran Lama 26,Jakarta Selatan,Kebayoran Lama,2300000,Putri,12,0,1,1,1,0,1,0,0,4.1,UI Depok,3.6,4.2,17,130
+KOS-0027,Kos Setiabudi 27,Jakarta Selatan,Setiabudi,3450000,Putra,12,1,1,1,1,1,0,0,1,4.6,Binus,4.1,4.0,20,168
+KOS-0028,Kos Pasar Minggu 28,Jakarta Selatan,Pasar Minggu,2300000,Putri,20,1,0,0,0,0,1,0,0,9.6,Binus,0.5,4.0,8,140
+KOS-0029,Kos Setiabudi 29,Jakarta Selatan,Setiabudi,3150000,Putri,9,0,0,1,0,1,0,0,1,1.8,Binus,0.6,4.4,29,14
+KOS-0030,Kos Mampang Prapatan 30,Jakarta Selatan,Mampang Prapatan,2000000,Putri,12,1,1,0,0,1,0,1,0,8.4,Universitas Pancasila,2.9,3.7,25,59
+KOS-0031,Kos Cilandak 31,Jakarta Selatan,Cilandak,2650000,Putra,9,1,1,1,1,1,1,1,0,2.9,Universitas Pancasila,1.5,4.6,6,99
+KOS-0032,Kos Mampang Prapatan 32,Jakarta Selatan,Mampang Prapatan,2900000,Putri,12,0,1,1,1,1,1,1,0,5.1,Binus,2.2,4.7,11,196
+KOS-0033,Kos Tebet 33,Jakarta Selatan,Tebet,2500000,Putri,15,1,1,1,0,1,0,0,1,8.7,Universitas Pancasila,4.8,4.2,24,73
+KOS-0034,Kos Tebet 34,Jakarta Selatan,Tebet,2750000,Putri,15,1,0,1,1,1,0,0,1,2.2,UI Depok,3.5,4.3,22,126
+KOS-0035,Kos Pasar Minggu 35,Jakarta Selatan,Pasar Minggu,2500000,Putri,12,0,0,1,0,0,0,0,0,7.1,Atmajaya,0.4,3.6,15,52
+KOS-0036,Kos Pancoran 36,Jakarta Selatan,Pancoran,2450000,Putri,12,0,1,1,0,0,0,0,1,7.6,Atmajaya,0.4,4.8,18,22
+KOS-0037,Kos Setiabudi 37,Jakarta Selatan,Setiabudi,2350000,Putri,9,1,0,0,1,0,0,1,0,3.8,Atmajaya,2.5,4.2,8,38
+KOS-0038,Kos Mampang Prapatan 38,Jakarta Selatan,Mampang Prapatan,3000000,Putra,20,1,1,1,0,1,1,0,1,0.6,Atmajaya,1.3,4.8,28,141
+KOS-0039,Kos Jagakarsa 39,Jakarta Selatan,Jagakarsa,2450000,Campur,12,0,0,1,1,1,0,1,0,7.4,Universitas Pancasila,4.1,4.2,17,137
+KOS-0040,Kos Cilandak 40,Jakarta Selatan,Cilandak,2900000,Putri,20,1,1,0,1,1,1,1,0,3.5,Universitas Pancasila,3.1,4.3,14,134
+KOS-0041,Kos Mampang Prapatan 41,Jakarta Selatan,Mampang Prapatan,3050000,Campur,18,1,0,1,1,1,0,0,0,9.7,UI Depok,0.8,3.8,7,44
+KOS-0042,Kos Cilandak 42,Jakarta Selatan,Cilandak,3050000,Putri,20,0,1,1,1,1,1,0,0,3.5,UI Depok,3.0,4.6,23,170
+KOS-0043,Kos Pancoran 43,Jakarta Selatan,Pancoran,2750000,Putra,20,1,1,1,1,1,0,1,1,6.5,Binus,1.8,4.4,24,159
+KOS-0044,Kos Kebayoran Baru 44,Jakarta Selatan,Kebayoran Baru,2850000,Putri,9,1,1,1,1,0,0,1,1,5.6,UI Depok,2.0,4.3,12,161
+KOS-0045,Kos Kebayoran Baru 45,Jakarta Selatan,Kebayoran Baru,3200000,Campur,12,1,1,1,1,1,0,0,0,4.3,UI Depok,2.4,4.4,22,115
+KOS-0046,Kos Mampang Prapatan 46,Jakarta Selatan,Mampang Prapatan,3300000,Putri,12,1,1,1,1,1,1,0,1,7.5,Binus,4.7,3.7,25,114
+KOS-0047,Kos Kebayoran Baru 47,Jakarta Selatan,Kebayoran Baru,2700000,Campur,9,0,1,1,1,1,0,0,0,3.7,Atmajaya,2.1,4.0,22,166
+KOS-0048,Kos Pancoran 48,Jakarta Selatan,Pancoran,2550000,Putri,9,1,0,1,0,1,0,0,0,2.6,Binus,1.2,4.2,24,90
+KOS-0049,Kos Mampang Prapatan 49,Jakarta Selatan,Mampang Prapatan,2900000,Putra,12,1,1,0,1,0,1,0,0,5.9,Binus,0.5,4.3,21,170
+KOS-0050,Kos Pasar Minggu 50,Jakarta Selatan,Pasar Minggu,1750000,Putra,9,0,0,1,1,1,0,0,1,7.3,Binus,3.4,3.8,12,71
+KOS-0051,Kos Pasar Minggu 51,Jakarta Selatan,Pasar Minggu,1850000,Putri,9,1,0,0,0,1,1,1,0,3.3,Universitas Pancasila,4.5,3.8,23,129
+KOS-0052,Kos Pasar Minggu 52,Jakarta Selatan,Pasar Minggu,2850000,Putra,15,1,1,1,1,1,0,0,1,4.4,Universitas Pancasila,2.8,4.9,26,28
+KOS-0053,Kos Pancoran 53,Jakarta Selatan,Pancoran,3700000,Putri,9,1,1,1,1,1,0,0,1,1.8,UI Depok,4.2,3.8,27,79
+KOS-0054,Kos Cilandak 54,Jakarta Selatan,Cilandak,2350000,Putra,9,1,0,1,0,1,1,1,0,9.1,Binus,4.4,4.5,11,177
+KOS-0055,Kos Pancoran 55,Jakarta Selatan,Pancoran,2600000,Putra,12,1,0,1,0,0,1,0,1,3.2,Atmajaya,1.9,4.3,6,115
+KOS-0056,Kos Mampang Prapatan 56,Jakarta Selatan,Mampang Prapatan,2450000,Putri,12,1,1,1,0,0,0,0,1,7.8,Universitas Pancasila,0.7,4.2,15,46
+KOS-0057,Kos Pesanggrahan 57,Jakarta Selatan,Pesanggrahan,2050000,Campur,9,0,1,1,1,0,0,0,0,9.5,Atmajaya,2.3,4.8,12,153
+KOS-0058,Kos Pancoran 58,Jakarta Selatan,Pancoran,2850000,Putra,15,1,1,1,0,1,0,1,1,9.3,Atmajaya,1.1,3.6,25,141
+KOS-0059,Kos Pasar Minggu 59,Jakarta Selatan,Pasar Minggu,2600000,Putra,12,1,1,1,0,1,1,0,1,2.7,Atmajaya,0.8,4.0,27,112
+KOS-0060,Kos Jagakarsa 60,Jakarta Selatan,Jagakarsa,3100000,Putra,18,1,1,1,0,1,1,0,0,0.7,Binus,4.4,4.7,11,33
+KOS-0061,Kos Pancoran 61,Jakarta Selatan,Pancoran,2950000,Putri,9,1,1,1,1,1,1,0,1,1.5,Universitas Pancasila,1.9,3.9,29,197
+KOS-0062,Kos Kebayoran Lama 62,Jakarta Selatan,Kebayoran Lama,2950000,Putri,18,1,1,1,1,0,1,1,0,9.5,Universitas Pancasila,2.4,5.0,12,97
+KOS-0063,Kos Cilandak 63,Jakarta Selatan,Cilandak,3100000,Putra,24,1,1,1,0,0,0,1,0,8.9,Binus,4.7,4.1,22,66
+KOS-0064,Kos Pancoran 64,Jakarta Selatan,Pancoran,3150000,Campur,9,0,1,1,0,1,0,0,0,1.7,UI Depok,4.5,4.7,12,9
+KOS-0065,Kos Tebet 65,Jakarta Selatan,Tebet,2850000,Putra,18,1,0,1,1,1,0,0,1,5.2,Universitas Pancasila,2.5,4.0,6,95
+KOS-0066,Kos Pancoran 66,Jakarta Selatan,Pancoran,3600000,Putri,15,1,1,1,1,1,1,1,1,7.7,Binus,1.0,3.5,27,142
+KOS-0067,Kos Kebayoran Lama 67,Jakarta Selatan,Kebayoran Lama,2750000,Campur,15,1,0,1,1,1,0,0,1,3.0,Binus,3.2,3.7,11,67
+KOS-0068,Kos Kebayoran Lama 68,Jakarta Selatan,Kebayoran Lama,3300000,Putra,15,0,1,1,0,1,1,0,1,0.9,Universitas Pancasila,4.4,4.6,7,129
+KOS-0069,Kos Jagakarsa 69,Jakarta Selatan,Jagakarsa,2800000,Campur,9,0,1,1,1,0,0,0,1,8.6,Binus,2.7,4.8,19,88
+KOS-0070,Kos Cilandak 70,Jakarta Selatan,Cilandak,3000000,Putri,12,0,1,1,0,1,1,1,1,3.5,UI Depok,1.7,3.8,21,28
+KOS-0071,Kos Tebet 71,Jakarta Selatan,Tebet,3750000,Putri,15,1,1,1,0,1,1,1,1,1.7,Binus,0.4,4.7,29,21
+KOS-0072,Kos Kebayoran Baru 72,Jakarta Selatan,Kebayoran Baru,2650000,Putri,9,1,0,1,0,1,0,1,0,1.2,UI Depok,2.1,3.9,17,37
+KOS-0073,Kos Cilandak 73,Jakarta Selatan,Cilandak,2150000,Putra,12,1,1,1,0,0,0,0,1,7.9,UI Depok,4.7,4.8,5,120
+KOS-0074,Kos Setiabudi 74,Jakarta Selatan,Setiabudi,2300000,Putri,15,1,0,1,1,1,0,0,0,0.8,Universitas Pancasila,4.7,4.6,12,182
+KOS-0075,Kos Kebayoran Baru 75,Jakarta Selatan,Kebayoran Baru,3000000,Putri,15,1,1,0,1,1,1,0,1,1.3,Atmajaya,0.5,4.8,23,104
+KOS-0076,Kos Mampang Prapatan 76,Jakarta Selatan,Mampang Prapatan,2550000,Putri,9,1,1,0,0,0,1,0,1,4.3,Binus,1.3,4.8,21,163
+KOS-0077,Kos Setiabudi 77,Jakarta Selatan,Setiabudi,3200000,Putri,15,1,1,1,0,1,0,1,1,5.1,Binus,4.4,3.9,23,129
+KOS-0078,Kos Pasar Minggu 78,Jakarta Selatan,Pasar Minggu,2300000,Campur,9,1,1,1,0,1,1,0,0,8.6,Atmajaya,2.6,4.2,28,88
+KOS-0079,Kos Tebet 79,Jakarta Selatan,Tebet,2600000,Putri,9,0,1,1,0,1,0,0,1,2.7,Binus,4.4,4.2,16,109
+KOS-0080,Kos Pancoran 80,Jakarta Selatan,Pancoran,3000000,Putri,15,1,1,1,0,1,0,0,0,7.2,Binus,2.3,4.3,24,82
+KOS-0081,Kos Tebet 81,Jakarta Selatan,Tebet,2300000,Putri,15,0,0,0,1,0,0,0,0,4.3,Atmajaya,2.5,4.0,29,188
+KOS-0082,Kos Tebet 82,Jakarta Selatan,Tebet,3050000,Putra,15,1,1,0,0,0,1,1,0,2.0,Binus,1.3,4.5,27,175
+KOS-0083,Kos Setiabudi 83,Jakarta Selatan,Setiabudi,2700000,Putri,20,0,0,1,1,1,0,1,1,8.4,Atmajaya,3.4,3.7,10,77
+KOS-0084,Kos Pancoran 84,Jakarta Selatan,Pancoran,2950000,Putri,18,1,1,1,1,1,1,0,0,7.7,Atmajaya,4.0,3.7,26,93
+KOS-0085,Kos Kebayoran Lama 85,Jakarta Selatan,Kebayoran Lama,2450000,Putra,9,1,0,1,1,1,0,0,0,6.2,Universitas Pancasila,3.4,4.1,12,198
+KOS-0086,Kos Cilandak 86,Jakarta Selatan,Cilandak,2800000,Putri,15,1,1,0,0,1,0,0,0,7.3,Universitas Pancasila,2.7,4.8,25,147
+KOS-0087,Kos Pesanggrahan 87,Jakarta Selatan,Pesanggrahan,2100000,Putri,20,1,0,0,0,0,0,0,1,5.6,Universitas Pancasila,3.0,4.1,17,94
+KOS-0088,Kos Pesanggrahan 88,Jakarta Selatan,Pesanggrahan,2500000,Campur,12,1,0,1,1,0,0,1,0,1.3,Atmajaya,4.1,3.7,17,154
+KOS-0089,Kos Cilandak 89,Jakarta Selatan,Cilandak,3400000,Putri,9,1,1,1,1,0,0,1,1,3.4,Universitas Pancasila,3.7,4.7,23,187
+KOS-0090,Kos Tebet 90,Jakarta Selatan,Tebet,1650000,Putra,15,0,0,1,0,1,0,0,0,2.9,UI Depok,3.2,3.9,11,150
+KOS-0091,Kos Pasar Minggu 91,Jakarta Selatan,Pasar Minggu,2750000,Campur,15,1,1,1,0,1,1,0,0,3.0,UI Depok,3.3,4.1,10,17
+KOS-0092,Kos Pancoran 92,Jakarta Selatan,Pancoran,2800000,Putri,9,1,1,0,1,0,0,0,0,1.0,Universitas Pancasila,2.0,4.2,24,154
+KOS-0093,Kos Setiabudi 93,Jakarta Selatan,Setiabudi,2050000,Putra,15,1,0,1,0,1,0,0,1,8.1,Universitas Pancasila,4.7,3.7,9,108
+KOS-0094,Kos Mampang Prapatan 94,Jakarta Selatan,Mampang Prapatan,2850000,Putri,15,1,1,1,1,0,1,0,1,0.8,UI Depok,1.7,3.6,29,197
+KOS-0095,Kos Pasar Minggu 95,Jakarta Selatan,Pasar Minggu,3300000,Putra,20,1,1,1,1,1,0,1,1,1.6,Atmajaya,4.1,4.8,10,84
+KOS-0096,Kos Jagakarsa 96,Jakarta Selatan,Jagakarsa,2400000,Campur,9,1,0,1,0,1,0,1,1,8.7,Atmajaya,4.6,4.6,24,173
+KOS-0097,Kos Cilandak 97,Jakarta Selatan,Cilandak,1700000,Putri,12,0,0,0,0,0,1,0,1,5.3,Universitas Pancasila,2.3,3.8,6,155
+KOS-0098,Kos Pasar Minggu 98,Jakarta Selatan,Pasar Minggu,2500000,Putri,9,1,1,0,0,1,1,0,0,1.2,Universitas Pancasila,4.0,4.5,5,8
+KOS-0099,Kos Jagakarsa 99,Jakarta Selatan,Jagakarsa,2350000,Putri,15,0,0,1,0,1,1,1,1,3.9,Binus,2.7,4.1,9,187
+KOS-0100,Kos Tebet 100,Jakarta Selatan,Tebet,2300000,Campur,15,0,1,1,1,1,0,0,0,2.4,Atmajaya,0.5,3.9,15,153
+KOS-0101,Kos Kebayoran Baru 101,Jakarta Selatan,Kebayoran Baru,2000000,Campur,12,0,0,0,1,0,1,1,1,9.6,Universitas Pancasila,0.8,4.9,6,52
+KOS-0102,Kos Pancoran 102,Jakarta Selatan,Pancoran,2950000,Putri,9,1,0,1,0,1,1,1,1,5.4,Universitas Pancasila,0.9,4.5,17,91
+KOS-0103,Kos Pancoran 103,Jakarta Selatan,Pancoran,1950000,Putri,15,0,0,0,1,1,0,0,0,2.3,Binus,1.0,4.6,14,115
+KOS-0104,Kos Pancoran 104,Jakarta Selatan,Pancoran,3000000,Putri,12,0,1,1,0,0,0,0,1,0.9,UI Depok,4.8,5.0,26,185
+KOS-0105,Kos Tebet 105,Jakarta Selatan,Tebet,2850000,Campur,9,0,0,1,0,1,0,0,1,1.7,Atmajaya,1.1,3.9,27,16
+KOS-0106,Kos Pesanggrahan 106,Jakarta Selatan,Pesanggrahan,2950000,Putra,15,1,1,1,1,1,0,0,0,3.1,Atmajaya,2.8,4.5,24,54
+KOS-0107,Kos Pasar Minggu 107,Jakarta Selatan,Pasar Minggu,1800000,Putra,12,0,0,1,1,1,1,0,0,8.8,UI Depok,2.3,4.7,16,7
+KOS-0108,Kos Pancoran 108,Jakarta Selatan,Pancoran,2850000,Putri,12,0,0,1,1,1,1,1,1,5.6,Binus,2.7,4.7,18,125
+KOS-0109,Kos Tebet 109,Jakarta Selatan,Tebet,3150000,Putri,15,1,1,1,1,1,0,0,0,2.6,Binus,0.9,3.8,14,178
+KOS-0110,Kos Kebayoran Baru 110,Jakarta Selatan,Kebayoran Baru,2250000,Putri,9,0,0,1,1,1,1,0,0,5.1,Atmajaya,3.1,4.0,18,154
+KOS-0111,Kos Mampang Prapatan 111,Jakarta Selatan,Mampang Prapatan,3250000,Putri,9,1,1,1,1,1,0,0,0,2.6,UI Depok,3.1,4.9,17,149
+KOS-0112,Kos Cilandak 112,Jakarta Selatan,Cilandak,2500000,Putra,12,1,1,0,0,1,0,0,1,3.7,Atmajaya,0.3,3.9,21,113
+KOS-0113,Kos Pasar Minggu 113,Jakarta Selatan,Pasar Minggu,2950000,Putri,9,1,0,1,1,1,0,1,1,1.3,UI Depok,3.7,4.6,10,186
+KOS-0114,Kos Pesanggrahan 114,Jakarta Selatan,Pesanggrahan,2550000,Campur,9,1,1,1,0,0,0,0,0,3.1,Universitas Pancasila,3.8,3.6,17,188
+KOS-0115,Kos Kebayoran Baru 115,Jakarta Selatan,Kebayoran Baru,3150000,Putri,9,1,1,1,0,1,0,0,1,8.9,Binus,2.1,4.4,9,25
+KOS-0116,Kos Tebet 116,Jakarta Selatan,Tebet,2800000,Putra,15,0,1,0,0,1,1,1,0,4.5,Universitas Pancasila,0.6,5.0,6,190
+KOS-0117,Kos Pesanggrahan 117,Jakarta Selatan,Pesanggrahan,2850000,Putra,9,1,1,1,0,1,0,0,1,8.7,Universitas Pancasila,2.4,4.7,10,63
+KOS-0118,Kos Setiabudi 118,Jakarta Selatan,Setiabudi,2750000,Putra,9,1,1,1,0,1,0,1,1,6.8,Atmajaya,1.0,4.3,21,70
+KOS-0119,Kos Pesanggrahan 119,Jakarta Selatan,Pesanggrahan,1700000,Putra,12,0,0,1,0,1,0,0,0,2.4,UI Depok,1.1,4.6,9,76
+KOS-0120,Kos Jagakarsa 120,Jakarta Selatan,Jagakarsa,2950000,Putri,18,1,0,1,1,1,0,0,1,2.1,Atmajaya,2.6,4.0,20,105
+KOS-0121,Kos Kebayoran Baru 121,Jakarta Selatan,Kebayoran Baru,3350000,Putra,15,1,1,1,0,1,0,1,1,3.6,UI Depok,5.0,3.7,9,135
+KOS-0122,Kos Pancoran 122,Jakarta Selatan,Pancoran,2550000,Putra,15,0,1,1,0,1,0,0,1,9.9,Atmajaya,4.5,3.9,26,80
+KOS-0123,Kos Setiabudi 123,Jakarta Selatan,Setiabudi,2550000,Putri,12,0,0,0,1,1,1,1,0,6.0,Universitas Pancasila,3.7,3.9,5,129
+KOS-0124,Kos Tebet 124,Jakarta Selatan,Tebet,2150000,Putri,15,1,1,0,0,1,0,1,0,5.4,Universitas Pancasila,1.7,4.0,18,146
+KOS-0125,Kos Kebayoran Baru 125,Jakarta Selatan,Kebayoran Baru,2850000,Putra,12,1,1,1,1,0,1,0,1,4.9,Atmajaya,4.3,5.0,18,88
+KOS-0126,Kos Pancoran 126,Jakarta Selatan,Pancoran,2350000,Campur,9,0,1,1,0,1,0,1,1,9.6,Universitas Pancasila,3.7,3.9,19,146
+KOS-0127,Kos Mampang Prapatan 127,Jakarta Selatan,Mampang Prapatan,3100000,Putra,9,1,1,0,0,0,0,0,1,7.6,Binus,0.4,4.5,18,173
+KOS-0128,Kos Mampang Prapatan 128,Jakarta Selatan,Mampang Prapatan,1900000,Putri,9,0,0,1,1,0,0,1,1,8.4,Atmajaya,3.1,4.9,8,69
+KOS-0129,Kos Mampang Prapatan 129,Jakarta Selatan,Mampang Prapatan,2550000,Putri,15,1,1,1,0,1,1,1,1,6.1,Universitas Pancasila,3.6,3.7,26,177
+KOS-0130,Kos Pasar Minggu 130,Jakarta Selatan,Pasar Minggu,3100000,Putri,12,1,1,1,1,1,1,0,0,0.9,Atmajaya,0.9,4.0,21,172
+KOS-0131,Kos Pasar Minggu 131,Jakarta Selatan,Pasar Minggu,2800000,Putra,12,1,1,1,1,1,0,1,1,4.7,UI Depok,1.2,3.9,28,53
+KOS-0132,Kos Pesanggrahan 132,Jakarta Selatan,Pesanggrahan,3250000,Campur,9,1,1,1,1,0,1,0,1,4.2,UI Depok,3.7,3.9,20,49
+KOS-0133,Kos Setiabudi 133,Jakarta Selatan,Setiabudi,2650000,Putri,9,1,1,0,1,0,0,0,1,4.1,UI Depok,2.4,4.1,24,80
+KOS-0134,Kos Setiabudi 134,Jakarta Selatan,Setiabudi,3300000,Putra,9,1,1,1,1,1,1,0,1,2.0,Universitas Pancasila,1.0,4.3,7,98
+KOS-0135,Kos Mampang Prapatan 135,Jakarta Selatan,Mampang Prapatan,2750000,Putra,12,1,1,1,0,0,0,1,1,8.3,Atmajaya,0.5,4.1,17,77
+KOS-0136,Kos Kebayoran Lama 136,Jakarta Selatan,Kebayoran Lama,2800000,Campur,9,1,1,1,0,1,0,1,0,4.0,Atmajaya,0.3,4.3,9,169
+KOS-0137,Kos Mampang Prapatan 137,Jakarta Selatan,Mampang Prapatan,3250000,Putri,9,1,1,1,1,1,0,0,1,8.5,UI Depok,2.7,4.3,8,113
+KOS-0138,Kos Tebet 138,Jakarta Selatan,Tebet,2200000,Putra,9,1,0,1,1,1,0,0,0,7.7,Universitas Pancasila,2.4,3.7,14,105
+KOS-0139,Kos Pasar Minggu 139,Jakarta Selatan,Pasar Minggu,2950000,Putra,12,1,1,1,1,0,1,0,0,2.0,Atmajaya,2.9,4.8,23,46
+KOS-0140,Kos Tebet 140,Jakarta Selatan,Tebet,2000000,Putri,9,0,0,0,0,0,1,0,0,4.7,Universitas Pancasila,3.2,5.0,22,156
+KOS-0141,Kos Setiabudi 141,Jakarta Selatan,Setiabudi,3400000,Putri,12,1,1,0,1,1,1,0,1,4.9,Universitas Pancasila,0.4,3.6,28,173
+KOS-0142,Kos Setiabudi 142,Jakarta Selatan,Setiabudi,2350000,Putra,9,1,0,1,1,1,1,0,0,7.7,UI Depok,2.1,4.4,23,86
+KOS-0143,Kos Pasar Minggu 143,Jakarta Selatan,Pasar Minggu,2450000,Putra,9,1,1,1,0,1,0,0,1,3.5,Universitas Pancasila,1.4,3.8,27,118
+KOS-0144,Kos Cilandak 144,Jakarta Selatan,Cilandak,3200000,Putra,24,1,1,1,0,0,0,1,0,0.6,Atmajaya,5.0,3.9,11,69
+KOS-0145,Kos Kebayoran Baru 145,Jakarta Selatan,Kebayoran Baru,2950000,Putri,9,1,1,0,1,1,1,1,1,5.1,Universitas Pancasila,0.6,3.6,7,7
+KOS-0146,Kos Tebet 146,Jakarta Selatan,Tebet,2550000,Putra,15,0,0,1,1,0,1,0,1,6.8,Binus,1.2,3.9,28,59
+KOS-0147,Kos Cilandak 147,Jakarta Selatan,Cilandak,3100000,Putra,18,1,1,1,1,1,1,0,1,5.3,Binus,2.4,3.6,22,182
+KOS-0148,Kos Kebayoran Baru 148,Jakarta Selatan,Kebayoran Baru,2200000,Campur,18,1,0,1,0,1,1,0,0,7.4,Universitas Pancasila,1.5,3.8,22,42
+KOS-0149,Kos Pancoran 149,Jakarta Selatan,Pancoran,2950000,Putra,18,0,1,0,0,1,0,0,0,3.5,Universitas Pancasila,4.0,4.9,20,183
+KOS-0150,Kos Kebayoran Lama 150,Jakarta Selatan,Kebayoran Lama,2750000,Campur,9,0,0,1,1,1,1,0,0,3.1,Atmajaya,0.8,3.9,24,144
+KOS-0151,Kos Kebayoran Lama 151,Jakarta Selatan,Kebayoran Lama,2650000,Putri,9,0,0,1,1,1,0,0,0,7.8,Binus,2.2,3.8,13,58
+KOS-0152,Kos Mampang Prapatan 152,Jakarta Selatan,Mampang Prapatan,2650000,Campur,9,1,1,1,0,1,1,0,1,7.0,UI Depok,2.4,3.6,17,53
+KOS-0153,Kos Cilandak 153,Jakarta Selatan,Cilandak,3000000,Campur,9,1,1,0,1,0,1,1,1,7.5,Universitas Pancasila,1.8,4.6,29,126
+KOS-0154,Kos Setiabudi 154,Jakarta Selatan,Setiabudi,2450000,Putri,18,1,0,1,1,1,1,0,0,1.6,Universitas Pancasila,1.5,4.7,11,61
+KOS-0155,Kos Kebayoran Lama 155,Jakarta Selatan,Kebayoran Lama,2850000,Putri,12,1,1,1,0,1,1,1,1,1.1,Universitas Pancasila,1.3,4.6,27,8
+KOS-0156,Kos Setiabudi 156,Jakarta Selatan,Setiabudi,2250000,Putri,15,1,0,1,1,1,0,1,0,9.0,Universitas Pancasila,4.3,5.0,12,72
+KOS-0157,Kos Pancoran 157,Jakarta Selatan,Pancoran,3300000,Putra,15,1,1,1,0,1,1,0,0,4.8,Binus,0.8,3.9,25,138
+KOS-0158,Kos Cilandak 158,Jakarta Selatan,Cilandak,3000000,Campur,15,1,1,1,0,1,0,1,1,1.8,Universitas Pancasila,5.0,4.5,13,72
+KOS-0159,Kos Pasar Minggu 159,Jakarta Selatan,Pasar Minggu,3100000,Putra,9,1,1,1,1,0,0,1,0,0.6,UI Depok,4.2,4.5,15,84
+KOS-0160,Kos Tebet 160,Jakarta Selatan,Tebet,2900000,Campur,15,1,0,1,1,1,0,0,1,8.6,Atmajaya,3.1,4.1,14,175
+KOS-0161,Kos Kebayoran Lama 161,Jakarta Selatan,Kebayoran Lama,2950000,Putri,9,0,0,1,1,0,0,0,1,3.2,UI Depok,2.1,3.6,11,71
+KOS-0162,Kos Kebayoran Baru 162,Jakarta Selatan,Kebayoran Baru,2400000,Putri,12,0,0,0,0,0,1,1,0,8.5,UI Depok,4.5,3.5,15,109
+KOS-0163,Kos Kebayoran Lama 163,Jakarta Selatan,Kebayoran Lama,2900000,Putri,15,0,0,1,0,1,0,0,1,3.2,Binus,1.9,4.8,25,136
+KOS-0164,Kos Jagakarsa 164,Jakarta Selatan,Jagakarsa,2550000,Putra,9,1,1,1,1,0,0,1,0,9.4,Binus,2.6,4.8,8,28
+KOS-0165,Kos Mampang Prapatan 165,Jakarta Selatan,Mampang Prapatan,2150000,Putri,9,1,0,1,1,0,0,0,0,4.5,UI Depok,2.7,3.8,10,65
+KOS-0166,Kos Kebayoran Baru 166,Jakarta Selatan,Kebayoran Baru,2750000,Putri,12,0,0,1,1,0,1,1,1,3.6,Binus,3.6,4.1,19,43
+KOS-0167,Kos Mampang Prapatan 167,Jakarta Selatan,Mampang Prapatan,2450000,Putri,9,1,1,0,0,1,1,0,0,6.5,UI Depok,2.5,4.4,25,106
+KOS-0168,Kos Pancoran 168,Jakarta Selatan,Pancoran,2700000,Campur,15,1,1,1,1,1,1,1,1,7.4,Binus,4.3,3.8,17,10
+KOS-0169,Kos Kebayoran Baru 169,Jakarta Selatan,Kebayoran Baru,2250000,Putra,15,1,1,1,1,1,1,0,0,7.5,Binus,2.0,3.5,5,166
+KOS-0170,Kos Jagakarsa 170,Jakarta Selatan,Jagakarsa,2400000,Campur,9,0,1,1,1,1,0,0,1,8.1,Atmajaya,2.9,4.8,24,176
+KOS-0171,Kos Jagakarsa 171,Jakarta Selatan,Jagakarsa,2450000,Putri,9,1,1,1,0,1,1,1,1,2.0,UI Depok,1.1,3.8,16,138
+KOS-0172,Kos Pancoran 172,Jakarta Selatan,Pancoran,3150000,Putra,9,1,1,1,0,1,0,0,1,4.1,Atmajaya,4.9,3.7,27,132
+KOS-0173,Kos Cilandak 173,Jakarta Selatan,Cilandak,2500000,Putra,12,1,1,1,1,1,0,0,1,9.8,Universitas Pancasila,2.9,3.8,21,75
+KOS-0174,Kos Pasar Minggu 174,Jakarta Selatan,Pasar Minggu,2950000,Putra,24,0,1,1,0,1,1,0,0,3.3,Binus,0.6,4.5,25,154
+KOS-0175,Kos Pasar Minggu 175,Jakarta Selatan,Pasar Minggu,2600000,Putra,9,1,1,1,1,1,0,0,0,4.8,Binus,3.1,3.5,28,104
+KOS-0176,Kos Tebet 176,Jakarta Selatan,Tebet,2500000,Putri,15,1,0,1,0,1,0,1,0,7.5,Atmajaya,1.2,4.6,22,89
+KOS-0177,Kos Pesanggrahan 177,Jakarta Selatan,Pesanggrahan,3150000,Putra,15,1,0,1,1,0,0,0,1,1.4,UI Depok,1.2,3.5,5,114
+KOS-0178,Kos Kebayoran Lama 178,Jakarta Selatan,Kebayoran Lama,2400000,Putra,18,0,1,1,0,0,0,0,0,4.1,UI Depok,2.6,4.1,10,124
+KOS-0179,Kos Mampang Prapatan 179,Jakarta Selatan,Mampang Prapatan,2350000,Putri,15,0,0,1,1,1,0,0,1,4.8,Binus,3.2,4.1,8,111
+KOS-0180,Kos Kebayoran Lama 180,Jakarta Selatan,Kebayoran Lama,3150000,Putri,9,1,1,1,1,1,0,0,1,2.5,Binus,1.5,4.1,10,89
+KOS-0181,Kos Kebayoran Lama 181,Jakarta Selatan,Kebayoran Lama,2850000,Campur,12,1,1,1,1,1,0,1,0,5.8,Atmajaya,1.4,4.8,17,50
+KOS-0182,Kos Jagakarsa 182,Jakarta Selatan,Jagakarsa,2850000,Putri,12,1,0,1,1,1,1,0,0,2.3,Binus,4.3,4.8,7,61
+KOS-0183,Kos Cilandak 183,Jakarta Selatan,Cilandak,2600000,Campur,12,0,1,1,1,1,0,0,1,8.0,Atmajaya,1.6,4.1,14,126
+KOS-0184,Kos Setiabudi 184,Jakarta Selatan,Setiabudi,2350000,Putra,15,1,1,0,0,1,0,0,0,5.9,Binus,4.9,4.8,7,172
+KOS-0185,Kos Setiabudi 185,Jakarta Selatan,Setiabudi,2600000,Putra,12,0,1,1,1,1,0,0,1,1.9,Binus,3.5,4.8,11,53
+KOS-0186,Kos Jagakarsa 186,Jakarta Selatan,Jagakarsa,2750000,Putra,9,1,0,1,0,1,0,0,1,7.4,Universitas Pancasila,2.8,4.8,23,183
+KOS-0187,Kos Cilandak 187,Jakarta Selatan,Cilandak,3450000,Campur,20,1,1,0,1,1,0,0,0,2.4,Atmajaya,0.5,4.3,8,120
+KOS-0188,Kos Pesanggrahan 188,Jakarta Selatan,Pesanggrahan,2550000,Putra,15,1,1,1,1,0,1,0,1,6.3,Universitas Pancasila,3.6,3.6,15,95
+KOS-0189,Kos Jatinegara 189,Jakarta Timur,Jatinegara,2150000,Putri,15,1,1,0,1,1,0,0,1,7.6,UNJ,4.1,4.5,16,63
+KOS-0190,Kos Pasar Rebo 190,Jakarta Timur,Pasar Rebo,1600000,Campur,12,1,0,1,0,0,1,0,1,7.7,Politeknik Negeri Jakarta,1.7,4.1,12,61
+KOS-0191,Kos Cipayung 191,Jakarta Timur,Cipayung,2200000,Putri,12,1,1,1,1,1,0,0,0,9.6,Universitas Trisakti,2.3,4.5,7,65
+KOS-0192,Kos Matraman 192,Jakarta Timur,Matraman,2300000,Campur,12,1,1,1,0,1,1,0,1,9.8,UNJ,4.0,3.7,12,169
+KOS-0193,Kos Makasar 193,Jakarta Timur,Makasar,2250000,Campur,12,0,1,1,1,0,1,0,1,9.1,UNJ,5.0,3.9,26,42
+KOS-0194,Kos Duren Sawit 194,Jakarta Timur,Duren Sawit,2000000,Putra,24,1,1,1,1,0,0,0,0,9.0,Politeknik Negeri Jakarta,4.3,3.6,25,90
+KOS-0195,Kos Makasar 195,Jakarta Timur,Makasar,2350000,Putri,12,0,1,1,0,0,0,0,1,4.2,UNJ,0.5,4.5,15,24
+KOS-0196,Kos Cakung 196,Jakarta Timur,Cakung,2350000,Campur,12,1,0,1,1,1,0,0,1,9.4,Universitas Trisakti,2.6,4.0,26,124
+KOS-0197,Kos Pasar Rebo 197,Jakarta Timur,Pasar Rebo,2500000,Campur,12,1,1,0,1,1,0,0,1,2.4,Universitas Trisakti,0.4,4.9,22,116
+KOS-0198,Kos Matraman 198,Jakarta Timur,Matraman,2450000,Putra,12,1,1,1,1,1,0,0,1,3.1,UNJ,4.6,4.0,26,44
+KOS-0199,Kos Cakung 199,Jakarta Timur,Cakung,2500000,Putra,15,0,1,1,1,1,0,1,1,3.2,Politeknik Negeri Jakarta,4.1,4.8,19,123
+KOS-0200,Kos Pulo Gadung 200,Jakarta Timur,Pulo Gadung,1950000,Campur,9,1,1,0,0,0,1,1,1,4.2,Universitas Trisakti,0.5,4.2,10,164
+KOS-0201,Kos Duren Sawit 201,Jakarta Timur,Duren Sawit,2050000,Putri,9,1,1,1,0,0,0,0,0,0.7,UNJ,4.2,4.0,8,30
+KOS-0202,Kos Makasar 202,Jakarta Timur,Makasar,1950000,Putri,9,1,1,0,1,0,0,1,1,5.0,UNJ,3.9,3.5,27,69
+KOS-0203,Kos Pasar Rebo 203,Jakarta Timur,Pasar Rebo,1800000,Campur,15,1,0,1,0,1,0,0,1,2.4,Universitas Trisakti,0.4,4.6,12,86
+KOS-0204,Kos Pulo Gadung 204,Jakarta Timur,Pulo Gadung,2050000,Putri,9,1,1,1,0,1,0,0,1,2.4,Politeknik Negeri Jakarta,4.8,4.4,18,58
+KOS-0205,Kos Duren Sawit 205,Jakarta Timur,Duren Sawit,2100000,Putri,12,1,1,1,0,0,1,0,1,9.1,Universitas Trisakti,3.1,4.1,10,36
+KOS-0206,Kos Cakung 206,Jakarta Timur,Cakung,2350000,Putra,12,1,1,1,1,1,0,1,0,5.5,UNJ,3.0,4.4,21,85
+KOS-0207,Kos Makasar 207,Jakarta Timur,Makasar,2150000,Campur,15,0,1,0,0,0,1,1,1,6.1,Universitas Trisakti,0.2,4.4,26,149
+KOS-0208,Kos Pasar Rebo 208,Jakarta Timur,Pasar Rebo,1600000,Putra,15,1,0,1,0,1,1,0,1,4.9,UNJ,3.9,3.9,29,186
+KOS-0209,Kos Matraman 209,Jakarta Timur,Matraman,1600000,Campur,15,1,1,1,0,1,1,1,0,6.3,Universitas Trisakti,1.2,4.5,5,89
+KOS-0210,Kos Cipayung 210,Jakarta Timur,Cipayung,1850000,Putra,9,1,0,0,0,1,0,1,0,9.6,Universitas Trisakti,3.4,4.4,23,32
+KOS-0211,Kos Jatinegara 211,Jakarta Timur,Jatinegara,2050000,Putri,12,1,1,1,0,1,0,0,1,4.6,Universitas Trisakti,4.0,4.0,5,52
+KOS-0212,Kos Cipayung 212,Jakarta Timur,Cipayung,1750000,Putra,12,1,1,1,0,0,0,0,1,4.8,Universitas Trisakti,4.6,3.6,13,152
+KOS-0213,Kos Cipayung 213,Jakarta Timur,Cipayung,2500000,Putri,12,1,1,1,1,0,0,0,1,8.9,Universitas Trisakti,4.5,4.5,5,93
+KOS-0214,Kos Jatinegara 214,Jakarta Timur,Jatinegara,1200000,Putri,9,0,0,1,1,0,1,0,0,6.2,Politeknik Negeri Jakarta,2.3,4.3,21,116
+KOS-0215,Kos Pasar Rebo 215,Jakarta Timur,Pasar Rebo,2500000,Putra,18,1,1,1,1,1,1,0,0,8.1,Universitas Trisakti,0.7,3.7,17,97
+KOS-0216,Kos Kramat Jati 216,Jakarta Timur,Kramat Jati,2150000,Putri,9,0,1,1,0,1,0,0,0,9.4,Politeknik Negeri Jakarta,4.1,5.0,25,166
+KOS-0217,Kos Pasar Rebo 217,Jakarta Timur,Pasar Rebo,2000000,Campur,15,0,0,1,0,1,0,0,1,1.2,Universitas Trisakti,4.5,3.6,26,145
+KOS-0218,Kos Matraman 218,Jakarta Timur,Matraman,2300000,Putri,9,1,0,1,1,0,0,0,1,2.4,Universitas Trisakti,0.3,4.1,6,51
+KOS-0219,Kos Kramat Jati 219,Jakarta Timur,Kramat Jati,2200000,Putra,12,1,0,1,1,1,1,1,0,7.8,Universitas Trisakti,0.4,3.8,7,180
+KOS-0220,Kos Cipayung 220,Jakarta Timur,Cipayung,2050000,Putra,9,1,1,1,1,1,1,0,1,3.2,Universitas Trisakti,2.9,3.7,17,35
+KOS-0221,Kos Cakung 221,Jakarta Timur,Cakung,2250000,Putri,15,0,1,1,1,0,1,1,1,4.3,Politeknik Negeri Jakarta,3.8,4.1,6,130
+KOS-0222,Kos Pasar Rebo 222,Jakarta Timur,Pasar Rebo,2050000,Putri,12,1,1,1,0,1,1,0,1,3.4,Politeknik Negeri Jakarta,3.0,3.9,15,149
+KOS-0223,Kos Duren Sawit 223,Jakarta Timur,Duren Sawit,1600000,Putri,12,1,0,1,1,1,0,0,0,7.9,UNJ,5.0,4.1,13,27
+KOS-0224,Kos Cakung 224,Jakarta Timur,Cakung,2100000,Putri,18,1,0,1,1,1,0,0,1,1.3,Universitas Trisakti,2.1,4.5,24,14
+KOS-0225,Kos Cakung 225,Jakarta Timur,Cakung,2300000,Campur,9,0,1,1,0,0,0,0,0,4.5,Politeknik Negeri Jakarta,0.2,4.9,29,179
+KOS-0226,Kos Cakung 226,Jakarta Timur,Cakung,2550000,Putri,12,1,0,1,1,0,1,0,1,1.0,UNJ,2.2,3.8,28,12
+KOS-0227,Kos Kramat Jati 227,Jakarta Timur,Kramat Jati,1650000,Campur,15,0,0,0,1,0,0,0,1,7.4,UNJ,2.5,3.8,25,31
+KOS-0228,Kos Pasar Rebo 228,Jakarta Timur,Pasar Rebo,1550000,Putri,15,0,0,1,0,1,1,0,0,2.3,UNJ,3.3,4.8,8,151
+KOS-0229,Kos Makasar 229,Jakarta Timur,Makasar,2800000,Putri,15,0,1,1,1,1,0,0,1,3.1,Universitas Trisakti,0.6,5.0,23,163
+KOS-0230,Kos Cakung 230,Jakarta Timur,Cakung,2550000,Putri,18,1,1,1,0,1,0,0,0,2.4,Politeknik Negeri Jakarta,4.7,4.3,8,158
+KOS-0231,Kos Jatinegara 231,Jakarta Timur,Jatinegara,2650000,Putri,9,0,1,1,0,1,1,1,1,3.2,Universitas Trisakti,0.6,3.7,21,198
+KOS-0232,Kos Matraman 232,Jakarta Timur,Matraman,2100000,Putri,15,1,1,1,0,1,0,0,0,2.6,Politeknik Negeri Jakarta,0.5,4.8,15,45
+KOS-0233,Kos Jatinegara 233,Jakarta Timur,Jatinegara,1900000,Putri,15,0,1,1,0,0,1,1,1,6.9,UNJ,3.7,4.7,6,19
+KOS-0234,Kos Kramat Jati 234,Jakarta Timur,Kramat Jati,2100000,Putri,9,1,1,1,0,0,1,0,1,7.3,UNJ,1.6,4.9,29,177
+KOS-0235,Kos Duren Sawit 235,Jakarta Timur,Duren Sawit,2250000,Putri,9,1,1,1,1,0,1,0,0,7.0,UNJ,4.5,3.7,19,173
+KOS-0236,Kos Makasar 236,Jakarta Timur,Makasar,2350000,Putri,12,1,1,0,0,1,1,0,0,2.9,UNJ,0.3,4.9,7,33
+KOS-0237,Kos Makasar 237,Jakarta Timur,Makasar,1450000,Putra,18,1,0,1,1,0,0,0,0,9.8,UNJ,2.1,4.8,7,131
+KOS-0238,Kos Cakung 238,Jakarta Timur,Cakung,2250000,Putri,9,1,0,1,1,1,1,0,1,5.9,Politeknik Negeri Jakarta,1.4,5.0,17,145
+KOS-0239,Kos Pulo Gadung 239,Jakarta Timur,Pulo Gadung,1650000,Putri,12,0,1,1,1,0,0,1,0,5.6,Universitas Trisakti,0.6,4.4,27,15
+KOS-0240,Kos Cakung 240,Jakarta Timur,Cakung,1750000,Campur,12,0,1,1,0,1,0,0,0,1.8,Universitas Trisakti,4.5,5.0,16,106
+KOS-0241,Kos Cakung 241,Jakarta Timur,Cakung,2300000,Putri,15,1,0,1,0,1,1,0,1,4.8,Politeknik Negeri Jakarta,2.2,3.7,15,61
+KOS-0242,Kos Cakung 242,Jakarta Timur,Cakung,1650000,Campur,18,1,1,0,0,0,0,0,0,4.8,Universitas Trisakti,4.9,4.4,26,170
+KOS-0243,Kos Pasar Rebo 243,Jakarta Timur,Pasar Rebo,1500000,Campur,9,1,1,0,0,0,0,0,0,2.0,UNJ,3.4,4.5,8,75
+KOS-0244,Kos Jatinegara 244,Jakarta Timur,Jatinegara,2750000,Putri,9,1,1,1,1,1,0,0,1,1.9,Universitas Trisakti,0.9,3.6,20,180
+KOS-0245,Kos Pasar Rebo 245,Jakarta Timur,Pasar Rebo,1800000,Putri,12,1,0,1,1,1,0,0,0,9.9,UNJ,1.8,4.7,23,150
+KOS-0246,Kos Kramat Jati 246,Jakarta Timur,Kramat Jati,1500000,Putra,12,0,1,0,1,1,0,1,0,3.8,Politeknik Negeri Jakarta,3.1,3.7,11,170
+KOS-0247,Kos Kramat Jati 247,Jakarta Timur,Kramat Jati,1600000,Putra,20,1,1,0,0,0,0,0,0,4.9,Politeknik Negeri Jakarta,2.3,4.8,11,123
+KOS-0248,Kos Matraman 248,Jakarta Timur,Matraman,1700000,Putra,12,1,0,0,1,1,0,0,1,2.1,Universitas Trisakti,1.1,3.6,19,81
+KOS-0249,Kos Cakung 249,Jakarta Timur,Cakung,2300000,Campur,9,1,0,0,0,0,0,0,1,3.0,UNJ,0.7,4.7,26,176
+KOS-0250,Kos Matraman 250,Jakarta Timur,Matraman,2600000,Putri,9,1,1,1,0,1,1,1,1,1.1,Universitas Trisakti,3.5,4.9,15,32
+KOS-0251,Kos Jatinegara 251,Jakarta Timur,Jatinegara,2300000,Putra,24,1,0,0,0,1,0,0,1,0.9,UNJ,4.8,3.7,17,29
+KOS-0252,Kos Duren Sawit 252,Jakarta Timur,Duren Sawit,2200000,Putra,15,0,1,1,1,1,1,0,0,9.9,UNJ,1.4,3.8,13,55
+KOS-0253,Kos Pasar Rebo 253,Jakarta Timur,Pasar Rebo,1800000,Putra,9,1,0,0,1,0,1,0,1,9.6,Universitas Trisakti,4.5,4.5,27,154
+KOS-0254,Kos Cakung 254,Jakarta Timur,Cakung,1700000,Putri,15,1,0,0,1,1,1,1,0,5.1,UNJ,2.2,4.4,5,61
+KOS-0255,Kos Pasar Rebo 255,Jakarta Timur,Pasar Rebo,2350000,Putra,15,1,1,1,1,0,0,1,1,5.9,UNJ,4.0,4.2,27,121
+KOS-0256,Kos Matraman 256,Jakarta Timur,Matraman,1450000,Putra,9,1,0,1,0,1,0,0,0,6.0,UNJ,0.5,4.0,28,39
+KOS-0257,Kos Matraman 257,Jakarta Timur,Matraman,1800000,Putri,20,0,0,1,1,1,0,1,1,5.9,UNJ,1.1,3.9,6,129
+KOS-0258,Kos Makasar 258,Jakarta Timur,Makasar,2050000,Putra,12,1,0,1,0,1,1,1,1,6.2,Politeknik Negeri Jakarta,2.1,3.9,21,103
+KOS-0259,Kos Pulo Gadung 259,Jakarta Timur,Pulo Gadung,3000000,Putra,18,1,1,1,1,1,1,1,1,1.0,UNJ,1.3,3.8,14,168
+KOS-0260,Kos Cipayung 260,Jakarta Timur,Cipayung,2200000,Campur,9,1,0,1,0,1,1,1,1,4.2,Politeknik Negeri Jakarta,2.0,3.7,24,134
+KOS-0261,Kos Pulo Gadung 261,Jakarta Timur,Pulo Gadung,2650000,Putra,12,1,1,1,1,1,0,0,1,3.1,Politeknik Negeri Jakarta,1.2,4.1,29,39
+KOS-0262,Kos Pasar Rebo 262,Jakarta Timur,Pasar Rebo,2250000,Putra,12,0,1,1,0,1,1,0,1,5.1,UNJ,2.8,4.7,8,10
+KOS-0263,Kos Cipayung 263,Jakarta Timur,Cipayung,1700000,Putra,9,0,1,1,0,1,0,0,0,0.5,Politeknik Negeri Jakarta,2.3,3.9,12,24
+KOS-0264,Kos Makasar 264,Jakarta Timur,Makasar,1650000,Putra,15,1,0,1,1,1,0,1,0,5.0,UNJ,4.3,4.8,25,182
+KOS-0265,Kos Duren Sawit 265,Jakarta Timur,Duren Sawit,2000000,Putri,15,1,0,1,1,1,1,1,1,9.3,Universitas Trisakti,0.9,4.4,26,83
+KOS-0266,Kos Makasar 266,Jakarta Timur,Makasar,2100000,Putri,24,1,1,1,1,1,1,0,1,9.2,Universitas Trisakti,1.3,4.3,6,163
+KOS-0267,Kos Pulo Gadung 267,Jakarta Timur,Pulo Gadung,1900000,Putri,9,0,1,1,0,1,0,0,1,8.3,UNJ,3.3,3.9,6,171
+KOS-0268,Kos Jatinegara 268,Jakarta Timur,Jatinegara,1550000,Campur,9,1,0,1,0,0,0,0,1,5.8,UNJ,2.7,4.6,18,22
+KOS-0269,Kos Pasar Rebo 269,Jakarta Timur,Pasar Rebo,1700000,Putra,9,1,1,0,1,1,0,0,1,9.9,Universitas Trisakti,1.3,3.6,17,186
+KOS-0270,Kos Matraman 270,Jakarta Timur,Matraman,2050000,Campur,12,1,1,1,1,1,0,1,1,9.9,Universitas Trisakti,3.8,5.0,24,111
+KOS-0271,Kos Kramat Jati 271,Jakarta Timur,Kramat Jati,2250000,Campur,24,1,1,1,1,0,0,1,0,1.8,Universitas Trisakti,2.8,3.6,7,34
+KOS-0272,Kos Makasar 272,Jakarta Timur,Makasar,2400000,Putra,15,1,1,1,1,1,0,1,1,8.5,Politeknik Negeri Jakarta,4.6,4.0,6,118
+KOS-0273,Kos Matraman 273,Jakarta Timur,Matraman,2400000,Putra,12,1,1,0,1,0,1,0,1,7.8,UNJ,4.7,4.8,16,75
+KOS-0274,Kos Jatinegara 274,Jakarta Timur,Jatinegara,2000000,Putri,15,1,0,1,0,1,0,0,1,6.6,UNJ,0.9,4.1,17,27
+KOS-0275,Kos Pasar Rebo 275,Jakarta Timur,Pasar Rebo,2000000,Putra,15,0,1,1,0,0,0,0,1,1.5,Politeknik Negeri Jakarta,4.9,4.0,19,91
+KOS-0276,Kos Jatinegara 276,Jakarta Timur,Jatinegara,2700000,Putri,20,1,1,1,1,1,1,1,1,6.4,Universitas Trisakti,4.2,3.9,5,119
+KOS-0277,Kos Cakung 277,Jakarta Timur,Cakung,2050000,Putri,12,1,1,1,1,1,1,0,1,5.4,Politeknik Negeri Jakarta,2.2,3.6,5,78
+KOS-0278,Kos Pulo Gadung 278,Jakarta Timur,Pulo Gadung,2200000,Putra,12,1,0,1,0,0,0,0,1,1.7,Universitas Trisakti,1.7,4.9,12,89
+KOS-0279,Kos Kramat Jati 279,Jakarta Timur,Kramat Jati,2050000,Campur,9,1,0,0,1,1,0,0,0,0.5,Politeknik Negeri Jakarta,2.6,3.6,17,159
+KOS-0280,Kos Kramat Jati 280,Jakarta Timur,Kramat Jati,1750000,Campur,12,1,0,1,1,0,1,1,0,3.3,UNJ,2.3,4.7,7,122
+KOS-0281,Kos Pasar Rebo 281,Jakarta Timur,Pasar Rebo,2100000,Putri,12,1,1,0,1,1,0,0,0,6.4,Politeknik Negeri Jakarta,2.5,3.7,18,165
+KOS-0282,Kos Cakung 282,Jakarta Timur,Cakung,1650000,Campur,12,0,0,0,1,1,1,1,0,6.4,Universitas Trisakti,3.5,4.1,12,91
+KOS-0283,Kos Pasar Rebo 283,Jakarta Timur,Pasar Rebo,2000000,Putri,12,1,0,1,1,1,0,1,1,9.4,Politeknik Negeri Jakarta,2.7,3.7,24,121
+KOS-0284,Kos Cakung 284,Jakarta Timur,Cakung,1650000,Putra,18,0,1,1,0,1,0,0,1,7.5,UNJ,4.0,3.9,25,125
+KOS-0285,Kos Makasar 285,Jakarta Timur,Makasar,2400000,Putra,15,1,1,1,1,1,1,0,0,1.7,Universitas Trisakti,1.7,4.4,17,110
+KOS-0286,Kos Kramat Jati 286,Jakarta Timur,Kramat Jati,2150000,Putri,15,1,1,1,1,1,0,0,1,5.2,UNJ,2.7,3.8,24,110
+KOS-0287,Kos Makasar 287,Jakarta Timur,Makasar,1850000,Campur,18,1,1,0,0,1,0,0,1,3.5,Politeknik Negeri Jakarta,4.3,4.4,10,14
+KOS-0288,Kos Cipayung 288,Jakarta Timur,Cipayung,2200000,Campur,9,1,1,1,0,1,0,0,0,2.4,Politeknik Negeri Jakarta,2.6,4.4,15,61
+KOS-0289,Kos Duren Sawit 289,Jakarta Timur,Duren Sawit,2100000,Putri,18,1,0,1,1,1,0,0,0,3.8,Universitas Trisakti,3.3,4.8,25,91
+KOS-0290,Kos Duren Sawit 290,Jakarta Timur,Duren Sawit,1950000,Putra,9,1,1,1,1,0,0,1,1,3.0,UNJ,1.0,3.7,22,116
+KOS-0291,Kos Kramat Jati 291,Jakarta Timur,Kramat Jati,1300000,Putri,12,0,0,1,0,1,0,1,1,8.7,Politeknik Negeri Jakarta,3.5,4.8,16,172
+KOS-0292,Kos Pulo Gadung 292,Jakarta Timur,Pulo Gadung,1850000,Campur,15,1,1,1,1,1,0,0,0,6.9,Universitas Trisakti,1.6,4.2,15,193
+KOS-0293,Kos Kramat Jati 293,Jakarta Timur,Kramat Jati,1750000,Campur,18,1,1,1,0,1,0,1,0,8.2,UNJ,1.7,4.0,5,16
+KOS-0294,Kos Kramat Jati 294,Jakarta Timur,Kramat Jati,2450000,Putri,20,1,0,1,0,1,1,1,1,3.1,Politeknik Negeri Jakarta,1.8,4.9,14,125
+KOS-0295,Kos Makasar 295,Jakarta Timur,Makasar,2050000,Putri,9,1,0,1,0,1,1,0,0,6.5,Politeknik Negeri Jakarta,3.3,4.3,29,109
+KOS-0296,Kos Duren Sawit 296,Jakarta Timur,Duren Sawit,1800000,Putri,9,1,0,1,0,1,0,0,0,9.6,Politeknik Negeri Jakarta,4.4,3.5,10,154
+KOS-0297,Kos Duren Sawit 297,Jakarta Timur,Duren Sawit,2100000,Campur,12,1,1,1,0,1,1,0,0,5.3,Politeknik Negeri Jakarta,4.6,4.7,19,196
+KOS-0298,Kos Duren Sawit 298,Jakarta Timur,Duren Sawit,2750000,Campur,9,1,1,1,1,1,0,0,1,2.0,Universitas Trisakti,0.5,4.1,21,41
+KOS-0299,Kos Cakung 299,Jakarta Timur,Cakung,1750000,Putra,20,1,0,0,0,1,0,0,0,3.8,Universitas Trisakti,4.9,4.8,14,106
+KOS-0300,Kos Cakung 300,Jakarta Timur,Cakung,1600000,Putra,12,1,0,1,1,1,0,0,0,9.4,UNJ,2.4,3.7,28,194
+KOS-0301,Kos Matraman 301,Jakarta Timur,Matraman,1600000,Campur,9,1,0,1,1,1,0,1,0,5.7,UNJ,4.5,4.0,29,23
+KOS-0302,Kos Matraman 302,Jakarta Timur,Matraman,1950000,Putra,9,1,0,1,0,0,0,0,0,3.4,UNJ,4.8,4.4,27,85
+KOS-0303,Kos Jatinegara 303,Jakarta Timur,Jatinegara,2750000,Putri,15,1,1,1,1,1,1,0,1,2.5,UNJ,4.4,4.8,12,136
+KOS-0304,Kos Makasar 304,Jakarta Timur,Makasar,1100000,Putri,9,0,0,1,0,0,0,0,0,8.6,Politeknik Negeri Jakarta,4.1,3.5,13,160
+KOS-0305,Kos Cipayung 305,Jakarta Timur,Cipayung,2300000,Putra,9,1,1,1,0,1,0,1,0,2.2,UNJ,2.7,4.6,11,86
+KOS-0306,Kos Cipayung 306,Jakarta Timur,Cipayung,2700000,Campur,24,1,1,1,0,1,0,1,0,2.9,Universitas Trisakti,1.9,4.2,16,154
+KOS-0307,Kos Pasar Rebo 307,Jakarta Timur,Pasar Rebo,1850000,Putri,9,0,0,0,1,0,1,0,1,7.8,Politeknik Negeri Jakarta,2.7,4.5,21,66
+KOS-0308,Kos Pulo Gadung 308,Jakarta Timur,Pulo Gadung,1600000,Campur,9,1,1,0,1,0,0,1,0,8.5,UNJ,2.4,4.9,7,80
+KOS-0309,Kos Matraman 309,Jakarta Timur,Matraman,2400000,Putra,12,1,1,0,0,0,0,0,1,4.2,Universitas Trisakti,4.9,3.9,12,39
+KOS-0310,Kos Cipayung 310,Jakarta Timur,Cipayung,2500000,Putri,9,1,1,1,1,1,1,0,0,4.4,Politeknik Negeri Jakarta,1.8,4.0,27,192
+KOS-0311,Kos Cakung 311,Jakarta Timur,Cakung,2050000,Putri,12,1,1,1,0,0,0,0,1,5.9,Universitas Trisakti,0.2,4.6,25,110
+KOS-0312,Kos Duren Sawit 312,Jakarta Timur,Duren Sawit,2250000,Putra,12,1,0,1,0,1,0,0,0,1.8,Universitas Trisakti,4.7,3.7,10,134
+KOS-0313,Kos Makasar 313,Jakarta Timur,Makasar,1650000,Campur,9,1,1,0,0,1,0,1,0,8.7,Universitas Trisakti,2.6,4.1,16,91
+KOS-0314,Kos Matraman 314,Jakarta Timur,Matraman,2100000,Putra,15,0,1,1,1,1,0,1,1,6.6,UNJ,1.7,4.2,19,191
+KOS-0315,Kos Makasar 315,Jakarta Timur,Makasar,2350000,Putra,12,1,1,1,0,1,0,1,1,4.9,Politeknik Negeri Jakarta,4.0,5.0,15,25
+KOS-0316,Kos Pasar Rebo 316,Jakarta Timur,Pasar Rebo,2600000,Campur,20,1,1,0,1,1,1,0,1,4.7,UNJ,0.4,4.6,14,13
+KOS-0317,Kos Jatinegara 317,Jakarta Timur,Jatinegara,2150000,Campur,15,1,1,1,0,1,1,0,1,8.3,Universitas Trisakti,3.8,3.6,9,19
+KOS-0318,Kos Matraman 318,Jakarta Timur,Matraman,2000000,Putri,12,0,0,1,1,1,0,1,1,1.8,UNJ,4.7,4.5,10,119
+KOS-0319,Kos Makasar 319,Jakarta Timur,Makasar,1850000,Putri,12,1,1,0,1,1,0,0,0,2.3,UNJ,1.1,4.4,12,84
+KOS-0320,Kos Makasar 320,Jakarta Timur,Makasar,1900000,Putri,15,0,1,1,0,1,0,0,0,6.0,Universitas Trisakti,3.8,4.0,18,29
+KOS-0321,Kos Pulo Gadung 321,Jakarta Timur,Pulo Gadung,2500000,Putri,15,1,1,1,0,0,1,0,1,8.4,UNJ,0.5,3.9,5,133
+KOS-0322,Kos Kramat Jati 322,Jakarta Timur,Kramat Jati,2050000,Putra,9,0,1,0,1,0,0,0,1,7.7,Politeknik Negeri Jakarta,2.6,4.5,26,148
+KOS-0323,Kos Pulo Gadung 323,Jakarta Timur,Pulo Gadung,2100000,Campur,9,1,1,1,1,1,0,0,1,8.4,Politeknik Negeri Jakarta,2.4,3.8,20,6
+KOS-0324,Kos Pulo Gadung 324,Jakarta Timur,Pulo Gadung,1600000,Campur,12,1,0,1,1,0,0,0,0,6.0,Politeknik Negeri Jakarta,2.7,4.1,28,113
+KOS-0325,Kos Duren Sawit 325,Jakarta Timur,Duren Sawit,1900000,Putra,9,1,1,0,0,0,0,0,0,0.7,UNJ,0.7,4.3,23,53
+KOS-0326,Kos Kramat Jati 326,Jakarta Timur,Kramat Jati,1650000,Putra,18,0,0,1,1,0,0,1,0,8.3,UNJ,2.4,3.6,9,110
+KOS-0327,Kos Cakung 327,Jakarta Timur,Cakung,2300000,Putra,12,1,1,1,1,1,1,0,0,3.5,Politeknik Negeri Jakarta,4.0,4.2,21,79
+KOS-0328,Kos Cakung 328,Jakarta Timur,Cakung,2350000,Putra,9,1,1,0,0,1,0,1,1,6.8,UNJ,4.8,4.7,26,163
+KOS-0329,Kos Pulo Gadung 329,Jakarta Timur,Pulo Gadung,2050000,Putri,12,0,1,1,0,1,0,0,0,5.4,UNJ,3.6,3.6,6,45
+KOS-0330,Kos Jatinegara 330,Jakarta Timur,Jatinegara,1300000,Putri,9,0,0,1,0,1,1,0,1,6.0,Politeknik Negeri Jakarta,1.6,4.8,10,192
+KOS-0331,Kos Cakung 331,Jakarta Timur,Cakung,1900000,Putri,9,1,1,1,0,1,0,0,0,4.8,UNJ,1.9,4.8,19,119
+KOS-0332,Kos Duren Sawit 332,Jakarta Timur,Duren Sawit,1950000,Putri,9,1,1,1,0,1,1,0,1,7.6,Politeknik Negeri Jakarta,3.8,3.9,20,139
+KOS-0333,Kos Cakung 333,Jakarta Timur,Cakung,2100000,Putri,9,0,0,1,0,1,0,1,0,7.2,UNJ,0.5,4.3,20,170
+KOS-0334,Kos Jatinegara 334,Jakarta Timur,Jatinegara,2600000,Putra,20,1,1,1,1,1,0,0,1,3.7,Politeknik Negeri Jakarta,4.8,4.3,27,108
+KOS-0335,Kos Jatinegara 335,Jakarta Timur,Jatinegara,2500000,Campur,9,1,1,0,0,0,0,1,1,4.1,Politeknik Negeri Jakarta,0.3,4.4,23,107
+KOS-0336,Kos Pulo Gadung 336,Jakarta Timur,Pulo Gadung,2100000,Putra,12,0,1,1,1,1,1,0,1,2.9,UNJ,4.9,4.5,18,167
+KOS-0337,Kos Makasar 337,Jakarta Timur,Makasar,1800000,Campur,18,0,0,1,0,0,1,0,0,4.4,Politeknik Negeri Jakarta,4.9,3.5,25,94
+KOS-0338,Kos Jatinegara 338,Jakarta Timur,Jatinegara,2900000,Campur,20,1,1,1,0,1,0,1,1,1.3,Politeknik Negeri Jakarta,4.7,3.8,26,162
+KOS-0339,Kos Kramat Jati 339,Jakarta Timur,Kramat Jati,2250000,Campur,9,0,1,0,0,1,0,0,0,1.9,Universitas Trisakti,0.3,4.5,25,137
+KOS-0340,Kos Duren Sawit 340,Jakarta Timur,Duren Sawit,2250000,Putra,15,1,1,1,0,1,0,1,1,2.1,Universitas Trisakti,4.4,4.9,16,9
+KOS-0341,Kos Jatinegara 341,Jakarta Timur,Jatinegara,2100000,Putra,12,1,0,1,1,1,0,0,1,5.7,Universitas Trisakti,0.6,4.8,18,116
+KOS-0342,Kos Pulo Gadung 342,Jakarta Timur,Pulo Gadung,1400000,Putra,15,0,0,1,1,1,1,0,0,8.1,Universitas Trisakti,2.0,3.9,7,33
+KOS-0343,Kos Pasar Rebo 343,Jakarta Timur,Pasar Rebo,2000000,Putri,15,1,1,0,0,1,0,0,1,3.7,UNJ,4.1,4.3,13,164
+KOS-0344,Kos Makasar 344,Jakarta Timur,Makasar,1500000,Putra,9,1,0,1,0,1,0,0,1,4.9,Universitas Trisakti,1.7,4.3,12,16
+KOS-0345,Kos Cakung 345,Jakarta Timur,Cakung,2000000,Putri,9,1,1,1,0,0,0,1,0,4.5,Politeknik Negeri Jakarta,3.9,3.8,6,30
+KOS-0346,Kos Pulo Gadung 346,Jakarta Timur,Pulo Gadung,2450000,Putri,9,0,1,1,1,1,1,0,0,2.4,Universitas Trisakti,4.7,4.9,22,150
+KOS-0347,Kos Kramat Jati 347,Jakarta Timur,Kramat Jati,1850000,Campur,18,1,1,1,0,1,0,0,0,8.0,UNJ,2.6,3.9,9,33
+KOS-0348,Kos Jatinegara 348,Jakarta Timur,Jatinegara,2350000,Putri,24,0,0,1,1,1,0,1,1,7.5,Politeknik Negeri Jakarta,0.8,3.5,14,141
+KOS-0349,Kos Cakung 349,Jakarta Timur,Cakung,1550000,Campur,15,0,1,0,1,1,1,0,1,5.2,UNJ,4.6,4.8,18,125
+KOS-0350,Kos Cakung 350,Jakarta Timur,Cakung,2350000,Putra,18,1,1,1,0,0,0,0,1,5.9,Universitas Trisakti,1.8,4.2,18,164
+KOS-0351,Kos Makasar 351,Jakarta Timur,Makasar,1350000,Putra,9,0,0,0,1,1,1,1,1,8.5,Politeknik Negeri Jakarta,1.2,4.1,6,167
+KOS-0352,Kos Duren Sawit 352,Jakarta Timur,Duren Sawit,1800000,Putri,15,1,0,1,0,0,0,0,1,8.1,Politeknik Negeri Jakarta,0.9,3.7,6,131
+KOS-0353,Kos Cipayung 353,Jakarta Timur,Cipayung,1650000,Putri,20,0,0,0,1,0,1,1,0,5.8,Politeknik Negeri Jakarta,1.0,4.5,15,11
+KOS-0354,Kos Pasar Rebo 354,Jakarta Timur,Pasar Rebo,1900000,Putri,9,1,0,1,1,1,1,0,1,4.9,Politeknik Negeri Jakarta,1.0,4.1,23,32
+KOS-0355,Kos Kramat Jati 355,Jakarta Timur,Kramat Jati,2800000,Putra,18,1,1,1,0,1,0,0,1,3.7,Universitas Trisakti,4.5,4.5,5,187
+KOS-0356,Kos Cipayung 356,Jakarta Timur,Cipayung,1950000,Putra,12,0,0,1,0,1,0,1,1,8.7,Universitas Trisakti,2.3,3.7,7,185
+KOS-0357,Kos Makasar 357,Jakarta Timur,Makasar,2200000,Putri,15,1,1,1,0,1,0,1,1,4.1,Politeknik Negeri Jakarta,2.3,4.3,16,21
+KOS-0358,Kos Matraman 358,Jakarta Timur,Matraman,1850000,Putra,15,1,1,1,0,1,1,0,1,5.3,UNJ,2.8,3.8,21,199
+KOS-0359,Kos Cakung 359,Jakarta Timur,Cakung,1900000,Putra,12,0,0,1,1,1,0,1,0,3.2,Politeknik Negeri Jakarta,1.4,4.7,8,26
+KOS-0360,Kos Cipayung 360,Jakarta Timur,Cipayung,1800000,Putri,12,1,1,0,1,0,0,1,1,9.5,Politeknik Negeri Jakarta,3.4,3.9,17,97
+KOS-0361,Kos Jatinegara 361,Jakarta Timur,Jatinegara,2450000,Campur,9,1,0,0,1,1,1,0,1,0.9,UNJ,3.8,4.8,9,160
+KOS-0362,Kos Pulo Gadung 362,Jakarta Timur,Pulo Gadung,2500000,Putri,15,1,1,1,1,1,0,1,1,6.5,Politeknik Negeri Jakarta,0.9,4.8,12,110
+KOS-0363,Kos Matraman 363,Jakarta Timur,Matraman,2050000,Putra,15,1,1,1,1,1,0,0,1,2.5,UNJ,1.2,4.0,20,107
+KOS-0364,Kos Jatinegara 364,Jakarta Timur,Jatinegara,2000000,Putri,15,1,0,1,0,1,0,0,1,5.2,Universitas Trisakti,1.1,4.2,25,152
+KOS-0365,Kos Kramat Jati 365,Jakarta Timur,Kramat Jati,2100000,Putra,24,1,1,1,1,1,0,0,0,6.4,Universitas Trisakti,2.3,3.6,21,66
+KOS-0366,Kos Pasar Rebo 366,Jakarta Timur,Pasar Rebo,1800000,Campur,9,1,0,1,0,0,0,0,1,8.2,Politeknik Negeri Jakarta,0.5,4.9,8,164
+KOS-0367,Kos Cakung 367,Jakarta Timur,Cakung,2750000,Putri,15,1,1,1,1,1,1,0,1,3.9,Politeknik Negeri Jakarta,2.1,3.9,24,43
+KOS-0368,Kos Menteng 368,Jakarta Pusat,Menteng,2600000,Putra,15,1,0,1,0,1,0,0,0,2.4,Universitas Indonesia Salemba,0.6,3.6,8,145
+KOS-0369,Kos Kemayoran 369,Jakarta Pusat,Kemayoran,3200000,Putri,9,1,1,1,1,0,0,1,1,5.6,Universitas Indonesia Salemba,3.7,4.9,11,41
+KOS-0370,Kos Menteng 370,Jakarta Pusat,Menteng,2300000,Putra,20,1,1,0,0,1,0,0,0,8.7,Universitas Indonesia Salemba,2.6,4.4,10,61
+KOS-0371,Kos Cempaka Putih 371,Jakarta Pusat,Cempaka Putih,2600000,Putra,12,1,1,1,1,1,0,1,1,3.3,Universitas Indonesia Salemba,1.4,4.3,18,168
+KOS-0372,Kos Cempaka Putih 372,Jakarta Pusat,Cempaka Putih,2750000,Putri,12,1,1,1,0,1,0,1,0,7.6,Trisakti,2.8,4.5,18,20
+KOS-0373,Kos Sawah Besar 373,Jakarta Pusat,Sawah Besar,3250000,Putri,12,0,0,1,1,1,1,0,1,1.0,Tarumanagara,1.1,4.0,19,67
+KOS-0374,Kos Menteng 374,Jakarta Pusat,Menteng,2500000,Putri,18,1,0,0,0,1,0,0,1,5.5,Tarumanagara,0.8,4.9,15,27
+KOS-0375,Kos Gambir 375,Jakarta Pusat,Gambir,2800000,Putri,9,1,0,0,0,1,0,0,1,4.4,Trisakti,2.5,3.8,16,15
+KOS-0376,Kos Senen 376,Jakarta Pusat,Senen,3350000,Campur,12,1,1,1,0,1,0,0,0,1.3,Tarumanagara,2.4,4.2,7,19
+KOS-0377,Kos Cempaka Putih 377,Jakarta Pusat,Cempaka Putih,2400000,Putra,12,1,1,1,1,0,1,0,0,2.9,Tarumanagara,1.7,4.4,5,134
+KOS-0378,Kos Cempaka Putih 378,Jakarta Pusat,Cempaka Putih,3650000,Campur,9,1,1,1,0,1,0,0,0,1.1,Trisakti,0.8,3.9,6,69
+KOS-0379,Kos Menteng 379,Jakarta Pusat,Menteng,2750000,Putri,18,1,0,1,1,1,0,0,0,4.4,Universitas Indonesia Salemba,1.6,4.6,5,126
+KOS-0380,Kos Tanah Abang 380,Jakarta Pusat,Tanah Abang,2700000,Putri,15,0,1,1,0,1,0,1,1,9.1,Tarumanagara,0.7,4.7,15,138
+KOS-0381,Kos Gambir 381,Jakarta Pusat,Gambir,3400000,Putri,15,1,0,1,1,1,1,1,0,0.7,Universitas Indonesia Salemba,2.8,3.5,15,156
+KOS-0382,Kos Sawah Besar 382,Jakarta Pusat,Sawah Besar,2850000,Putri,18,0,1,1,0,0,1,0,0,5.0,Universitas Indonesia Salemba,5.0,5.0,29,109
+KOS-0383,Kos Tanah Abang 383,Jakarta Pusat,Tanah Abang,2600000,Putra,9,1,0,0,0,1,1,0,1,2.0,Universitas Indonesia Salemba,1.0,4.9,18,83
+KOS-0384,Kos Sawah Besar 384,Jakarta Pusat,Sawah Besar,3200000,Putri,24,1,0,1,1,0,0,0,1,1.0,Trisakti,1.9,4.0,24,91
+KOS-0385,Kos Menteng 385,Jakarta Pusat,Menteng,2350000,Putra,9,1,1,1,0,1,0,0,1,10.0,Tarumanagara,1.1,4.4,14,65
+KOS-0386,Kos Gambir 386,Jakarta Pusat,Gambir,3500000,Putri,18,1,1,1,1,1,0,0,0,5.3,Tarumanagara,0.5,4.4,26,38
+KOS-0387,Kos Gambir 387,Jakarta Pusat,Gambir,2700000,Campur,12,1,1,1,0,1,0,1,0,3.6,Universitas Indonesia Salemba,4.7,3.7,15,47
+KOS-0388,Kos Senen 388,Jakarta Pusat,Senen,2900000,Putri,12,1,1,1,1,1,0,1,0,8.6,Tarumanagara,2.3,4.4,10,79
+KOS-0389,Kos Sawah Besar 389,Jakarta Pusat,Sawah Besar,3350000,Putra,12,0,1,1,0,1,1,0,1,2.2,Trisakti,3.0,3.6,25,63
+KOS-0390,Kos Menteng 390,Jakarta Pusat,Menteng,3200000,Campur,9,1,0,1,1,0,0,0,1,9.4,Tarumanagara,0.7,4.5,13,33
+KOS-0391,Kos Tanah Abang 391,Jakarta Pusat,Tanah Abang,3350000,Putri,18,1,1,1,0,0,1,0,1,6.5,Tarumanagara,3.9,3.9,18,13
+KOS-0392,Kos Johar Baru 392,Jakarta Pusat,Johar Baru,2450000,Putri,9,1,0,0,1,1,0,1,1,8.2,Universitas Indonesia Salemba,4.4,4.8,15,129
+KOS-0393,Kos Menteng 393,Jakarta Pusat,Menteng,2900000,Putri,9,1,0,1,1,1,0,0,0,5.9,Universitas Indonesia Salemba,2.0,4.4,18,116
+KOS-0394,Kos Senen 394,Jakarta Pusat,Senen,2550000,Campur,9,0,0,1,0,1,1,1,0,4.9,Universitas Indonesia Salemba,4.5,3.9,15,55
+KOS-0395,Kos Johar Baru 395,Jakarta Pusat,Johar Baru,2950000,Putri,9,1,1,1,0,0,1,0,1,6.2,Trisakti,0.5,4.2,29,92
+KOS-0396,Kos Menteng 396,Jakarta Pusat,Menteng,2600000,Campur,12,1,1,1,0,1,0,1,0,8.6,Trisakti,4.1,3.7,8,109
+KOS-0397,Kos Tanah Abang 397,Jakarta Pusat,Tanah Abang,2350000,Putri,12,1,0,1,0,0,1,1,0,0.5,Trisakti,1.4,4.7,11,134
+KOS-0398,Kos Kemayoran 398,Jakarta Pusat,Kemayoran,2400000,Campur,15,1,1,1,0,1,1,0,1,6.2,Tarumanagara,2.6,4.1,8,132
+KOS-0399,Kos Menteng 399,Jakarta Pusat,Menteng,2550000,Putri,15,0,1,1,0,1,0,0,1,4.3,Universitas Indonesia Salemba,3.3,4.1,24,18
+KOS-0400,Kos Menteng 400,Jakarta Pusat,Menteng,2250000,Putri,12,0,1,1,0,1,0,0,1,4.3,Tarumanagara,2.4,4.2,28,187
+KOS-0401,Kos Kemayoran 401,Jakarta Pusat,Kemayoran,2600000,Putri,9,0,1,0,0,1,0,0,0,6.0,Tarumanagara,3.3,4.0,24,17
+KOS-0402,Kos Senen 402,Jakarta Pusat,Senen,2700000,Putri,12,0,0,1,1,0,0,1,1,0.9,Universitas Indonesia Salemba,1.7,4.5,11,74
+KOS-0403,Kos Sawah Besar 403,Jakarta Pusat,Sawah Besar,3350000,Campur,15,1,1,1,0,1,0,0,1,2.5,Tarumanagara,0.7,4.7,16,141
+KOS-0404,Kos Kemayoran 404,Jakarta Pusat,Kemayoran,2750000,Putra,9,1,1,1,0,1,1,0,1,3.6,Tarumanagara,4.7,4.5,11,36
+KOS-0405,Kos Johar Baru 405,Jakarta Pusat,Johar Baru,2750000,Putra,20,1,1,1,1,0,1,0,1,7.3,Tarumanagara,3.8,4.4,24,160
+KOS-0406,Kos Kemayoran 406,Jakarta Pusat,Kemayoran,3150000,Putra,18,0,1,1,1,1,1,0,1,5.2,Trisakti,2.3,3.7,18,92
+KOS-0407,Kos Cempaka Putih 407,Jakarta Pusat,Cempaka Putih,3500000,Putra,12,1,1,1,1,0,0,1,1,2.7,Tarumanagara,2.2,3.8,7,6
+KOS-0408,Kos Menteng 408,Jakarta Pusat,Menteng,2850000,Putra,9,0,0,1,0,1,1,1,1,4.9,Trisakti,1.5,4.8,10,181
+KOS-0409,Kos Menteng 409,Jakarta Pusat,Menteng,2700000,Putra,18,0,1,1,1,1,1,1,1,7.9,Universitas Indonesia Salemba,0.7,3.5,19,83
+KOS-0410,Kos Johar Baru 410,Jakarta Pusat,Johar Baru,3250000,Putri,9,1,1,1,0,1,0,0,0,7.8,Tarumanagara,1.6,3.7,26,18
+KOS-0411,Kos Tanah Abang 411,Jakarta Pusat,Tanah Abang,3000000,Putri,12,1,1,1,0,1,1,1,0,2.1,Trisakti,1.7,4.9,15,191
+KOS-0412,Kos Johar Baru 412,Jakarta Pusat,Johar Baru,3300000,Putra,15,0,1,1,1,1,0,1,1,1.3,Trisakti,0.4,4.8,8,68
+KOS-0413,Kos Kemayoran 413,Jakarta Pusat,Kemayoran,2900000,Putra,18,0,0,1,0,1,1,0,0,5.5,Universitas Indonesia Salemba,4.2,4.9,28,16
+KOS-0414,Kos Cempaka Putih 414,Jakarta Pusat,Cempaka Putih,2850000,Campur,18,1,1,0,1,1,1,0,0,6.5,Tarumanagara,1.6,3.6,22,47
+KOS-0415,Kos Menteng 415,Jakarta Pusat,Menteng,3450000,Campur,15,1,1,0,0,1,0,0,1,1.6,Trisakti,1.7,4.4,19,55
+KOS-0416,Kos Gambir 416,Jakarta Pusat,Gambir,2650000,Putra,24,1,1,1,0,1,0,0,0,7.9,Trisakti,4.6,3.7,24,58
+KOS-0417,Kos Kemayoran 417,Jakarta Pusat,Kemayoran,3150000,Putra,12,1,1,1,0,1,1,1,0,5.7,Tarumanagara,1.0,4.9,26,62
+KOS-0418,Kos Kemayoran 418,Jakarta Pusat,Kemayoran,2750000,Putra,20,1,1,1,1,1,0,0,1,6.9,Tarumanagara,3.2,3.7,11,162
+KOS-0419,Kos Senen 419,Jakarta Pusat,Senen,3500000,Putra,18,0,1,1,1,1,1,0,1,0.7,Tarumanagara,1.9,3.8,18,185
+KOS-0420,Kos Gambir 420,Jakarta Pusat,Gambir,2400000,Putri,12,1,0,0,1,1,1,0,1,5.4,Tarumanagara,2.6,3.6,8,49
+KOS-0421,Kos Senen 421,Jakarta Pusat,Senen,2950000,Putri,9,1,0,1,1,0,0,0,1,6.7,Tarumanagara,0.9,4.6,14,188
+KOS-0422,Kos Kemayoran 422,Jakarta Pusat,Kemayoran,2100000,Putra,9,0,1,0,0,0,1,0,0,6.6,Tarumanagara,0.6,4.0,7,89
+KOS-0423,Kos Menteng 423,Jakarta Pusat,Menteng,2550000,Campur,15,0,1,0,1,1,0,0,1,4.3,Tarumanagara,1.3,4.1,29,146
+KOS-0424,Kos Senen 424,Jakarta Pusat,Senen,2850000,Campur,12,1,0,1,1,1,0,1,0,4.3,Tarumanagara,2.6,4.8,7,118
+KOS-0425,Kos Senen 425,Jakarta Pusat,Senen,3000000,Campur,9,0,1,1,0,1,0,1,1,4.3,Universitas Indonesia Salemba,1.8,3.6,11,117
+KOS-0426,Kos Senen 426,Jakarta Pusat,Senen,2750000,Putra,18,1,1,1,1,0,1,0,1,5.8,Trisakti,1.1,4.9,27,66
+KOS-0427,Kos Kemayoran 427,Jakarta Pusat,Kemayoran,2550000,Putri,15,0,0,1,0,1,0,0,1,6.1,Universitas Indonesia Salemba,2.8,3.6,23,51
+KOS-0428,Kos Johar Baru 428,Jakarta Pusat,Johar Baru,2350000,Putra,12,1,1,1,1,1,0,0,0,9.9,Tarumanagara,1.0,3.9,24,91
+KOS-0429,Kos Gambir 429,Jakarta Pusat,Gambir,3150000,Putri,18,1,1,1,1,0,1,0,0,0.8,Universitas Indonesia Salemba,3.2,4.1,15,170
+KOS-0430,Kos Senen 430,Jakarta Pusat,Senen,2400000,Putri,20,0,0,1,0,1,0,0,1,7.2,Universitas Indonesia Salemba,3.4,3.7,21,49
+KOS-0431,Kos Sawah Besar 431,Jakarta Pusat,Sawah Besar,3300000,Campur,18,0,1,1,0,1,0,1,1,4.1,Universitas Indonesia Salemba,1.3,3.8,22,99
+KOS-0432,Kos Menteng 432,Jakarta Pusat,Menteng,3500000,Campur,18,1,1,1,1,1,1,0,0,5.0,Universitas Indonesia Salemba,0.4,4.9,29,76
+KOS-0433,Kos Sawah Besar 433,Jakarta Pusat,Sawah Besar,3400000,Putri,12,1,0,1,1,1,1,0,1,6.2,Universitas Indonesia Salemba,1.8,3.6,22,193
+KOS-0434,Kos Kemayoran 434,Jakarta Pusat,Kemayoran,2400000,Putra,12,1,1,1,0,1,0,1,1,7.0,Tarumanagara,3.9,4.4,12,197
+KOS-0435,Kos Menteng 435,Jakarta Pusat,Menteng,2950000,Putra,15,0,0,1,0,1,1,1,0,0.8,Tarumanagara,3.7,4.6,17,114
+KOS-0436,Kos Sawah Besar 436,Jakarta Pusat,Sawah Besar,3650000,Putri,15,1,1,1,1,1,0,0,1,5.1,Universitas Indonesia Salemba,0.6,4.0,10,161
+KOS-0437,Kos Tanah Abang 437,Jakarta Pusat,Tanah Abang,3250000,Putra,15,1,0,1,1,0,0,1,1,1.4,Tarumanagara,0.4,4.7,23,58
+KOS-0438,Kos Senen 438,Jakarta Pusat,Senen,2050000,Putra,15,1,0,0,0,1,0,0,0,1.9,Universitas Indonesia Salemba,3.3,3.8,26,198
+KOS-0439,Kos Sawah Besar 439,Jakarta Pusat,Sawah Besar,3050000,Putra,18,0,1,1,0,1,0,1,0,5.9,Universitas Indonesia Salemba,2.7,3.7,16,60
+KOS-0440,Kos Tanah Abang 440,Jakarta Pusat,Tanah Abang,3050000,Putri,18,1,1,1,0,0,0,1,0,8.9,Trisakti,2.7,4.9,22,86
+KOS-0441,Kos Senen 441,Jakarta Pusat,Senen,3050000,Campur,15,0,0,1,1,1,1,0,1,3.7,Tarumanagara,2.5,4.9,7,105
+KOS-0442,Kos Kemayoran 442,Jakarta Pusat,Kemayoran,2850000,Putri,18,1,1,1,1,0,1,0,0,5.3,Tarumanagara,3.5,4.9,14,95
+KOS-0443,Kos Senen 443,Jakarta Pusat,Senen,2400000,Putri,12,0,0,1,1,0,0,1,1,4.1,Tarumanagara,5.0,4.8,29,119
+KOS-0444,Kos Senen 444,Jakarta Pusat,Senen,3500000,Campur,12,1,1,1,1,1,1,0,1,7.3,Universitas Indonesia Salemba,2.9,3.8,16,72
+KOS-0445,Kos Menteng 445,Jakarta Pusat,Menteng,2900000,Campur,12,1,0,1,0,1,1,0,1,4.4,Tarumanagara,1.3,4.5,17,186
+KOS-0446,Kos Sawah Besar 446,Jakarta Pusat,Sawah Besar,2400000,Putri,12,0,1,0,1,0,1,0,0,6.8,Universitas Indonesia Salemba,4.4,3.5,28,138
+KOS-0447,Kos Senen 447,Jakarta Pusat,Senen,2350000,Campur,12,1,0,1,0,0,1,0,1,5.7,Trisakti,3.3,3.6,10,143
+KOS-0448,Kos Tanah Abang 448,Jakarta Pusat,Tanah Abang,2850000,Putra,12,1,1,0,1,0,0,0,1,8.1,Tarumanagara,2.3,4.6,13,25
+KOS-0449,Kos Senen 449,Jakarta Pusat,Senen,2800000,Campur,9,1,0,1,1,1,0,0,0,8.2,Universitas Indonesia Salemba,3.4,4.5,21,161
+KOS-0450,Kos Tanah Abang 450,Jakarta Pusat,Tanah Abang,2350000,Putra,18,0,0,1,1,1,0,0,1,8.7,Tarumanagara,3.9,4.7,17,138
+KOS-0451,Kos Menteng 451,Jakarta Pusat,Menteng,3300000,Putra,12,0,1,1,0,1,0,0,1,1.8,Tarumanagara,3.2,3.9,8,139
+KOS-0452,Kos Tanah Abang 452,Jakarta Pusat,Tanah Abang,2850000,Campur,12,1,0,1,1,1,1,0,0,1.7,Trisakti,2.4,3.9,23,41
+KOS-0453,Kos Gambir 453,Jakarta Pusat,Gambir,2200000,Putra,18,0,0,0,0,1,0,0,0,6.3,Tarumanagara,3.8,4.2,17,97
+KOS-0454,Kos Gambir 454,Jakarta Pusat,Gambir,3200000,Putri,9,0,1,0,1,1,1,0,1,3.3,Trisakti,3.6,4.0,21,27
+KOS-0455,Kos Sawah Besar 455,Jakarta Pusat,Sawah Besar,2500000,Putri,12,0,1,0,1,0,1,1,0,3.4,Tarumanagara,4.1,3.8,27,164
+KOS-0456,Kos Senen 456,Jakarta Pusat,Senen,3250000,Putri,12,1,1,1,0,0,1,1,0,8.0,Trisakti,4.4,3.9,10,159
+KOS-0457,Kos Senen 457,Jakarta Pusat,Senen,3400000,Putri,15,0,1,1,1,0,1,1,0,4.7,Tarumanagara,0.7,4.5,5,74
+KOS-0458,Kos Sawah Besar 458,Jakarta Pusat,Sawah Besar,2900000,Putra,12,0,1,1,1,0,1,0,1,3.7,Universitas Indonesia Salemba,2.4,4.1,6,67
+KOS-0459,Kos Kemayoran 459,Jakarta Pusat,Kemayoran,3200000,Putri,18,0,1,1,1,1,1,0,1,4.8,Trisakti,2.7,3.8,26,81
+KOS-0460,Kos Sawah Besar 460,Jakarta Pusat,Sawah Besar,3300000,Putra,18,0,1,0,0,1,0,1,0,7.7,Trisakti,2.1,4.9,29,70
+KOS-0461,Kos Tanah Abang 461,Jakarta Pusat,Tanah Abang,3100000,Putra,9,1,1,1,1,1,0,0,1,5.5,Tarumanagara,1.6,4.5,29,162
+KOS-0462,Kos Cempaka Putih 462,Jakarta Pusat,Cempaka Putih,2650000,Putra,12,0,1,0,1,1,0,0,1,6.3,Trisakti,3.5,4.1,23,138
+KOS-0463,Kos Johar Baru 463,Jakarta Pusat,Johar Baru,3150000,Putra,20,1,0,1,1,1,0,0,1,8.1,Tarumanagara,1.1,4.1,20,185
+KOS-0464,Kos Gambir 464,Jakarta Pusat,Gambir,2650000,Putra,18,0,1,1,0,1,0,0,1,8.1,Universitas Indonesia Salemba,2.5,3.9,12,55
+KOS-0465,Kos Gambir 465,Jakarta Pusat,Gambir,2650000,Putra,20,0,0,0,0,0,1,0,0,5.4,Trisakti,2.0,4.0,21,161
+KOS-0466,Kos Sawah Besar 466,Jakarta Pusat,Sawah Besar,2300000,Putra,9,1,0,0,0,1,0,0,0,3.4,Universitas Indonesia Salemba,1.0,3.5,16,52
+KOS-0467,Kos Senen 467,Jakarta Pusat,Senen,2950000,Putra,9,0,1,1,1,1,1,0,0,6.0,Universitas Indonesia Salemba,4.9,3.5,28,75
+KOS-0468,Kos Menteng 468,Jakarta Pusat,Menteng,2600000,Putra,15,1,0,1,0,1,0,0,0,7.4,Tarumanagara,2.4,4.5,7,39
+KOS-0469,Kos Senen 469,Jakarta Pusat,Senen,2800000,Putra,12,1,1,1,0,0,1,0,0,2.5,Tarumanagara,2.6,3.6,23,78
+KOS-0470,Kos Kemayoran 470,Jakarta Pusat,Kemayoran,3500000,Putri,9,1,1,1,0,1,0,0,1,0.8,Tarumanagara,0.9,3.8,11,138
+KOS-0471,Kos Tanah Abang 471,Jakarta Pusat,Tanah Abang,3300000,Putra,12,1,0,1,1,1,0,0,1,8.4,Tarumanagara,4.2,3.8,17,110
+KOS-0472,Kos Menteng 472,Jakarta Pusat,Menteng,3550000,Putri,24,1,0,0,1,1,1,1,1,6.6,Tarumanagara,4.3,4.1,29,62
+KOS-0473,Kos Senen 473,Jakarta Pusat,Senen,2150000,Putri,12,0,0,0,0,1,1,0,1,9.1,Trisakti,0.7,3.7,14,193
+KOS-0474,Kos Kemayoran 474,Jakarta Pusat,Kemayoran,3200000,Putra,18,0,0,1,1,1,0,0,0,0.9,Tarumanagara,3.7,4.2,20,120
+KOS-0475,Kos Menteng 475,Jakarta Pusat,Menteng,3400000,Campur,12,1,1,1,0,1,0,0,1,0.6,Trisakti,3.2,5.0,21,75
+KOS-0476,Kos Johar Baru 476,Jakarta Pusat,Johar Baru,2900000,Putri,9,0,1,1,1,1,0,0,0,3.7,Universitas Indonesia Salemba,1.8,4.7,26,29
+KOS-0477,Kos Senen 477,Jakarta Pusat,Senen,3600000,Putri,18,0,1,0,1,1,1,1,1,9.6,Universitas Indonesia Salemba,2.6,4.3,11,138
+KOS-0478,Kos Kemayoran 478,Jakarta Pusat,Kemayoran,3450000,Campur,18,1,0,0,1,1,1,1,1,3.5,Trisakti,1.0,4.2,19,127
+KOS-0479,Kos Tanah Abang 479,Jakarta Pusat,Tanah Abang,2100000,Campur,24,1,0,1,0,0,0,0,0,2.8,Universitas Indonesia Salemba,2.4,4.1,25,109
+KOS-0480,Kos Senen 480,Jakarta Pusat,Senen,2500000,Putra,15,1,0,1,1,1,0,1,1,4.7,Universitas Indonesia Salemba,4.7,4.1,5,177
+KOS-0481,Kos Kemayoran 481,Jakarta Pusat,Kemayoran,3950000,Putra,9,1,1,1,1,0,0,0,1,1.0,Universitas Indonesia Salemba,0.5,4.5,26,51
+KOS-0482,Kos Cempaka Putih 482,Jakarta Pusat,Cempaka Putih,2750000,Putra,9,0,0,1,1,1,1,0,1,8.2,Trisakti,0.8,3.8,24,72
+KOS-0483,Kos Sawah Besar 483,Jakarta Pusat,Sawah Besar,2250000,Putri,9,1,0,1,0,1,0,1,0,6.2,Tarumanagara,4.6,4.5,28,174
+KOS-0484,Kos Kemayoran 484,Jakarta Pusat,Kemayoran,2900000,Putra,12,1,0,1,1,1,1,0,1,5.6,Universitas Indonesia Salemba,0.3,4.5,12,147
+KOS-0485,Kos Cempaka Putih 485,Jakarta Pusat,Cempaka Putih,3500000,Putri,18,1,1,1,0,0,0,1,1,1.7,Trisakti,4.3,4.7,19,155
+KOS-0486,Kos Senen 486,Jakarta Pusat,Senen,2850000,Putri,9,0,1,1,0,0,0,1,1,2.9,Tarumanagara,3.4,4.5,24,47
+KOS-0487,Kos Kemayoran 487,Jakarta Pusat,Kemayoran,3000000,Putra,24,0,1,1,0,1,0,0,0,3.0,Tarumanagara,1.8,3.8,22,135
+KOS-0488,Kos Menteng 488,Jakarta Pusat,Menteng,1700000,Putra,15,0,0,1,0,1,1,0,0,6.2,Trisakti,3.3,3.6,21,69
+KOS-0489,Kos Gambir 489,Jakarta Pusat,Gambir,2800000,Putri,9,0,1,1,1,1,0,0,0,4.0,Trisakti,1.8,4.9,18,144
+KOS-0490,Kos Tanah Abang 490,Jakarta Pusat,Tanah Abang,2550000,Putri,9,0,0,0,1,0,0,1,0,8.7,Trisakti,1.6,3.8,5,132
+KOS-0491,Kos Cempaka Putih 491,Jakarta Pusat,Cempaka Putih,2550000,Putra,9,0,1,1,0,1,1,1,1,5.6,Universitas Indonesia Salemba,2.4,4.6,16,143
+KOS-0492,Kos Senen 492,Jakarta Pusat,Senen,2750000,Campur,12,1,0,1,0,1,0,0,0,4.4,Universitas Indonesia Salemba,0.4,4.3,10,19
+KOS-0493,Kos Kemayoran 493,Jakarta Pusat,Kemayoran,2150000,Putra,15,0,1,1,0,1,0,0,0,5.6,Universitas Indonesia Salemba,0.9,3.8,19,186
+KOS-0494,Kos Tanah Abang 494,Jakarta Pusat,Tanah Abang,2300000,Putra,12,1,0,0,0,0,0,0,0,6.3,Trisakti,4.8,4.4,13,90
+KOS-0495,Kos Sawah Besar 495,Jakarta Pusat,Sawah Besar,3450000,Putri,15,1,1,1,1,1,1,0,1,8.4,Universitas Indonesia Salemba,3.8,3.5,9,40
+KOS-0496,Kos Menteng 496,Jakarta Pusat,Menteng,3350000,Putri,12,1,1,1,1,1,1,0,0,2.0,Trisakti,4.1,3.9,18,125
+KOS-0497,Kos Gambir 497,Jakarta Pusat,Gambir,3200000,Putra,9,0,1,1,0,1,0,0,1,1.7,Tarumanagara,0.7,3.9,18,58
+KOS-0498,Kos Tanah Abang 498,Jakarta Pusat,Tanah Abang,2450000,Putra,12,0,0,1,0,1,0,1,0,1.2,Tarumanagara,0.3,4.9,11,58
+KOS-0499,Kos Johar Baru 499,Jakarta Pusat,Johar Baru,2600000,Campur,12,1,1,0,1,0,1,0,0,6.8,Tarumanagara,2.9,4.6,25,100
+KOS-0500,Kos Tanah Abang 500,Jakarta Pusat,Tanah Abang,2700000,Putra,12,1,0,0,1,1,0,0,1,7.8,Trisakti,1.4,4.5,28,18
+KOS-0501,Kos Cempaka Putih 501,Jakarta Pusat,Cempaka Putih,2300000,Putra,15,1,0,1,1,0,0,0,0,3.5,Tarumanagara,2.4,4.0,28,58
+KOS-0502,Kos Johar Baru 502,Jakarta Pusat,Johar Baru,3550000,Putri,20,1,1,1,0,0,0,0,1,0.9,Universitas Indonesia Salemba,2.6,3.6,24,166
+KOS-0503,Kos Senen 503,Jakarta Pusat,Senen,2750000,Campur,12,0,1,0,1,1,1,0,0,0.8,Tarumanagara,3.5,3.8,23,178
+KOS-0504,Kos Menteng 504,Jakarta Pusat,Menteng,2300000,Putri,15,1,0,1,1,1,1,1,0,6.6,Tarumanagara,3.6,4.9,15,51
+KOS-0505,Kos Kemayoran 505,Jakarta Pusat,Kemayoran,2600000,Putra,12,0,1,1,1,1,0,0,0,4.3,Tarumanagara,1.1,4.8,16,120
+KOS-0506,Kos Menteng 506,Jakarta Pusat,Menteng,2100000,Putri,12,1,0,1,1,1,0,0,0,8.8,Trisakti,3.5,4.1,27,138
+KOS-0507,Kos Tanah Abang 507,Jakarta Pusat,Tanah Abang,2150000,Campur,15,0,1,0,1,1,1,0,1,5.3,Universitas Indonesia Salemba,3.7,4.8,15,104
+KOS-0508,Kos Kemayoran 508,Jakarta Pusat,Kemayoran,2500000,Putri,12,0,1,1,1,0,1,0,0,8.7,Trisakti,4.7,4.7,17,88
+KOS-0509,Kos Menteng 509,Jakarta Pusat,Menteng,3000000,Putri,18,0,1,0,1,1,0,0,1,3.0,Universitas Indonesia Salemba,2.7,4.3,21,141
+KOS-0510,Kos Kemayoran 510,Jakarta Pusat,Kemayoran,2500000,Putri,15,0,1,1,1,1,0,0,0,7.0,Tarumanagara,2.0,4.7,14,35
+KOS-0511,Kos Sawah Besar 511,Jakarta Pusat,Sawah Besar,3700000,Putri,15,1,1,1,1,1,0,0,1,1.4,Trisakti,4.8,4.3,9,83
+KOS-0512,Kos Senen 512,Jakarta Pusat,Senen,2950000,Putra,12,1,1,1,0,1,0,0,1,1.3,Trisakti,0.5,3.7,5,114
+KOS-0513,Kos Gambir 513,Jakarta Pusat,Gambir,3150000,Putra,24,1,0,1,0,1,0,0,1,4.5,Trisakti,1.9,4.7,24,54
+KOS-0514,Kos Sawah Besar 514,Jakarta Pusat,Sawah Besar,3700000,Putri,12,1,1,1,1,0,0,0,1,5.4,Trisakti,2.3,4.0,15,58
+KOS-0515,Kos Johar Baru 515,Jakarta Pusat,Johar Baru,3050000,Campur,15,1,0,1,1,1,0,0,1,7.5,Tarumanagara,1.1,4.9,13,38
+KOS-0516,Kos Menteng 516,Jakarta Pusat,Menteng,3300000,Putra,12,1,1,1,0,1,1,1,1,5.0,Trisakti,1.8,3.7,17,9
+KOS-0517,Kos Senen 517,Jakarta Pusat,Senen,2800000,Putra,9,0,1,1,0,1,1,0,1,9.4,Tarumanagara,2.0,4.0,14,74
+KOS-0518,Kos Sawah Besar 518,Jakarta Pusat,Sawah Besar,3100000,Putri,12,0,0,1,0,1,1,0,1,5.0,Universitas Indonesia Salemba,3.1,4.8,6,117
+KOS-0519,Kos Kemayoran 519,Jakarta Pusat,Kemayoran,2800000,Putri,12,1,0,1,0,1,1,1,0,3.1,Trisakti,3.9,4.0,22,110
+KOS-0520,Kos Cempaka Putih 520,Jakarta Pusat,Cempaka Putih,2200000,Putra,15,0,0,1,0,1,0,1,1,8.3,Universitas Indonesia Salemba,3.3,3.8,29,128
+KOS-0521,Kos Cempaka Putih 521,Jakarta Pusat,Cempaka Putih,2100000,Putra,9,1,0,1,0,0,0,0,1,3.0,Tarumanagara,2.3,4.4,24,169
+KOS-0522,Kos Tanah Abang 522,Jakarta Pusat,Tanah Abang,3750000,Putri,24,1,1,0,0,0,0,0,1,2.7,Trisakti,1.7,4.2,24,32
+KOS-0523,Kos Menteng 523,Jakarta Pusat,Menteng,3100000,Putri,12,1,0,1,1,1,0,1,1,9.4,Trisakti,0.6,4.7,16,73
+KOS-0524,Kos Tanah Abang 524,Jakarta Pusat,Tanah Abang,2400000,Putra,9,1,0,1,0,1,0,1,1,6.1,Tarumanagara,2.8,4.9,16,74
+KOS-0525,Kos Sawah Besar 525,Jakarta Pusat,Sawah Besar,2600000,Putra,9,1,1,1,0,1,0,1,0,5.2,Universitas Indonesia Salemba,3.5,4.5,26,150
+KOS-0526,Kos Kemayoran 526,Jakarta Pusat,Kemayoran,3000000,Putri,12,1,1,0,0,0,1,0,0,2.8,Tarumanagara,1.0,4.2,19,7
+KOS-0527,Kos Tanah Abang 527,Jakarta Pusat,Tanah Abang,2500000,Putri,15,1,1,0,0,0,0,0,0,4.1,Trisakti,3.7,4.3,19,84
+KOS-0528,Kos Cempaka Putih 528,Jakarta Pusat,Cempaka Putih,3200000,Putri,15,1,1,1,1,1,1,0,1,9.7,Universitas Indonesia Salemba,2.4,4.5,9,74
+KOS-0529,Kos Johar Baru 529,Jakarta Pusat,Johar Baru,2150000,Putri,12,1,0,0,1,0,0,0,0,8.9,Universitas Indonesia Salemba,2.1,4.6,5,46
+KOS-0530,Kos Senen 530,Jakarta Pusat,Senen,3650000,Campur,12,1,1,1,1,1,0,0,1,1.2,Tarumanagara,4.9,4.9,19,51
+KOS-0531,Kos Sawah Besar 531,Jakarta Pusat,Sawah Besar,2550000,Putra,15,1,1,0,0,1,0,0,1,8.9,Universitas Indonesia Salemba,2.5,4.4,5,185
+KOS-0532,Kos Johar Baru 532,Jakarta Pusat,Johar Baru,3250000,Putra,18,1,0,1,1,0,0,1,1,7.0,Trisakti,2.7,3.8,23,115
+KOS-0533,Kos Tanah Abang 533,Jakarta Pusat,Tanah Abang,2600000,Putra,15,1,1,1,1,0,0,1,0,4.4,Tarumanagara,4.4,4.0,27,69
+KOS-0534,Kos Kemayoran 534,Jakarta Pusat,Kemayoran,2650000,Putra,15,1,1,1,0,1,0,1,1,4.1,Tarumanagara,0.2,4.2,20,174
+KOS-0535,Kos Gambir 535,Jakarta Pusat,Gambir,2150000,Putri,9,0,1,1,0,1,0,0,0,6.9,Trisakti,3.8,3.6,7,20
+KOS-0536,Kos Johar Baru 536,Jakarta Pusat,Johar Baru,3750000,Putra,18,1,1,1,1,1,0,1,1,4.6,Trisakti,4.2,4.6,15,116
+KOS-0537,Kos Cempaka Putih 537,Jakarta Pusat,Cempaka Putih,2150000,Campur,9,1,1,0,0,1,0,1,0,6.2,Trisakti,2.9,4.7,12,154
+KOS-0538,Kos Sawah Besar 538,Jakarta Pusat,Sawah Besar,3300000,Putra,15,0,1,1,0,1,1,0,1,5.1,Tarumanagara,4.1,4.9,17,20
+KOS-0539,Kos Johar Baru 539,Jakarta Pusat,Johar Baru,2050000,Putri,15,1,0,0,0,1,1,0,0,6.9,Universitas Indonesia Salemba,1.0,3.7,19,20
+KOS-0540,Kos Cempaka Putih 540,Jakarta Pusat,Cempaka Putih,3400000,Putri,24,1,1,0,0,0,1,0,1,2.5,Trisakti,2.7,4.9,9,42
+KOS-0541,Kos Kemayoran 541,Jakarta Pusat,Kemayoran,2900000,Putri,9,0,1,1,0,1,0,0,1,5.0,Tarumanagara,3.7,4.0,16,107
+KOS-0542,Kos Sawah Besar 542,Jakarta Pusat,Sawah Besar,2450000,Campur,12,1,0,1,1,0,1,1,0,8.5,Tarumanagara,2.2,4.7,11,168
+KOS-0543,Kos Sawah Besar 543,Jakarta Pusat,Sawah Besar,3150000,Putra,15,0,1,0,0,1,0,0,1,3.7,Trisakti,1.7,4.5,24,110
+KOS-0544,Kos Cempaka Putih 544,Jakarta Pusat,Cempaka Putih,3500000,Putri,18,1,1,1,1,0,1,1,0,5.2,Trisakti,1.7,3.8,16,154
+KOS-0545,Kos Tanah Abang 545,Jakarta Pusat,Tanah Abang,2750000,Campur,18,1,1,0,0,0,0,0,0,2.2,Trisakti,2.2,4.3,12,116
+KOS-0546,Kos Tanah Abang 546,Jakarta Pusat,Tanah Abang,3200000,Putri,9,1,0,1,0,1,0,0,0,0.9,Trisakti,3.3,4.2,11,12
+KOS-0547,Kos Menteng 547,Jakarta Pusat,Menteng,3500000,Campur,12,1,1,1,1,1,1,0,0,3.1,Trisakti,2.5,4.3,23,180
+KOS-0548,Kos Johar Baru 548,Jakarta Pusat,Johar Baru,3200000,Campur,20,0,1,1,1,1,0,1,0,6.2,Tarumanagara,4.1,4.5,6,10
+KOS-0549,Kos Tanah Abang 549,Jakarta Pusat,Tanah Abang,2400000,Putra,12,1,1,1,1,0,0,0,0,5.8,Universitas Indonesia Salemba,4.7,4.7,25,78
+KOS-0550,Kos Senen 550,Jakarta Pusat,Senen,2800000,Putri,15,0,0,1,1,0,0,1,1,4.2,Trisakti,1.0,4.9,11,99
+KOS-0551,Kos Kemayoran 551,Jakarta Pusat,Kemayoran,2550000,Putra,9,1,0,1,0,1,0,0,0,1.5,Tarumanagara,3.4,3.8,23,5
+KOS-0552,Kos Sawah Besar 552,Jakarta Pusat,Sawah Besar,3000000,Campur,12,0,0,1,1,1,0,1,1,1.8,Universitas Indonesia Salemba,1.2,3.7,22,10
+KOS-0553,Kos Cempaka Putih 553,Jakarta Pusat,Cempaka Putih,2050000,Putra,12,1,0,1,1,0,0,1,0,5.8,Trisakti,3.0,3.9,16,138
+KOS-0554,Kos Gambir 554,Jakarta Pusat,Gambir,2550000,Putri,9,1,1,0,0,1,0,0,1,7.0,Trisakti,4.0,4.9,9,136
+KOS-0555,Kos Tanah Abang 555,Jakarta Pusat,Tanah Abang,3150000,Campur,9,1,1,1,0,0,1,0,1,9.7,Universitas Indonesia Salemba,4.7,4.5,10,152
+KOS-0556,Kos Kemayoran 556,Jakarta Pusat,Kemayoran,2550000,Campur,12,0,1,1,0,1,1,0,1,6.3,Universitas Indonesia Salemba,2.0,4.9,22,168
+KOS-0557,Kos Cempaka Putih 557,Jakarta Pusat,Cempaka Putih,3400000,Putri,20,0,1,0,0,1,0,0,1,6.6,Trisakti,2.2,3.8,8,29
+KOS-0558,Kos Tanah Abang 558,Jakarta Pusat,Tanah Abang,2650000,Putra,18,1,0,1,0,0,1,0,0,7.8,Universitas Indonesia Salemba,0.3,4.5,14,130
+KOS-0559,Kos Johar Baru 559,Jakarta Pusat,Johar Baru,2350000,Campur,9,0,1,1,0,1,1,0,1,10.0,Tarumanagara,0.8,3.9,26,83
+KOS-0560,Kos Tanah Abang 560,Jakarta Pusat,Tanah Abang,3550000,Putra,20,1,1,1,1,1,0,0,0,5.5,Tarumanagara,3.7,4.8,6,113
+KOS-0561,Kos Kemayoran 561,Jakarta Pusat,Kemayoran,3100000,Putra,20,0,1,1,1,1,1,0,1,2.2,Universitas Indonesia Salemba,1.6,3.8,6,29
+KOS-0562,Kos Senen 562,Jakarta Pusat,Senen,2850000,Putri,18,1,1,1,0,1,0,1,0,8.1,Tarumanagara,1.1,3.6,22,32
+KOS-0563,Kos Tanah Abang 563,Jakarta Pusat,Tanah Abang,2850000,Putra,12,1,0,1,1,1,0,0,0,9.2,Tarumanagara,2.1,3.8,24,21
+KOS-0564,Kos Sawah Besar 564,Jakarta Pusat,Sawah Besar,2850000,Putra,18,0,1,1,1,0,0,0,1,6.2,Universitas Indonesia Salemba,3.1,4.2,19,45
+KOS-0565,Kos Sawah Besar 565,Jakarta Pusat,Sawah Besar,2300000,Putri,18,1,1,0,0,0,0,0,1,7.6,Tarumanagara,4.7,4.5,28,60
+KOS-0566,Kos Kalideres 566,Jakarta Barat,Kalideres,2800000,Putra,15,1,1,1,1,1,0,1,1,8.1,Trisakti,4.0,4.7,14,28
+KOS-0567,Kos Kalideres 567,Jakarta Barat,Kalideres,2050000,Campur,15,1,1,1,0,1,0,0,1,8.5,Binus Kemanggisan,2.5,4.4,23,96
+KOS-0568,Kos Kalideres 568,Jakarta Barat,Kalideres,2650000,Putra,12,1,1,1,0,0,0,1,1,8.3,Universitas Tarumanagara,0.8,4.9,9,108
+KOS-0569,Kos Taman Sari 569,Jakarta Barat,Taman Sari,2300000,Putri,15,1,0,0,1,1,1,0,1,8.9,Trisakti,3.7,4.3,15,60
+KOS-0570,Kos Kalideres 570,Jakarta Barat,Kalideres,2050000,Putri,9,1,1,1,1,1,0,0,0,6.0,Universitas Tarumanagara,1.2,5.0,6,30
+KOS-0571,Kos Kembangan 571,Jakarta Barat,Kembangan,1700000,Putri,12,0,0,1,1,1,1,0,0,1.6,Binus Kemanggisan,2.0,4.8,17,137
+KOS-0572,Kos Taman Sari 572,Jakarta Barat,Taman Sari,2500000,Putra,12,1,1,1,0,1,0,0,0,2.7,Binus Kemanggisan,0.9,4.6,6,51
+KOS-0573,Kos Taman Sari 573,Jakarta Barat,Taman Sari,2450000,Putra,24,1,1,1,0,1,0,0,1,6.1,Trisakti,2.9,3.5,18,85
+KOS-0574,Kos Grogol Petamburan 574,Jakarta Barat,Grogol Petamburan,2000000,Putri,9,0,0,1,0,1,0,1,1,3.4,Universitas Tarumanagara,1.5,4.2,27,194
+KOS-0575,Kos Kalideres 575,Jakarta Barat,Kalideres,2300000,Putra,15,1,0,1,1,1,0,0,0,2.9,Universitas Tarumanagara,3.4,4.9,6,43
+KOS-0576,Kos Kalideres 576,Jakarta Barat,Kalideres,1750000,Putra,15,1,0,1,0,1,1,0,1,4.9,Binus Kemanggisan,0.4,4.5,28,92
+KOS-0577,Kos Taman Sari 577,Jakarta Barat,Taman Sari,1750000,Campur,12,0,1,1,0,1,1,1,1,8.9,Trisakti,1.4,4.7,25,148
+KOS-0578,Kos Palmerah 578,Jakarta Barat,Palmerah,2250000,Putri,12,1,1,1,1,1,0,1,0,5.2,Trisakti,2.4,4.3,10,183
+KOS-0579,Kos Cengkareng 579,Jakarta Barat,Cengkareng,2100000,Campur,12,1,1,1,0,1,0,0,0,1.9,Universitas Tarumanagara,0.7,3.8,25,12
+KOS-0580,Kos Kembangan 580,Jakarta Barat,Kembangan,2150000,Putra,12,0,1,1,1,0,0,0,0,2.0,Binus Kemanggisan,1.2,3.5,25,53
+KOS-0581,Kos Kalideres 581,Jakarta Barat,Kalideres,2750000,Putra,9,1,1,1,1,1,0,0,1,2.8,Binus Kemanggisan,4.4,4.2,21,182
+KOS-0582,Kos Cengkareng 582,Jakarta Barat,Cengkareng,2000000,Putra,12,1,0,1,1,1,0,1,0,0.7,Trisakti,2.0,4.0,23,157
+KOS-0583,Kos Taman Sari 583,Jakarta Barat,Taman Sari,1900000,Campur,15,0,1,0,1,1,0,1,1,2.7,Binus Kemanggisan,4.5,3.9,17,20
+KOS-0584,Kos Kebon Jeruk 584,Jakarta Barat,Kebon Jeruk,1950000,Putri,15,1,1,0,1,1,0,0,1,7.3,Universitas Tarumanagara,2.6,3.6,25,96
+KOS-0585,Kos Tambora 585,Jakarta Barat,Tambora,1950000,Putri,9,1,0,1,1,0,0,0,0,5.5,Binus Kemanggisan,0.2,4.2,7,40
+KOS-0586,Kos Kebon Jeruk 586,Jakarta Barat,Kebon Jeruk,2300000,Putri,20,1,0,1,1,1,0,1,0,2.7,Universitas Tarumanagara,4.6,3.9,25,57
+KOS-0587,Kos Tambora 587,Jakarta Barat,Tambora,2550000,Putri,15,1,1,1,0,1,0,1,0,9.8,Trisakti,0.5,4.3,22,64
+KOS-0588,Kos Grogol Petamburan 588,Jakarta Barat,Grogol Petamburan,2100000,Putri,15,1,0,0,0,1,1,1,0,9.7,Trisakti,2.4,4.8,18,76
+KOS-0589,Kos Kalideres 589,Jakarta Barat,Kalideres,2550000,Putri,15,1,1,1,0,1,0,0,1,2.0,Universitas Tarumanagara,3.8,4.7,5,82
+KOS-0590,Kos Kalideres 590,Jakarta Barat,Kalideres,1800000,Putra,12,1,0,1,1,0,1,0,0,6.5,Trisakti,0.5,3.6,7,116
+KOS-0591,Kos Kalideres 591,Jakarta Barat,Kalideres,2600000,Putri,15,1,1,0,0,1,1,1,1,5.7,Universitas Tarumanagara,0.4,4.5,28,42
+KOS-0592,Kos Kembangan 592,Jakarta Barat,Kembangan,1650000,Campur,12,1,0,1,0,1,0,0,0,9.5,Binus Kemanggisan,0.5,4.3,27,168
+KOS-0593,Kos Palmerah 593,Jakarta Barat,Palmerah,2500000,Campur,12,1,0,1,1,0,0,0,1,3.3,Trisakti,4.5,5.0,26,124
+KOS-0594,Kos Tambora 594,Jakarta Barat,Tambora,1600000,Putra,9,1,1,0,1,1,1,0,0,6.3,Universitas Tarumanagara,4.7,4.4,23,171
+KOS-0595,Kos Kebon Jeruk 595,Jakarta Barat,Kebon Jeruk,2150000,Putra,9,1,0,1,0,1,0,0,1,5.4,Trisakti,3.5,3.7,23,54
+KOS-0596,Kos Kalideres 596,Jakarta Barat,Kalideres,2000000,Putri,9,1,1,0,1,1,0,0,1,7.1,Trisakti,3.9,4.8,12,46
+KOS-0597,Kos Cengkareng 597,Jakarta Barat,Cengkareng,1900000,Putri,9,1,0,0,0,0,1,0,1,0.8,Universitas Tarumanagara,0.4,4.0,13,59
+KOS-0598,Kos Cengkareng 598,Jakarta Barat,Cengkareng,2050000,Putri,12,1,0,0,1,1,0,0,1,7.5,Universitas Tarumanagara,3.6,4.8,15,68
+KOS-0599,Kos Kalideres 599,Jakarta Barat,Kalideres,2000000,Putra,12,1,1,0,1,0,1,1,1,4.6,Binus Kemanggisan,1.8,4.2,10,117
+KOS-0600,Kos Kembangan 600,Jakarta Barat,Kembangan,2250000,Putri,9,1,0,1,1,1,0,0,1,6.7,Binus Kemanggisan,0.6,3.5,22,99
+KOS-0601,Kos Grogol Petamburan 601,Jakarta Barat,Grogol Petamburan,2100000,Putra,12,1,1,1,1,1,0,0,0,2.3,Trisakti,1.3,4.5,16,88
+KOS-0602,Kos Taman Sari 602,Jakarta Barat,Taman Sari,2200000,Campur,9,1,1,1,1,1,0,0,1,7.9,Trisakti,3.2,4.8,26,104
+KOS-0603,Kos Grogol Petamburan 603,Jakarta Barat,Grogol Petamburan,2550000,Campur,9,0,1,1,1,1,0,1,1,3.4,Binus Kemanggisan,3.4,4.9,9,96
+KOS-0604,Kos Kembangan 604,Jakarta Barat,Kembangan,1800000,Putra,12,1,0,1,1,1,0,0,1,3.4,Binus Kemanggisan,3.6,4.4,19,105
+KOS-0605,Kos Tambora 605,Jakarta Barat,Tambora,1600000,Campur,12,1,0,1,0,1,1,0,1,9.5,Binus Kemanggisan,1.2,4.8,22,73
+KOS-0606,Kos Palmerah 606,Jakarta Barat,Palmerah,3050000,Putri,12,1,1,1,1,1,1,0,1,5.0,Binus Kemanggisan,0.4,4.4,13,180
+KOS-0607,Kos Grogol Petamburan 607,Jakarta Barat,Grogol Petamburan,1850000,Putri,18,0,1,0,1,0,0,0,0,6.3,Trisakti,1.1,4.9,11,116
+KOS-0608,Kos Kalideres 608,Jakarta Barat,Kalideres,2500000,Campur,18,1,0,1,0,1,0,0,0,1.2,Trisakti,0.4,3.7,8,135
+KOS-0609,Kos Kebon Jeruk 609,Jakarta Barat,Kebon Jeruk,1850000,Putra,15,0,0,1,1,1,1,0,1,1.8,Binus Kemanggisan,4.5,4.9,8,36
+KOS-0610,Kos Grogol Petamburan 610,Jakarta Barat,Grogol Petamburan,2400000,Putra,15,1,0,1,1,1,0,0,1,4.0,Universitas Tarumanagara,4.3,4.0,23,132
+KOS-0611,Kos Tambora 611,Jakarta Barat,Tambora,1650000,Putri,18,1,0,0,0,1,0,0,1,8.7,Universitas Tarumanagara,2.4,4.4,14,197
+KOS-0612,Kos Kebon Jeruk 612,Jakarta Barat,Kebon Jeruk,1750000,Putra,15,1,0,1,0,1,0,0,1,6.5,Trisakti,3.0,4.4,29,137
+KOS-0613,Kos Cengkareng 613,Jakarta Barat,Cengkareng,2400000,Putra,12,0,1,1,1,1,0,0,1,3.5,Trisakti,1.9,3.8,25,154
+KOS-0614,Kos Cengkareng 614,Jakarta Barat,Cengkareng,1600000,Putri,9,1,0,1,0,0,0,0,0,3.8,Binus Kemanggisan,4.2,5.0,6,16
+KOS-0615,Kos Palmerah 615,Jakarta Barat,Palmerah,2600000,Putri,18,1,1,1,1,1,0,1,1,7.2,Trisakti,1.2,3.6,8,141
+KOS-0616,Kos Tambora 616,Jakarta Barat,Tambora,2150000,Campur,12,1,1,1,0,0,1,0,0,8.1,Trisakti,0.4,4.7,12,108
+KOS-0617,Kos Kebon Jeruk 617,Jakarta Barat,Kebon Jeruk,2250000,Putri,12,1,1,1,0,0,1,0,1,8.6,Binus Kemanggisan,0.7,3.7,26,23
+KOS-0618,Kos Tambora 618,Jakarta Barat,Tambora,3000000,Putri,18,1,1,0,1,1,1,0,0,5.0,Universitas Tarumanagara,3.7,4.6,9,135
+KOS-0619,Kos Palmerah 619,Jakarta Barat,Palmerah,2250000,Putri,15,1,1,1,0,1,0,0,0,6.6,Trisakti,1.3,3.8,6,183
+KOS-0620,Kos Kalideres 620,Jakarta Barat,Kalideres,1950000,Putri,15,1,1,1,0,0,1,1,1,5.2,Binus Kemanggisan,1.6,4.9,15,79
+KOS-0621,Kos Cengkareng 621,Jakarta Barat,Cengkareng,1550000,Putra,15,1,0,1,1,0,0,0,1,6.2,Binus Kemanggisan,1.8,3.8,7,110
+KOS-0622,Kos Kebon Jeruk 622,Jakarta Barat,Kebon Jeruk,2550000,Campur,9,1,1,1,0,0,1,0,0,0.7,Binus Kemanggisan,0.3,4.0,22,181
+KOS-0623,Kos Grogol Petamburan 623,Jakarta Barat,Grogol Petamburan,2100000,Putra,18,1,0,1,0,1,0,1,0,8.7,Universitas Tarumanagara,2.1,4.8,22,137
+KOS-0624,Kos Kembangan 624,Jakarta Barat,Kembangan,2000000,Putri,12,1,1,1,0,1,0,1,0,2.0,Trisakti,4.6,4.8,8,190
+KOS-0625,Kos Kembangan 625,Jakarta Barat,Kembangan,2200000,Campur,15,1,1,1,0,0,0,0,0,6.8,Binus Kemanggisan,3.2,4.8,12,119
+KOS-0626,Kos Taman Sari 626,Jakarta Barat,Taman Sari,2100000,Putra,18,1,1,1,1,1,0,0,1,6.9,Binus Kemanggisan,5.0,4.8,29,14
+KOS-0627,Kos Cengkareng 627,Jakarta Barat,Cengkareng,2500000,Putri,12,1,1,1,0,1,1,0,1,5.9,Binus Kemanggisan,0.9,3.5,5,113
+KOS-0628,Kos Grogol Petamburan 628,Jakarta Barat,Grogol Petamburan,2650000,Putri,20,1,1,1,1,0,1,1,1,7.3,Universitas Tarumanagara,2.0,4.1,19,22
+KOS-0629,Kos Cengkareng 629,Jakarta Barat,Cengkareng,2550000,Putri,15,0,1,1,1,1,0,1,0,1.3,Universitas Tarumanagara,4.3,3.6,29,153
+KOS-0630,Kos Taman Sari 630,Jakarta Barat,Taman Sari,3050000,Putri,9,1,1,1,1,1,0,0,1,1.7,Universitas Tarumanagara,4.1,4.1,13,40
+KOS-0631,Kos Cengkareng 631,Jakarta Barat,Cengkareng,2550000,Putri,12,1,1,1,1,1,1,0,0,7.2,Trisakti,4.2,3.9,24,123
+KOS-0632,Kos Kebon Jeruk 632,Jakarta Barat,Kebon Jeruk,2500000,Campur,24,1,0,1,1,0,1,0,1,4.5,Universitas Tarumanagara,1.0,4.9,17,124
+KOS-0633,Kos Kembangan 633,Jakarta Barat,Kembangan,2400000,Putri,12,1,0,1,0,1,1,0,1,8.7,Trisakti,3.8,4.1,25,94
+KOS-0634,Kos Tambora 634,Jakarta Barat,Tambora,1600000,Putra,9,1,1,0,0,0,0,0,0,7.9,Binus Kemanggisan,4.1,4.2,23,143
+KOS-0635,Kos Taman Sari 635,Jakarta Barat,Taman Sari,1850000,Putri,9,0,1,1,0,1,1,1,0,2.5,Trisakti,2.5,4.6,27,46
+KOS-0636,Kos Kembangan 636,Jakarta Barat,Kembangan,2450000,Putri,12,1,0,1,0,1,0,0,1,2.8,Binus Kemanggisan,2.8,4.6,16,52
+KOS-0637,Kos Kembangan 637,Jakarta Barat,Kembangan,2400000,Putri,15,1,0,1,1,1,0,1,0,7.7,Trisakti,4.5,3.8,20,185
+KOS-0638,Kos Kembangan 638,Jakarta Barat,Kembangan,2650000,Putri,9,1,1,0,1,0,0,0,1,4.3,Binus Kemanggisan,3.9,4.1,17,106
+KOS-0639,Kos Cengkareng 639,Jakarta Barat,Cengkareng,2300000,Putri,12,1,0,1,1,1,0,0,1,6.9,Universitas Tarumanagara,0.3,4.0,17,42
+KOS-0640,Kos Palmerah 640,Jakarta Barat,Palmerah,1850000,Campur,12,1,0,1,1,1,1,0,0,4.0,Binus Kemanggisan,4.2,4.7,23,187
+KOS-0641,Kos Kalideres 641,Jakarta Barat,Kalideres,2250000,Putri,9,1,1,1,0,1,0,0,0,1.8,Trisakti,1.6,4.7,22,118
+KOS-0642,Kos Palmerah 642,Jakarta Barat,Palmerah,2500000,Putra,20,1,1,1,0,0,1,0,1,5.0,Universitas Tarumanagara,1.3,4.0,13,139
+KOS-0643,Kos Kebon Jeruk 643,Jakarta Barat,Kebon Jeruk,2100000,Campur,24,1,0,0,0,1,1,0,0,5.0,Universitas Tarumanagara,4.1,3.6,12,150
+KOS-0644,Kos Palmerah 644,Jakarta Barat,Palmerah,2700000,Campur,12,1,1,1,1,1,0,0,0,4.7,Universitas Tarumanagara,0.8,4.8,20,136
+KOS-0645,Kos Cengkareng 645,Jakarta Barat,Cengkareng,2000000,Putri,15,1,1,1,0,1,1,1,1,8.1,Universitas Tarumanagara,2.6,4.8,26,197
+KOS-0646,Kos Grogol Petamburan 646,Jakarta Barat,Grogol Petamburan,1850000,Putri,15,0,0,1,1,0,0,1,1,4.6,Trisakti,3.8,4.6,5,180
+KOS-0647,Kos Kebon Jeruk 647,Jakarta Barat,Kebon Jeruk,2450000,Putri,12,1,1,1,0,1,0,1,1,2.7,Trisakti,1.2,4.4,23,57
+KOS-0648,Kos Kebon Jeruk 648,Jakarta Barat,Kebon Jeruk,2350000,Putri,15,1,0,1,1,1,0,0,1,2.9,Binus Kemanggisan,3.9,4.3,29,124
+KOS-0649,Kos Tambora 649,Jakarta Barat,Tambora,2450000,Putra,12,1,1,1,1,0,0,0,0,1.2,Binus Kemanggisan,0.7,4.9,15,126
+KOS-0650,Kos Kembangan 650,Jakarta Barat,Kembangan,2450000,Putri,9,1,1,1,1,1,1,0,0,5.0,Universitas Tarumanagara,1.1,4.2,29,196
+KOS-0651,Kos Taman Sari 651,Jakarta Barat,Taman Sari,2050000,Putri,15,1,0,1,0,0,0,1,1,4.5,Binus Kemanggisan,3.8,3.9,27,141
+KOS-0652,Kos Cengkareng 652,Jakarta Barat,Cengkareng,2400000,Putra,12,1,1,1,0,1,0,0,1,3.2,Binus Kemanggisan,4.7,4.5,10,120
+KOS-0653,Kos Palmerah 653,Jakarta Barat,Palmerah,2450000,Putra,12,0,1,1,0,1,1,1,1,3.0,Trisakti,0.5,4.5,14,177
+KOS-0654,Kos Kembangan 654,Jakarta Barat,Kembangan,2450000,Putri,9,1,1,1,0,1,0,0,0,10.0,Trisakti,1.7,4.0,26,36
+KOS-0655,Kos Grogol Petamburan 655,Jakarta Barat,Grogol Petamburan,2350000,Putri,15,1,0,1,0,0,0,1,0,4.1,Binus Kemanggisan,0.9,4.5,17,166
+KOS-0656,Kos Grogol Petamburan 656,Jakarta Barat,Grogol Petamburan,2600000,Campur,9,1,1,0,1,1,1,1,0,4.2,Binus Kemanggisan,4.3,4.4,28,30
+KOS-0657,Kos Kebon Jeruk 657,Jakarta Barat,Kebon Jeruk,2150000,Campur,9,0,1,1,0,1,0,1,1,7.4,Binus Kemanggisan,4.1,4.3,22,121
+KOS-0658,Kos Kembangan 658,Jakarta Barat,Kembangan,1950000,Putra,12,0,1,1,0,1,0,1,0,1.5,Binus Kemanggisan,3.8,3.6,11,162
+KOS-0659,Kos Palmerah 659,Jakarta Barat,Palmerah,2350000,Putri,12,0,1,1,0,1,0,0,0,2.8,Universitas Tarumanagara,1.8,4.3,25,154
+KOS-0660,Kos Tambora 660,Jakarta Barat,Tambora,2700000,Putra,12,1,1,1,0,0,1,0,1,1.0,Trisakti,3.6,4.9,7,153
+KOS-0661,Kos Palmerah 661,Jakarta Barat,Palmerah,1300000,Campur,9,1,0,1,1,0,1,0,0,5.7,Trisakti,1.5,3.7,17,36
+KOS-0662,Kos Kebon Jeruk 662,Jakarta Barat,Kebon Jeruk,2700000,Putri,15,1,1,1,1,1,1,0,0,5.1,Trisakti,2.1,4.2,15,78
+KOS-0663,Kos Taman Sari 663,Jakarta Barat,Taman Sari,2500000,Putri,12,1,1,1,0,0,0,0,1,1.0,Binus Kemanggisan,1.0,4.1,25,62
+KOS-0664,Kos Kebon Jeruk 664,Jakarta Barat,Kebon Jeruk,1900000,Putri,24,0,0,1,1,1,0,0,1,4.3,Universitas Tarumanagara,2.2,4.4,12,129
+KOS-0665,Kos Grogol Petamburan 665,Jakarta Barat,Grogol Petamburan,2350000,Putri,15,1,0,1,0,1,0,1,0,2.1,Binus Kemanggisan,1.6,3.6,23,31
+KOS-0666,Kos Kalideres 666,Jakarta Barat,Kalideres,2700000,Putra,9,1,1,1,1,1,0,0,1,2.4,Universitas Tarumanagara,0.3,4.1,17,125
+KOS-0667,Kos Taman Sari 667,Jakarta Barat,Taman Sari,1550000,Campur,9,0,1,1,0,1,1,0,0,8.3,Universitas Tarumanagara,2.9,4.2,25,22
+KOS-0668,Kos Cengkareng 668,Jakarta Barat,Cengkareng,3000000,Putra,24,1,0,1,1,1,0,1,1,0.9,Universitas Tarumanagara,1.0,4.8,21,36
+KOS-0669,Kos Kembangan 669,Jakarta Barat,Kembangan,2550000,Putra,18,1,1,1,1,1,0,1,1,8.8,Universitas Tarumanagara,3.3,4.6,19,111
+KOS-0670,Kos Cengkareng 670,Jakarta Barat,Cengkareng,2350000,Putri,9,1,1,0,0,1,0,0,0,3.4,Universitas Tarumanagara,4.9,3.6,16,152
+KOS-0671,Kos Kembangan 671,Jakarta Barat,Kembangan,2300000,Putri,9,1,0,1,1,1,1,0,1,6.9,Universitas Tarumanagara,5.0,3.9,18,8
+KOS-0672,Kos Kalideres 672,Jakarta Barat,Kalideres,1500000,Putra,9,0,1,0,0,0,1,1,0,5.4,Trisakti,2.9,4.0,20,40
+KOS-0673,Kos Tambora 673,Jakarta Barat,Tambora,1850000,Campur,15,1,1,1,0,1,0,0,1,9.2,Universitas Tarumanagara,2.8,4.7,22,157
+KOS-0674,Kos Tambora 674,Jakarta Barat,Tambora,2850000,Putra,24,0,1,1,1,1,0,1,1,3.2,Trisakti,4.5,4.3,17,74
+KOS-0675,Kos Kalideres 675,Jakarta Barat,Kalideres,1950000,Putra,15,1,1,0,1,1,1,0,0,6.5,Binus Kemanggisan,4.9,4.4,29,191
+KOS-0676,Kos Kebon Jeruk 676,Jakarta Barat,Kebon Jeruk,1950000,Campur,24,1,0,0,0,1,0,0,0,9.6,Universitas Tarumanagara,2.3,4.0,7,59
+KOS-0677,Kos Kebon Jeruk 677,Jakarta Barat,Kebon Jeruk,2200000,Putri,12,1,0,0,1,1,0,0,1,7.2,Universitas Tarumanagara,3.8,4.1,18,153
+KOS-0678,Kos Palmerah 678,Jakarta Barat,Palmerah,2300000,Campur,9,0,1,1,1,1,1,0,1,1.4,Binus Kemanggisan,4.9,3.5,28,140
+KOS-0679,Kos Taman Sari 679,Jakarta Barat,Taman Sari,1800000,Putri,9,0,1,1,0,0,0,0,1,5.1,Binus Kemanggisan,0.6,4.8,24,109
+KOS-0680,Kos Tambora 680,Jakarta Barat,Tambora,1650000,Campur,12,0,0,0,0,1,0,0,1,1.3,Universitas Tarumanagara,3.6,3.7,27,72
+KOS-0681,Kos Palmerah 681,Jakarta Barat,Palmerah,2200000,Putri,15,1,1,1,0,0,1,0,0,2.0,Universitas Tarumanagara,4.3,4.2,13,123
+KOS-0682,Kos Tambora 682,Jakarta Barat,Tambora,1650000,Putra,15,0,1,1,0,1,1,0,0,8.5,Trisakti,3.6,5.0,11,34
+KOS-0683,Kos Kalideres 683,Jakarta Barat,Kalideres,2050000,Campur,12,1,1,0,0,1,0,1,1,9.8,Universitas Tarumanagara,4.8,4.8,13,141
+KOS-0684,Kos Tambora 684,Jakarta Barat,Tambora,2350000,Putri,15,0,1,1,0,1,1,1,0,0.7,Universitas Tarumanagara,2.0,4.9,28,176
+KOS-0685,Kos Taman Sari 685,Jakarta Barat,Taman Sari,2500000,Putri,15,0,0,1,1,1,0,0,1,0.7,Universitas Tarumanagara,3.1,4.5,14,67
+KOS-0686,Kos Taman Sari 686,Jakarta Barat,Taman Sari,1950000,Putra,12,1,1,1,1,1,0,0,0,2.5,Binus Kemanggisan,1.2,3.5,15,124
+KOS-0687,Kos Kalideres 687,Jakarta Barat,Kalideres,2400000,Putri,12,1,1,0,0,0,0,1,1,6.9,Trisakti,0.4,4.0,28,96
+KOS-0688,Kos Palmerah 688,Jakarta Barat,Palmerah,1850000,Campur,12,0,1,1,1,1,1,0,1,3.7,Universitas Tarumanagara,4.5,3.7,22,146
+KOS-0689,Kos Tambora 689,Jakarta Barat,Tambora,2300000,Campur,15,1,1,1,1,1,1,1,1,9.0,Binus Kemanggisan,1.3,4.1,18,122
+KOS-0690,Kos Palmerah 690,Jakarta Barat,Palmerah,2050000,Putri,15,1,1,1,0,1,0,1,1,3.1,Universitas Tarumanagara,1.5,4.0,14,69
+KOS-0691,Kos Grogol Petamburan 691,Jakarta Barat,Grogol Petamburan,2100000,Putra,9,1,1,1,1,0,0,0,0,2.9,Universitas Tarumanagara,2.3,4.5,12,32
+KOS-0692,Kos Taman Sari 692,Jakarta Barat,Taman Sari,2450000,Putri,12,1,1,1,1,1,1,0,1,0.5,Universitas Tarumanagara,2.3,3.6,28,63
+KOS-0693,Kos Cengkareng 693,Jakarta Barat,Cengkareng,2450000,Putri,18,1,0,1,1,1,1,0,1,9.3,Trisakti,3.3,4.9,29,138
+KOS-0694,Kos Kebon Jeruk 694,Jakarta Barat,Kebon Jeruk,2600000,Putri,9,0,1,1,1,1,0,1,1,6.8,Universitas Tarumanagara,4.9,4.9,23,35
+KOS-0695,Kos Taman Sari 695,Jakarta Barat,Taman Sari,2500000,Putra,9,1,1,1,1,1,0,0,0,1.2,Universitas Tarumanagara,1.1,4.2,12,44
+KOS-0696,Kos Kebon Jeruk 696,Jakarta Barat,Kebon Jeruk,2400000,Putri,12,1,0,1,0,1,0,0,1,7.7,Universitas Tarumanagara,0.4,4.5,13,131
+KOS-0697,Kos Tambora 697,Jakarta Barat,Tambora,2200000,Putri,12,0,0,1,1,1,1,1,1,3.5,Binus Kemanggisan,2.9,5.0,25,78
+KOS-0698,Kos Palmerah 698,Jakarta Barat,Palmerah,2100000,Putra,20,0,1,1,0,1,1,0,1,7.2,Binus Kemanggisan,1.8,4.4,15,116
+KOS-0699,Kos Palmerah 699,Jakarta Barat,Palmerah,2600000,Putri,18,0,1,1,1,0,0,1,0,4.3,Universitas Tarumanagara,3.2,5.0,19,22
+KOS-0700,Kos Palmerah 700,Jakarta Barat,Palmerah,2300000,Putri,24,0,0,1,1,1,1,1,0,2.1,Binus Kemanggisan,3.7,4.0,9,137
+KOS-0701,Kos Palmerah 701,Jakarta Barat,Palmerah,2350000,Putra,9,1,1,1,1,1,1,0,1,6.0,Trisakti,3.6,3.7,19,186
+KOS-0702,Kos Kembangan 702,Jakarta Barat,Kembangan,2300000,Campur,20,0,1,1,0,1,0,1,0,8.7,Universitas Tarumanagara,0.5,3.5,16,123
+KOS-0703,Kos Palmerah 703,Jakarta Barat,Palmerah,1700000,Putri,15,1,0,1,1,0,1,1,0,3.7,Universitas Tarumanagara,3.2,3.7,28,109
+KOS-0704,Kos Kebon Jeruk 704,Jakarta Barat,Kebon Jeruk,1750000,Putra,15,0,1,0,0,1,0,1,1,5.5,Trisakti,4.5,4.3,10,60
+KOS-0705,Kos Kebon Jeruk 705,Jakarta Barat,Kebon Jeruk,1650000,Putra,12,0,1,1,1,1,1,0,1,6.1,Binus Kemanggisan,3.7,4.3,21,123
+KOS-0706,Kos Kebon Jeruk 706,Jakarta Barat,Kebon Jeruk,1800000,Putri,9,1,1,0,0,1,1,0,0,4.2,Universitas Tarumanagara,2.1,4.8,5,150
+KOS-0707,Kos Cengkareng 707,Jakarta Barat,Cengkareng,2150000,Putri,18,1,1,1,1,0,0,0,1,6.7,Binus Kemanggisan,1.1,3.5,8,147
+KOS-0708,Kos Kembangan 708,Jakarta Barat,Kembangan,1750000,Putra,12,1,0,1,1,1,1,0,0,10.0,Universitas Tarumanagara,3.5,4.7,26,182
+KOS-0709,Kos Tambora 709,Jakarta Barat,Tambora,2050000,Putri,15,1,0,0,1,1,1,1,1,4.6,Universitas Tarumanagara,3.1,4.6,27,98
+KOS-0710,Kos Palmerah 710,Jakarta Barat,Palmerah,2400000,Putri,12,0,1,1,1,1,0,0,1,4.1,Binus Kemanggisan,0.3,4.4,6,30
+KOS-0711,Kos Kebon Jeruk 711,Jakarta Barat,Kebon Jeruk,1900000,Putri,18,1,0,1,1,0,1,1,0,5.4,Trisakti,3.6,4.5,6,20
+KOS-0712,Kos Taman Sari 712,Jakarta Barat,Taman Sari,2600000,Putri,24,0,1,1,0,1,0,0,0,7.9,Trisakti,0.5,4.8,19,87
+KOS-0713,Kos Palmerah 713,Jakarta Barat,Palmerah,2150000,Putri,9,1,0,1,0,0,1,0,0,3.5,Universitas Tarumanagara,0.9,4.6,19,187
+KOS-0714,Kos Palmerah 714,Jakarta Barat,Palmerah,2500000,Campur,12,1,1,1,0,0,1,0,1,1.8,Universitas Tarumanagara,1.6,4.3,15,129
+KOS-0715,Kos Palmerah 715,Jakarta Barat,Palmerah,2500000,Putra,20,0,1,1,0,1,1,0,1,1.7,Binus Kemanggisan,3.4,4.0,13,49
+KOS-0716,Kos Cengkareng 716,Jakarta Barat,Cengkareng,2050000,Putra,9,1,0,0,1,1,1,1,0,7.8,Trisakti,4.8,4.5,22,86
+KOS-0717,Kos Kebon Jeruk 717,Jakarta Barat,Kebon Jeruk,2350000,Putra,12,0,1,1,1,1,0,0,0,5.5,Trisakti,3.1,3.7,7,12
+KOS-0718,Kos Kalideres 718,Jakarta Barat,Kalideres,1950000,Campur,20,0,1,1,0,0,0,0,1,2.4,Universitas Tarumanagara,1.7,4.9,13,76
+KOS-0719,Kos Tanjung Priok 719,Jakarta Utara,Tanjung Priok,2000000,Putri,24,1,0,0,0,0,1,0,1,3.1,STIE Indonesia Jakarta,1.0,4.5,22,177
+KOS-0720,Kos Pademangan 720,Jakarta Utara,Pademangan,2150000,Putri,15,1,0,1,0,0,0,1,0,3.0,STIE Indonesia Jakarta,3.1,4.2,24,193
+KOS-0721,Kos Tanjung Priok 721,Jakarta Utara,Tanjung Priok,1550000,Putri,9,1,0,0,0,0,0,0,0,7.8,Universitas Jayabaya,3.8,4.6,11,138
+KOS-0722,Kos Penjaringan 722,Jakarta Utara,Penjaringan,2900000,Campur,15,1,1,0,1,1,0,1,1,6.3,STIE Indonesia Jakarta,0.9,3.7,29,79
+KOS-0723,Kos Pademangan 723,Jakarta Utara,Pademangan,1650000,Putra,9,1,1,0,1,0,1,0,0,6.8,STIE Indonesia Jakarta,2.8,3.6,21,147
+KOS-0724,Kos Pademangan 724,Jakarta Utara,Pademangan,2200000,Putra,12,1,1,0,0,0,0,1,0,2.6,STIE Indonesia Jakarta,2.1,4.9,6,119
+KOS-0725,Kos Pademangan 725,Jakarta Utara,Pademangan,1900000,Putri,12,1,1,0,0,0,0,1,0,1.4,STIE Indonesia Jakarta,1.7,4.7,5,167
+KOS-0726,Kos Kelapa Gading 726,Jakarta Utara,Kelapa Gading,2600000,Putri,15,1,1,1,1,0,0,0,1,7.7,Universitas Jayabaya,2.8,3.9,6,75
+KOS-0727,Kos Penjaringan 727,Jakarta Utara,Penjaringan,2100000,Putri,15,1,0,1,0,1,0,1,1,9.0,Universitas Jayabaya,0.9,4.7,23,18
+KOS-0728,Kos Tanjung Priok 728,Jakarta Utara,Tanjung Priok,1900000,Campur,12,1,0,1,0,1,1,0,1,6.9,STIE Indonesia Jakarta,2.3,4.5,9,188
+KOS-0729,Kos Cilincing 729,Jakarta Utara,Cilincing,2450000,Putra,9,1,0,1,0,1,0,0,0,1.5,STIE Indonesia Jakarta,4.0,4.3,26,27
+KOS-0730,Kos Penjaringan 730,Jakarta Utara,Penjaringan,1800000,Campur,9,0,1,1,0,0,1,0,0,6.4,Universitas Jayabaya,2.2,4.5,23,64
+KOS-0731,Kos Cilincing 731,Jakarta Utara,Cilincing,2750000,Putra,12,1,1,1,0,1,0,1,1,2.6,Universitas Jayabaya,2.2,4.0,10,175
+KOS-0732,Kos Cilincing 732,Jakarta Utara,Cilincing,2350000,Putra,9,1,0,1,1,1,0,0,1,6.1,Universitas Jayabaya,3.4,4.1,16,35
+KOS-0733,Kos Kelapa Gading 733,Jakarta Utara,Kelapa Gading,2800000,Putra,9,1,1,1,0,1,1,0,1,3.7,STIE Indonesia Jakarta,1.7,4.5,14,59
+KOS-0734,Kos Koja 734,Jakarta Utara,Koja,1950000,Putra,9,1,0,0,0,1,1,0,1,8.6,STIE Indonesia Jakarta,4.3,4.7,12,184
+KOS-0735,Kos Penjaringan 735,Jakarta Utara,Penjaringan,2300000,Campur,15,1,0,1,1,0,1,0,1,6.6,Universitas Jayabaya,3.6,4.4,18,88
+KOS-0736,Kos Tanjung Priok 736,Jakarta Utara,Tanjung Priok,2550000,Putri,9,1,1,1,1,1,0,0,0,5.5,Universitas Jayabaya,4.5,4.5,16,109
+KOS-0737,Kos Tanjung Priok 737,Jakarta Utara,Tanjung Priok,1850000,Putri,15,1,0,1,0,1,1,0,0,9.7,STIE Indonesia Jakarta,4.5,3.5,12,100
+KOS-0738,Kos Kelapa Gading 738,Jakarta Utara,Kelapa Gading,2200000,Campur,18,0,0,1,0,1,1,0,1,3.6,Universitas Jayabaya,4.9,3.6,7,34
+KOS-0739,Kos Pademangan 739,Jakarta Utara,Pademangan,1450000,Putra,15,0,0,1,1,0,0,1,0,5.7,STIE Indonesia Jakarta,4.2,4.9,23,8
+KOS-0740,Kos Koja 740,Jakarta Utara,Koja,2400000,Campur,24,1,0,1,0,1,0,0,1,2.0,STIE Indonesia Jakarta,1.1,4.6,17,25
+KOS-0741,Kos Penjaringan 741,Jakarta Utara,Penjaringan,2600000,Putri,12,1,1,1,0,1,0,1,1,0.5,Universitas Jayabaya,0.4,3.9,14,133
+KOS-0742,Kos Cilincing 742,Jakarta Utara,Cilincing,2600000,Putri,24,0,0,1,1,1,1,0,1,4.0,STIE Indonesia Jakarta,1.2,4.8,10,132
+KOS-0743,Kos Cilincing 743,Jakarta Utara,Cilincing,1950000,Putra,12,0,1,1,0,0,0,1,0,4.5,STIE Indonesia Jakarta,1.0,5.0,25,19
+KOS-0744,Kos Cilincing 744,Jakarta Utara,Cilincing,2850000,Putri,18,1,1,1,0,1,0,0,1,6.7,STIE Indonesia Jakarta,4.2,3.8,19,180
+KOS-0745,Kos Kelapa Gading 745,Jakarta Utara,Kelapa Gading,1750000,Putra,20,0,0,1,1,1,0,0,0,10.0,STIE Indonesia Jakarta,1.0,4.2,8,198
+KOS-0746,Kos Koja 746,Jakarta Utara,Koja,2450000,Putra,12,0,1,1,1,1,1,1,0,1.4,STIE Indonesia Jakarta,2.3,4.0,8,172
+KOS-0747,Kos Tanjung Priok 747,Jakarta Utara,Tanjung Priok,2350000,Putri,20,1,0,1,1,1,0,0,1,8.6,STIE Indonesia Jakarta,2.0,3.9,5,72
+KOS-0748,Kos Cilincing 748,Jakarta Utara,Cilincing,2750000,Putri,12,1,1,1,0,1,0,1,1,2.0,Universitas Jayabaya,2.0,4.7,16,21
+KOS-0749,Kos Cilincing 749,Jakarta Utara,Cilincing,1950000,Putri,9,0,0,0,0,1,0,0,1,3.5,STIE Indonesia Jakarta,0.4,4.3,17,123
+KOS-0750,Kos Tanjung Priok 750,Jakarta Utara,Tanjung Priok,2550000,Putra,12,1,1,1,0,1,1,0,1,5.9,Universitas Jayabaya,4.4,3.6,21,42
+KOS-0751,Kos Cilincing 751,Jakarta Utara,Cilincing,2750000,Putri,12,1,1,1,0,1,0,1,1,2.3,Universitas Jayabaya,0.2,4.7,19,23
+KOS-0752,Kos Koja 752,Jakarta Utara,Koja,2300000,Putri,9,0,1,1,0,0,1,0,0,2.4,STIE Indonesia Jakarta,4.7,3.9,14,142
+KOS-0753,Kos Penjaringan 753,Jakarta Utara,Penjaringan,1850000,Campur,9,1,0,1,1,0,0,0,1,6.9,Universitas Jayabaya,4.7,5.0,21,193
+KOS-0754,Kos Tanjung Priok 754,Jakarta Utara,Tanjung Priok,2100000,Putri,12,0,0,1,0,1,1,0,0,9.9,STIE Indonesia Jakarta,2.3,4.8,27,182
+KOS-0755,Kos Koja 755,Jakarta Utara,Koja,2450000,Putri,24,0,1,0,0,0,0,0,0,4.6,Universitas Jayabaya,3.3,4.1,7,78
+KOS-0756,Kos Pademangan 756,Jakarta Utara,Pademangan,2450000,Campur,18,1,1,1,1,0,1,0,1,4.3,STIE Indonesia Jakarta,1.6,3.7,27,62
+KOS-0757,Kos Penjaringan 757,Jakarta Utara,Penjaringan,2400000,Campur,15,0,1,1,0,0,0,0,1,6.5,STIE Indonesia Jakarta,2.8,4.3,25,89
+KOS-0758,Kos Koja 758,Jakarta Utara,Koja,2050000,Putri,20,0,0,1,0,1,1,0,0,3.8,STIE Indonesia Jakarta,1.8,4.5,12,83
+KOS-0759,Kos Kelapa Gading 759,Jakarta Utara,Kelapa Gading,2850000,Putri,18,1,1,1,0,1,1,0,0,0.9,STIE Indonesia Jakarta,1.7,4.2,23,100
+KOS-0760,Kos Penjaringan 760,Jakarta Utara,Penjaringan,2250000,Putra,24,1,1,1,0,1,1,0,1,8.8,STIE Indonesia Jakarta,1.6,4.0,6,72
+KOS-0761,Kos Kelapa Gading 761,Jakarta Utara,Kelapa Gading,2700000,Campur,9,1,1,0,1,1,0,1,1,8.2,STIE Indonesia Jakarta,1.1,4.0,6,68
+KOS-0762,Kos Pademangan 762,Jakarta Utara,Pademangan,2500000,Putri,12,0,1,1,1,1,1,0,1,5.8,Universitas Jayabaya,4.7,4.7,12,173
+KOS-0763,Kos Pademangan 763,Jakarta Utara,Pademangan,2350000,Campur,12,1,0,1,1,1,0,0,1,9.5,STIE Indonesia Jakarta,3.3,3.8,9,127
+KOS-0764,Kos Kelapa Gading 764,Jakarta Utara,Kelapa Gading,2200000,Putra,15,1,1,1,0,1,1,1,1,3.0,Universitas Jayabaya,1.8,3.9,25,154
+KOS-0765,Kos Cilincing 765,Jakarta Utara,Cilincing,2400000,Putri,9,1,0,1,1,1,0,1,1,8.9,STIE Indonesia Jakarta,2.1,3.8,11,171
+KOS-0766,Kos Tanjung Priok 766,Jakarta Utara,Tanjung Priok,2000000,Putra,12,0,1,1,0,0,1,0,1,7.7,STIE Indonesia Jakarta,3.4,4.8,29,96
+KOS-0767,Kos Cilincing 767,Jakarta Utara,Cilincing,2900000,Putra,15,1,1,1,0,1,0,1,1,0.8,Universitas Jayabaya,4.9,3.7,18,196
+KOS-0768,Kos Tanjung Priok 768,Jakarta Utara,Tanjung Priok,2500000,Campur,20,1,1,1,1,1,0,0,1,7.2,Universitas Jayabaya,1.4,4.5,18,70
+KOS-0769,Kos Pademangan 769,Jakarta Utara,Pademangan,2500000,Putri,9,1,1,1,0,1,0,0,0,9.4,STIE Indonesia Jakarta,4.8,4.9,14,180
+KOS-0770,Kos Pademangan 770,Jakarta Utara,Pademangan,2700000,Putra,24,1,1,0,1,0,0,1,1,9.8,STIE Indonesia Jakarta,1.1,4.1,11,125
+KOS-0771,Kos Cilincing 771,Jakarta Utara,Cilincing,1800000,Putra,12,1,0,1,0,1,0,0,1,5.6,Universitas Jayabaya,4.1,4.1,17,160
+KOS-0772,Kos Koja 772,Jakarta Utara,Koja,2150000,Putri,24,1,0,1,1,1,0,0,0,8.6,STIE Indonesia Jakarta,0.9,4.3,27,127
+KOS-0773,Kos Koja 773,Jakarta Utara,Koja,1850000,Putra,9,1,1,1,1,0,0,0,1,9.5,STIE Indonesia Jakarta,1.0,3.9,16,91
+KOS-0774,Kos Penjaringan 774,Jakarta Utara,Penjaringan,2550000,Putri,12,1,1,1,0,0,1,0,0,0.7,Universitas Jayabaya,0.9,3.8,13,148
+KOS-0775,Kos Kelapa Gading 775,Jakarta Utara,Kelapa Gading,2600000,Putra,9,1,1,1,1,1,1,0,0,8.6,STIE Indonesia Jakarta,3.0,4.5,28,44
+KOS-0776,Kos Koja 776,Jakarta Utara,Koja,2000000,Putri,15,1,0,0,0,1,1,1,1,7.0,STIE Indonesia Jakarta,2.7,4.3,6,194
+KOS-0777,Kos Pademangan 777,Jakarta Utara,Pademangan,2350000,Putri,12,1,1,1,1,0,1,0,1,7.4,Universitas Jayabaya,2.0,3.8,26,72
+KOS-0778,Kos Cilincing 778,Jakarta Utara,Cilincing,1950000,Campur,20,0,1,1,0,0,1,1,1,8.1,STIE Indonesia Jakarta,3.2,3.6,23,134
+KOS-0779,Kos Tanjung Priok 779,Jakarta Utara,Tanjung Priok,2700000,Putri,18,1,0,1,0,0,0,0,1,4.8,STIE Indonesia Jakarta,1.9,4.2,10,181
+KOS-0780,Kos Kelapa Gading 780,Jakarta Utara,Kelapa Gading,1700000,Putri,9,0,0,1,1,1,0,0,0,9.8,Universitas Jayabaya,4.0,4.7,17,69
+KOS-0781,Kos Tanjung Priok 781,Jakarta Utara,Tanjung Priok,2250000,Putra,20,0,1,1,0,0,0,1,0,9.6,Universitas Jayabaya,5.0,3.8,28,65
+KOS-0782,Kos Cilincing 782,Jakarta Utara,Cilincing,1900000,Putra,9,1,1,1,0,1,1,0,1,6.7,STIE Indonesia Jakarta,3.3,5.0,17,32
+KOS-0783,Kos Tanjung Priok 783,Jakarta Utara,Tanjung Priok,1700000,Putra,12,0,0,1,0,0,0,0,1,0.6,Universitas Jayabaya,2.5,4.7,10,44
+KOS-0784,Kos Cilincing 784,Jakarta Utara,Cilincing,2550000,Putri,12,1,0,1,1,1,1,1,1,8.0,STIE Indonesia Jakarta,3.5,4.0,22,180
+KOS-0785,Kos Penjaringan 785,Jakarta Utara,Penjaringan,2800000,Putra,15,1,1,1,1,0,1,1,1,2.4,Universitas Jayabaya,1.5,4.4,9,116
+KOS-0786,Kos Cilincing 786,Jakarta Utara,Cilincing,2100000,Campur,12,0,1,1,1,1,0,0,0,4.5,Universitas Jayabaya,4.3,3.7,23,22
+KOS-0787,Kos Cilincing 787,Jakarta Utara,Cilincing,2100000,Campur,9,1,1,1,0,0,0,0,0,8.3,STIE Indonesia Jakarta,2.7,4.1,27,31
+KOS-0788,Kos Penjaringan 788,Jakarta Utara,Penjaringan,2700000,Campur,9,1,0,0,1,1,0,0,1,1.8,Universitas Jayabaya,4.1,3.8,29,59
+KOS-0789,Kos Tanjung Priok 789,Jakarta Utara,Tanjung Priok,1800000,Campur,9,0,0,1,1,1,1,1,1,3.6,STIE Indonesia Jakarta,2.6,3.6,17,108
+KOS-0790,Kos Kelapa Gading 790,Jakarta Utara,Kelapa Gading,2450000,Putri,12,1,1,1,0,1,0,0,1,6.7,Universitas Jayabaya,0.7,4.5,10,82
+KOS-0791,Kos Cilincing 791,Jakarta Utara,Cilincing,2550000,Campur,9,1,1,1,1,1,1,0,0,2.9,Universitas Jayabaya,4.1,4.3,12,6
+KOS-0792,Kos Penjaringan 792,Jakarta Utara,Penjaringan,2350000,Putri,18,0,1,1,1,0,0,1,1,7.5,Universitas Jayabaya,4.6,3.6,21,118
+KOS-0793,Kos Kelapa Gading 793,Jakarta Utara,Kelapa Gading,2250000,Putra,24,1,0,0,0,1,0,0,1,6.4,Universitas Jayabaya,1.1,4.1,22,63
+KOS-0794,Kos Kelapa Gading 794,Jakarta Utara,Kelapa Gading,2250000,Campur,24,0,0,1,0,1,0,0,1,7.7,Universitas Jayabaya,4.9,4.6,13,45
+KOS-0795,Kos Kelapa Gading 795,Jakarta Utara,Kelapa Gading,2850000,Putri,15,1,1,1,1,1,0,0,0,7.0,Universitas Jayabaya,0.3,4.6,22,119
+KOS-0796,Kos Pademangan 796,Jakarta Utara,Pademangan,2050000,Putri,15,1,1,0,1,0,0,0,1,7.0,STIE Indonesia Jakarta,4.2,4.4,25,170
+KOS-0797,Kos Tanjung Priok 797,Jakarta Utara,Tanjung Priok,1400000,Putri,9,0,0,1,0,1,0,0,1,6.2,Universitas Jayabaya,1.2,4.9,17,150
+KOS-0798,Kos Kelapa Gading 798,Jakarta Utara,Kelapa Gading,2350000,Putri,15,1,1,1,0,0,0,0,1,6.0,Universitas Jayabaya,1.0,4.2,14,178
+KOS-0799,Kos Penjaringan 799,Jakarta Utara,Penjaringan,2750000,Putri,18,1,1,1,0,0,0,0,1,2.0,Universitas Jayabaya,0.3,4.3,26,77
+KOS-0800,Kos Cilincing 800,Jakarta Utara,Cilincing,2350000,Putri,9,0,1,0,1,1,1,0,0,0.7,STIE Indonesia Jakarta,2.9,3.7,11,126
+KOS-0801,Kos Pademangan 801,Jakarta Utara,Pademangan,1900000,Putri,9,1,1,1,1,0,0,0,0,8.7,Universitas Jayabaya,3.1,4.0,13,152
+KOS-0802,Kos Tanjung Priok 802,Jakarta Utara,Tanjung Priok,2950000,Putri,9,1,1,1,0,1,1,0,1,2.2,STIE Indonesia Jakarta,0.4,4.0,12,50
+KOS-0803,Kos Tanjung Priok 803,Jakarta Utara,Tanjung Priok,2500000,Putra,15,1,1,1,0,1,0,1,0,0.6,STIE Indonesia Jakarta,1.6,4.0,15,153
+KOS-0804,Kos Koja 804,Jakarta Utara,Koja,2400000,Putra,12,0,1,0,1,0,0,0,0,5.4,Universitas Jayabaya,0.8,4.2,19,136
+KOS-0805,Kos Cilincing 805,Jakarta Utara,Cilincing,2150000,Putri,12,0,1,1,0,1,0,0,0,3.8,Universitas Jayabaya,3.6,4.3,20,175
+KOS-0806,Kos Kelapa Gading 806,Jakarta Utara,Kelapa Gading,2450000,Campur,18,1,1,1,0,0,0,1,0,6.8,Universitas Jayabaya,3.4,4.1,23,150
+KOS-0807,Kos Penjaringan 807,Jakarta Utara,Penjaringan,2850000,Putri,24,1,1,0,0,0,0,1,1,2.6,STIE Indonesia Jakarta,0.9,3.6,27,8
+KOS-0808,Kos Tanjung Priok 808,Jakarta Utara,Tanjung Priok,2250000,Putra,9,1,0,1,1,1,0,1,1,5.2,STIE Indonesia Jakarta,2.4,4.5,8,101
+KOS-0809,Kos Cilincing 809,Jakarta Utara,Cilincing,2300000,Putra,12,1,0,0,1,1,0,0,0,7.2,STIE Indonesia Jakarta,0.4,4.8,23,115
+KOS-0810,Kos Tanjung Priok 810,Jakarta Utara,Tanjung Priok,2750000,Putri,18,0,1,1,1,1,0,1,1,6.2,Universitas Jayabaya,3.5,4.0,25,35
+KOS-0811,Kos Tanjung Priok 811,Jakarta Utara,Tanjung Priok,1900000,Putra,20,1,0,1,1,0,1,1,1,8.9,STIE Indonesia Jakarta,1.4,4.5,11,29
+KOS-0812,Kos Koja 812,Jakarta Utara,Koja,2400000,Putra,9,0,1,1,1,1,1,0,1,4.6,Universitas Jayabaya,4.2,4.6,27,11
+KOS-0813,Kos Tanjung Priok 813,Jakarta Utara,Tanjung Priok,2150000,Putri,12,1,1,0,0,1,1,0,1,7.6,Universitas Jayabaya,1.4,3.5,13,92
+KOS-0814,Kos Pademangan 814,Jakarta Utara,Pademangan,2700000,Putri,9,1,1,1,1,1,1,0,0,1.2,Universitas Jayabaya,1.3,4.7,25,119
+KOS-0815,Kos Cilincing 815,Jakarta Utara,Cilincing,2450000,Putri,18,0,1,1,0,1,1,0,1,5.9,STIE Indonesia Jakarta,2.7,4.5,23,120
+KOS-0816,Kos Pademangan 816,Jakarta Utara,Pademangan,2000000,Campur,12,0,0,1,1,1,1,1,0,6.1,Universitas Jayabaya,2.8,4.2,5,199
+KOS-0817,Kos Cilincing 817,Jakarta Utara,Cilincing,2300000,Putri,15,1,1,0,0,1,0,1,1,6.1,Universitas Jayabaya,3.7,4.5,22,179
+KOS-0818,Kos Cilincing 818,Jakarta Utara,Cilincing,1300000,Campur,15,0,0,1,0,1,0,0,0,5.5,Universitas Jayabaya,4.7,4.6,25,164
+KOS-0819,Kos Cilincing 819,Jakarta Utara,Cilincing,1900000,Putri,9,1,0,0,1,1,0,1,1,6.8,Universitas Jayabaya,2.8,4.4,11,181
+KOS-0820,Kos Cilincing 820,Jakarta Utara,Cilincing,1700000,Campur,9,1,0,0,1,0,1,0,1,7.8,STIE Indonesia Jakarta,0.4,3.6,10,126
+KOS-0821,Kos Tanjung Priok 821,Jakarta Utara,Tanjung Priok,2150000,Putra,15,0,0,1,1,1,0,1,1,6.5,Universitas Jayabaya,3.7,3.8,13,19
+KOS-0822,Kos Kelapa Gading 822,Jakarta Utara,Kelapa Gading,1850000,Putra,12,1,1,0,0,1,0,0,1,3.8,STIE Indonesia Jakarta,3.2,4.1,15,157
+KOS-0823,Kos Koja 823,Jakarta Utara,Koja,2700000,Putri,24,1,1,0,1,1,0,1,1,8.9,STIE Indonesia Jakarta,1.0,4.1,25,70
+KOS-0824,Kos Kelapa Gading 824,Jakarta Utara,Kelapa Gading,2050000,Putra,12,0,1,1,1,1,0,0,1,9.1,STIE Indonesia Jakarta,3.0,5.0,14,192
+KOS-0825,Kos Pademangan 825,Jakarta Utara,Pademangan,1900000,Putra,15,1,0,1,0,1,1,0,0,9.9,STIE Indonesia Jakarta,4.6,3.9,25,192
+KOS-0826,Kos Cilincing 826,Jakarta Utara,Cilincing,1950000,Putri,20,0,0,1,0,1,0,0,1,1.0,STIE Indonesia Jakarta,2.7,4.8,11,23
+KOS-0827,Kos Penjaringan 827,Jakarta Utara,Penjaringan,3050000,Putri,24,1,1,1,0,0,0,0,1,4.6,Universitas Jayabaya,4.0,3.8,25,122
+KOS-0828,Kos Koja 828,Jakarta Utara,Koja,2300000,Putri,9,1,0,1,0,1,1,0,1,6.3,STIE Indonesia Jakarta,1.3,4.0,11,52
+KOS-0829,Kos Cilincing 829,Jakarta Utara,Cilincing,2600000,Putri,24,1,1,1,1,0,0,1,1,5.9,Universitas Jayabaya,2.3,4.1,28,99
+KOS-0830,Kos Pademangan 830,Jakarta Utara,Pademangan,2100000,Campur,12,1,1,0,1,1,1,0,0,8.6,Universitas Jayabaya,1.8,4.3,17,150
+KOS-0831,Kos Pademangan 831,Jakarta Utara,Pademangan,2200000,Putri,9,1,0,1,0,1,0,1,0,7.5,STIE Indonesia Jakarta,5.0,4.2,12,118
+KOS-0832,Kos Tanjung Priok 832,Jakarta Utara,Tanjung Priok,2000000,Campur,15,1,0,1,0,0,0,0,1,6.5,STIE Indonesia Jakarta,2.7,4.8,6,64
+KOS-0833,Kos Koja 833,Jakarta Utara,Koja,2400000,Putri,18,1,1,1,0,1,0,1,0,4.9,Universitas Jayabaya,2.7,4.5,21,36
+KOS-0834,Kos Cilincing 834,Jakarta Utara,Cilincing,2250000,Putri,12,1,0,1,1,0,0,0,1,7.8,Universitas Jayabaya,3.8,4.0,9,94
+KOS-0835,Kos Kelapa Gading 835,Jakarta Utara,Kelapa Gading,3000000,Putri,15,1,1,1,1,1,1,0,1,2.6,Universitas Jayabaya,4.9,4.0,17,116
+KOS-0836,Kos Tanjung Priok 836,Jakarta Utara,Tanjung Priok,1550000,Campur,9,0,1,1,0,1,0,0,0,5.8,Universitas Jayabaya,3.9,3.6,14,79
+KOS-0837,Kos Pademangan 837,Jakarta Utara,Pademangan,1850000,Campur,15,1,0,1,1,1,0,1,0,2.3,STIE Indonesia Jakarta,1.7,3.8,12,80
+KOS-0838,Kos Pademangan 838,Jakarta Utara,Pademangan,2300000,Campur,15,1,0,1,1,1,0,0,1,7.9,STIE Indonesia Jakarta,2.8,4.2,21,102
+KOS-0839,Kos Kelapa Gading 839,Jakarta Utara,Kelapa Gading,2100000,Campur,20,1,0,1,0,1,1,0,1,9.7,Universitas Jayabaya,0.8,4.3,18,140
+KOS-0840,Kos Cilincing 840,Jakarta Utara,Cilincing,2250000,Putri,12,1,0,1,1,1,0,0,1,1.5,Universitas Jayabaya,5.0,4.3,16,147
+KOS-0841,Kos Koja 841,Jakarta Utara,Koja,3000000,Putri,20,1,1,1,1,0,0,1,0,3.9,Universitas Jayabaya,2.4,3.6,11,146
+KOS-0842,Kos Penjaringan 842,Jakarta Utara,Penjaringan,2500000,Campur,24,1,1,1,1,0,0,0,1,8.9,Universitas Jayabaya,3.0,4.6,14,66
+KOS-0843,Kos Tanjung Priok 843,Jakarta Utara,Tanjung Priok,2650000,Putra,12,1,1,1,1,1,0,1,0,7.4,STIE Indonesia Jakarta,4.8,3.7,22,81
+KOS-0844,Kos Penjaringan 844,Jakarta Utara,Penjaringan,1800000,Putri,12,0,1,1,1,0,0,0,0,4.7,STIE Indonesia Jakarta,1.9,4.0,16,57
+KOS-0845,Kos Cilincing 845,Jakarta Utara,Cilincing,2350000,Putri,9,1,0,1,0,1,0,1,1,4.4,STIE Indonesia Jakarta,3.6,4.6,6,7
+KOS-0846,Kos Penjaringan 846,Jakarta Utara,Penjaringan,2400000,Putra,15,1,0,1,1,1,0,0,1,7.2,STIE Indonesia Jakarta,1.9,4.5,9,45
+KOS-0847,Kos Koja 847,Jakarta Utara,Koja,2100000,Putri,9,1,0,1,0,1,1,0,1,4.5,STIE Indonesia Jakarta,1.1,4.6,5,33
+KOS-0848,Kos Koja 848,Jakarta Utara,Koja,1900000,Putri,9,1,0,1,1,1,0,0,1,8.8,STIE Indonesia Jakarta,1.5,4.3,28,176
+KOS-0849,Kos Penjaringan 849,Jakarta Utara,Penjaringan,1850000,Putra,9,1,0,1,0,1,1,0,0,6.7,STIE Indonesia Jakarta,0.3,3.9,25,114
+KOS-0850,Kos Koja 850,Jakarta Utara,Koja,1500000,Putri,15,1,0,1,0,1,0,0,0,6.1,STIE Indonesia Jakarta,3.0,4.4,18,98
+KOS-0851,Kos Cilincing 851,Jakarta Utara,Cilincing,2200000,Campur,15,0,1,1,1,1,1,0,1,3.9,STIE Indonesia Jakarta,1.4,4.9,20,24
+KOS-0852,Kos Penjaringan 852,Jakarta Utara,Penjaringan,2100000,Putri,15,0,1,1,0,1,0,1,0,8.9,STIE Indonesia Jakarta,4.2,4.3,28,19
+KOS-0853,Kos Tanjung Priok 853,Jakarta Utara,Tanjung Priok,2250000,Putri,9,0,0,1,0,1,0,0,1,2.0,Universitas Jayabaya,0.4,3.8,10,194
+KOS-0854,Kos Cilincing 854,Jakarta Utara,Cilincing,2600000,Campur,20,1,1,1,1,1,1,1,1,6.0,STIE Indonesia Jakarta,1.3,4.5,7,58
+KOS-0855,Kos Pademangan 855,Jakarta Utara,Pademangan,2250000,Putri,12,0,1,1,1,0,0,0,0,2.4,STIE Indonesia Jakarta,0.5,4.2,8,101
+KOS-0856,Kos Tanjung Priok 856,Jakarta Utara,Tanjung Priok,2400000,Putri,12,1,1,1,1,1,0,1,0,3.1,Universitas Jayabaya,3.3,4.1,15,78
+KOS-0857,Kos Penjaringan 857,Jakarta Utara,Penjaringan,2200000,Putri,15,1,0,1,1,1,0,0,0,6.0,STIE Indonesia Jakarta,0.9,4.2,27,25
+KOS-0858,Kos Tanjung Priok 858,Jakarta Utara,Tanjung Priok,2500000,Putra,9,1,1,1,0,1,0,0,0,2.8,Universitas Jayabaya,0.7,4.4,21,32
+KOS-0859,Kos Kelapa Gading 859,Jakarta Utara,Kelapa Gading,2000000,Putri,12,1,0,1,1,0,0,0,0,4.1,Universitas Jayabaya,0.8,4.7,10,150
+KOS-0860,Kos Pademangan 860,Jakarta Utara,Pademangan,2250000,Putri,9,0,1,1,0,1,0,0,1,4.9,Universitas Jayabaya,0.5,4.8,7,198
+KOS-0861,Kos Koja 861,Jakarta Utara,Koja,2550000,Putri,18,1,1,1,0,1,0,0,1,1.5,STIE Indonesia Jakarta,1.7,3.7,18,117
+KOS-0862,Kos Koja 862,Jakarta Utara,Koja,2350000,Putri,9,1,1,1,0,0,1,1,0,0.8,Universitas Jayabaya,1.5,4.6,16,149
+KOS-0863,Kos Cilincing 863,Jakarta Utara,Cilincing,2850000,Campur,24,1,1,1,1,1,1,0,1,2.5,STIE Indonesia Jakarta,2.6,4.4,25,113
+KOS-0864,Kos Cilincing 864,Jakarta Utara,Cilincing,2500000,Putri,9,1,1,1,0,0,0,0,1,1.5,Universitas Jayabaya,3.8,4.6,20,52
+KOS-0865,Kos Kelapa Gading 865,Jakarta Utara,Kelapa Gading,2400000,Putri,12,1,0,0,0,1,0,0,1,2.5,Universitas Jayabaya,2.8,3.9,26,129
+KOS-0866,Kos Penjaringan 866,Jakarta Utara,Penjaringan,2550000,Putra,12,1,1,1,0,1,1,0,1,4.3,STIE Indonesia Jakarta,4.0,3.6,15,120
+KOS-0867,Kos Tanjung Priok 867,Jakarta Utara,Tanjung Priok,2250000,Putri,12,1,0,1,0,0,0,0,1,9.7,Universitas Jayabaya,2.4,4.9,20,164
+KOS-0868,Kos Tanjung Priok 868,Jakarta Utara,Tanjung Priok,2900000,Putri,24,1,1,1,0,1,1,1,1,9.0,Universitas Jayabaya,2.2,4.6,11,9
+KOS-0869,Kos Koja 869,Jakarta Utara,Koja,2400000,Campur,15,1,1,1,0,1,0,0,1,3.9,STIE Indonesia Jakarta,4.7,4.2,24,137
+KOS-0870,Kos Pademangan 870,Jakarta Utara,Pademangan,2100000,Campur,20,1,0,0,0,1,1,0,0,2.7,STIE Indonesia Jakarta,3.9,4.0,13,153
+KOS-0871,Kos Pademangan 871,Jakarta Utara,Pademangan,2400000,Campur,12,1,0,1,1,0,1,0,1,6.7,Universitas Jayabaya,2.1,3.9,8,184
+KOS-0872,Kos Cilincing 872,Jakarta Utara,Cilincing,2000000,Putri,12,1,0,1,0,1,1,1,0,4.6,STIE Indonesia Jakarta,1.8,3.8,15,136
+KOS-0873,Kos Penjaringan 873,Jakarta Utara,Penjaringan,2150000,Campur,24,1,0,1,0,1,1,0,0,0.7,Universitas Jayabaya,2.8,4.0,29,185
+KOS-0874,Kos Penjaringan 874,Jakarta Utara,Penjaringan,2950000,Putra,9,1,1,1,1,0,0,0,0,1.9,Universitas Jayabaya,0.9,3.8,14,151
+KOS-0875,Kos Pademangan 875,Jakarta Utara,Pademangan,2050000,Putri,12,1,0,1,0,1,1,0,0,5.6,STIE Indonesia Jakarta,2.5,5.0,7,38
+KOS-0876,Kos Cilincing 876,Jakarta Utara,Cilincing,2300000,Putri,12,0,1,0,0,1,0,1,1,9.3,Universitas Jayabaya,1.2,4.9,20,138
+KOS-0877,Kos Tanjung Priok 877,Jakarta Utara,Tanjung Priok,2500000,Putri,9,1,1,0,0,1,0,0,0,2.7,Universitas Jayabaya,2.1,3.8,7,6
+KOS-0878,Kos Tanjung Priok 878,Jakarta Utara,Tanjung Priok,1950000,Putra,9,1,1,1,0,1,0,0,0,5.8,Universitas Jayabaya,0.3,3.6,10,46
+KOS-0879,Kos Pademangan 879,Jakarta Utara,Pademangan,2850000,Putri,20,1,1,1,0,0,1,0,0,4.9,Universitas Jayabaya,0.4,4.8,12,20
+KOS-0880,Kos Tanjung Priok 880,Jakarta Utara,Tanjung Priok,2050000,Putra,12,0,1,0,1,0,0,0,1,3.5,STIE Indonesia Jakarta,2.3,3.9,21,122
+KOS-0881,Kos Penjaringan 881,Jakarta Utara,Penjaringan,2500000,Putri,9,0,1,1,0,1,0,0,1,8.4,Universitas Jayabaya,3.3,4.6,27,184
+KOS-0882,Kos Kelapa Gading 882,Jakarta Utara,Kelapa Gading,2550000,Putra,15,1,1,0,1,0,1,0,1,2.5,STIE Indonesia Jakarta,3.1,4.7,13,124
+KOS-0883,Kos Pademangan 883,Jakarta Utara,Pademangan,3050000,Putri,9,1,1,1,0,1,0,0,1,1.1,STIE Indonesia Jakarta,4.3,4.0,18,142
+KOS-0884,Kos Penjaringan 884,Jakarta Utara,Penjaringan,2700000,Putri,12,1,1,1,0,0,0,1,1,1.3,Universitas Jayabaya,0.5,4.4,13,192
+KOS-0885,Kos Tanjung Priok 885,Jakarta Utara,Tanjung Priok,1950000,Campur,15,0,1,1,0,1,0,1,1,4.8,STIE Indonesia Jakarta,1.2,4.3,11,124
+KOS-0886,Kos Cilincing 886,Jakarta Utara,Cilincing,2650000,Putri,9,0,1,1,0,1,0,1,1,2.1,Universitas Jayabaya,2.1,4.1,16,21
+KOS-0887,Kos Koja 887,Jakarta Utara,Koja,2400000,Putra,9,1,1,1,0,1,0,1,1,9.6,Universitas Jayabaya,3.7,4.8,7,17
+KOS-0888,Kos Pademangan 888,Jakarta Utara,Pademangan,2050000,Putri,18,1,0,1,0,1,0,1,0,9.8,Universitas Jayabaya,2.6,3.5,16,134
+KOS-0889,Kos Tanjung Priok 889,Jakarta Utara,Tanjung Priok,2300000,Putri,18,1,0,1,0,0,0,0,1,1.6,Universitas Jayabaya,0.6,4.6,22,177
+KOS-0890,Kos Penjaringan 890,Jakarta Utara,Penjaringan,2600000,Putri,12,1,1,1,1,1,1,1,1,4.6,Universitas Jayabaya,2.8,4.2,7,116
+KOS-0891,Kos Koja 891,Jakarta Utara,Koja,2000000,Putra,18,1,0,1,0,1,1,0,1,2.9,STIE Indonesia Jakarta,3.2,4.8,20,173
+KOS-0892,Kos Koja 892,Jakarta Utara,Koja,1700000,Putra,15,0,0,1,1,1,0,0,0,2.8,STIE Indonesia Jakarta,3.7,5.0,5,60
+KOS-0893,Kos Kelapa Gading 893,Jakarta Utara,Kelapa Gading,2650000,Putri,20,0,1,1,0,1,0,0,1,4.2,Universitas Jayabaya,2.1,4.1,11,140
+KOS-0894,Kos Penjaringan 894,Jakarta Utara,Penjaringan,2350000,Putri,9,0,1,0,0,1,0,1,1,3.2,STIE Indonesia Jakarta,3.2,3.9,28,15
+KOS-0895,Kos Tanjung Priok 895,Jakarta Utara,Tanjung Priok,2250000,Putri,20,1,0,1,0,1,1,0,1,1.5,Universitas Jayabaya,4.8,4.9,24,51
+KOS-0896,Kos Kelapa Gading 896,Jakarta Utara,Kelapa Gading,2650000,Putri,9,1,1,1,0,1,0,1,1,8.9,Universitas Jayabaya,2.8,4.6,7,50
+KOS-0897,Kos Koja 897,Jakarta Utara,Koja,2750000,Putra,12,1,1,1,0,1,0,0,1,4.3,Universitas Jayabaya,3.6,4.2,25,24
+KOS-0898,Kos Tanjung Priok 898,Jakarta Utara,Tanjung Priok,2200000,Putri,9,0,0,1,1,1,0,1,1,1.6,STIE Indonesia Jakarta,0.3,4.3,20,11
+KOS-0899,Kos Cilincing 899,Jakarta Utara,Cilincing,2000000,Campur,15,1,1,1,0,1,0,0,1,9.2,STIE Indonesia Jakarta,3.3,3.6,20,142
+KOS-0900,Kos Penjaringan 900,Jakarta Utara,Penjaringan,2800000,Putra,20,1,1,1,1,1,0,1,1,7.1,Universitas Jayabaya,1.3,4.5,21,152
+KOS-0901,Kos Kelapa Gading 901,Jakarta Utara,Kelapa Gading,2300000,Putra,12,1,1,0,1,0,1,1,0,7.5,STIE Indonesia Jakarta,1.9,4.6,22,116
+KOS-0902,Kos Penjaringan 902,Jakarta Utara,Penjaringan,2150000,Putra,12,0,0,0,1,1,0,0,0,3.0,Universitas Jayabaya,0.6,4.2,12,41
+KOS-0903,Kos Tanjung Priok 903,Jakarta Utara,Tanjung Priok,2550000,Putri,9,1,1,1,1,1,0,1,0,6.1,Universitas Jayabaya,3.7,4.2,18,134
+KOS-0904,Kos Pademangan 904,Jakarta Utara,Pademangan,2200000,Putra,24,0,1,1,0,1,0,0,1,6.1,Universitas Jayabaya,1.4,4.7,11,110
+KOS-0905,Kos Cilincing 905,Jakarta Utara,Cilincing,2200000,Putri,15,1,1,1,0,1,0,0,1,8.9,Universitas Jayabaya,4.0,3.9,18,17
+KOS-0906,Kos Kelapa Gading 906,Jakarta Utara,Kelapa Gading,2100000,Putri,12,1,0,0,0,1,0,0,1,1.7,STIE Indonesia Jakarta,2.7,5.0,22,140
+KOS-0907,Kos Pademangan 907,Jakarta Utara,Pademangan,1550000,Putra,12,1,0,0,1,0,0,1,1,6.1,Universitas Jayabaya,1.8,3.7,8,138
+KOS-0908,Kos Kelapa Gading 908,Jakarta Utara,Kelapa Gading,1700000,Putri,9,1,0,1,0,1,0,1,0,3.6,Universitas Jayabaya,4.5,3.5,13,88
+KOS-0909,Kos Penjaringan 909,Jakarta Utara,Penjaringan,2350000,Putra,15,0,1,1,0,1,0,0,1,5.2,STIE Indonesia Jakarta,3.9,4.0,5,125
