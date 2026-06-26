@@ -5,19 +5,6 @@ Smart-Kos Hybrid Engine — Tahap 2
 Mengintegrasikan seluruh komponen AI engine menjadi satu pipeline pencarian.
 Kelas ini MURNI logika bisnis — tidak mengandung dekorator FastAPI.
 Endpoint HTTP akan dibungkus di app/api/v1/endpoints/search.py pada Tahap 3.
-
-Pipeline Lengkap (11 Langkah):
-    1.  Sastrawi preprocessing kueri
-    2.  IndoBERT embedding kueri → vektor 768-dim
-    3.  FAISS Search Putaran 1 → top-5 docs untuk PRF feedback
-    4.  Fetch deskripsi_clean dari PostgreSQL (PRF input)
-    5.  PRF: ekstrak term dominan → expand kueri
-    6.  IndoBERT re-embed kueri diperluas → vektor 768-dim baru
-    7.  FAISS Search Putaran 2 (re-ranking) → top-20 kandidat
-    8.  Fetch data kos lengkap + jarak PostGIS Haversine dari PostgreSQL
-    9.  RF batch price prediction untuk semua kandidat
-    10. Fusion scoring (semantic + geo + price) untuk semua kandidat
-    11. Sort descending by final_score, return top_k
 """
 
 import logging
@@ -29,6 +16,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.core.config import settings
 from app.services.pricing_service import PricePredictionResult, PricingService
+from app.utils.intent_extractor import extract_search_intent  # 🔥 TAMBAHAN: Import Extractor
 from stki.embedder import IndoBERTEmbedder
 from stki.fusion_scorer import FusionScorer, KosScoringInput, KosScoringResult
 from stki.indexer import KosVectorIndexer
@@ -54,19 +42,6 @@ class SearchResponse:
 class SearchService:
     """
     Orkestrasi pipeline Smart-Kos Hybrid Search.
-
-    Semua komponen diinjeksikan via __init__ (Dependency Injection Pattern).
-    Keuntungan:
-      - Mudah di-unit test (setiap komponen dapat di-mock secara terpisah)
-      - Mudah dikonfigurasi per-environment (dev/staging/production)
-      - Mudah diswap komponen (misal: IndoBERT → model lain di masa depan)
-
-    Setup (akan dilakukan di FastAPI lifespan handler, Tahap 3):
-        embedder = IndoBERTEmbedder(settings.indobert_model_name)
-        indexer  = KosVectorIndexer(settings.faiss_indobert_index_path, ..., embedder)
-        indexer.load_index()
-        search_svc = SearchService(embedder, indexer, ...)
-        app.state.search_service = search_svc
     """
 
     def __init__(
@@ -94,24 +69,13 @@ class SearchService:
         n_candidates: int = 20,
         db: AsyncSession | None = None,
     ) -> SearchResponse:
-        """
-        Eksekusi full hybrid search pipeline (11 langkah).
-
-        Args:
-            query       : Teks pencarian mentah dari user Flutter.
-            user_lat    : Latitude GPS user (WGS84 / EPSG:4326).
-            user_lon    : Longitude GPS user.
-            top_k       : Jumlah kos yang dikembalikan ke Flutter.
-            n_candidates: Pool kandidat dari FAISS Re-rank sebelum top_k filter.
-                         Semakin besar → lebih banyak pilihan untuk scoring,
-                         semakin kecil → lebih cepat. Default 20 optimal.
-            db          : Async SQLAlchemy session.
-                         None = mode offline (PostGIS jarak = 999 km, hanya testing).
-
-        Returns:
-            SearchResponse dengan ranked results dan metadata pipeline.
-        """
+        
         t_start = time.perf_counter()
+
+        # ─────────────────────────────────────────────────────────
+        # 🔥 LANGKAH 0: Ekstraksi Niat User (Hybrid Hard Filters)
+        # ─────────────────────────────────────────────────────────
+        tipe_kos, hard_filters, intent_murah, intent_eksklusif = extract_search_intent(query)
 
         # ─────────────────────────────────────────────────────────
         # LANGKAH 1: Preprocessing kueri via Sastrawi
@@ -125,13 +89,7 @@ class SearchService:
             query_preprocessed = query.lower().strip()
 
         # ─────────────────────────────────────────────────────────
-        # LANGKAH 2: IndoBERT Embedding kueri awal
-        # ─────────────────────────────────────────────────────────
-        # query_vector: np.float32 (1, 768), L2-normalized
-        # (Digunakan implisit oleh indexer.search() di langkah 3)
-
-        # ─────────────────────────────────────────────────────────
-        # LANGKAH 3: FAISS Search Putaran 1 — top-5 untuk PRF
+        # LANGKAH 2 & 3: IndoBERT Embedding & FAISS Search Putaran 1
         # ─────────────────────────────────────────────────────────
         n_prf_docs = self.prf_engine.n_feedback_docs
         initial_results = self.indexer.search(
@@ -140,15 +98,12 @@ class SearchService:
         initial_ids = [r["id_kos"] for r in initial_results]
 
         # ─────────────────────────────────────────────────────────
-        # LANGKAH 4: Fetch deskripsi_clean dari PostgreSQL untuk PRF
+        # LANGKAH 4 & 5: Fetch deskripsi_clean & PRF Expansion
         # ─────────────────────────────────────────────────────────
         feedback_docs: list[str] = []
         if initial_ids and db is not None:
             feedback_docs = await self._fetch_deskripsi_clean(db, initial_ids)
 
-        # ─────────────────────────────────────────────────────────
-        # LANGKAH 5: PRF — Ekstraksi term + Query Expansion
-        # ─────────────────────────────────────────────────────────
         query_expanded, expansion_terms = self.prf_engine.run(
             original_query=query_preprocessed,
             feedback_docs=feedback_docs,
@@ -156,8 +111,6 @@ class SearchService:
 
         # ─────────────────────────────────────────────────────────
         # LANGKAH 6 & 7: IndoBERT Re-embed + FAISS Search Putaran 2
-        # Jika PRF menemukan term baru → gunakan expanded query
-        # Jika tidak → tetap gunakan query preprocessed asli
         # ─────────────────────────────────────────────────────────
         query_for_rerank = (
             query_expanded if expansion_terms else query_preprocessed
@@ -167,13 +120,12 @@ class SearchService:
         )
         candidate_ids = [r["id_kos"] for r in reranked_results]
 
-        # Map id_kos → semantic_score untuk digunakan di fusion scoring
         semantic_score_map: dict[int, float] = {
             r["id_kos"]: r["score"] for r in reranked_results
         }
 
         # ─────────────────────────────────────────────────────────
-        # LANGKAH 8: Fetch data KOS lengkap + jarak PostGIS
+        # 🔥 LANGKAH 8: Fetch data KOS + Jarak + SUNTIKAN HARD FILTER
         # ─────────────────────────────────────────────────────────
         kos_data_list: list[dict] = []
         if candidate_ids:
@@ -183,29 +135,24 @@ class SearchService:
                     kos_ids=candidate_ids,
                     user_lat=user_lat,
                     user_lon=user_lon,
+                    tipe_kos_filter=tipe_kos,     # Inject gender
+                    hard_filters=hard_filters,    # Inject fasilitas
                 )
             else:
-                # Mode offline: gunakan data minimal tanpa jarak nyata
-                logger.warning(
-                    "DB session tidak tersedia (mode offline). "
-                    "Jarak default 999 km digunakan untuk semua kandidat."
-                )
+                logger.warning("DB session tidak tersedia (mode offline).")
                 kos_data_list = [
                     {"id_kos": id_, "distance_km": 999.0, "harga_per_bulan": 0}
                     for id_ in candidate_ids
                 ]
 
         # ─────────────────────────────────────────────────────────
-        # LANGKAH 9: Batch RF Price Prediction
+        # LANGKAH 9 & 10: Batch RF Price Prediction & Siapkan Input Scorer
         # ─────────────────────────────────────────────────────────
         price_results = self.pricing_service.predict_batch(kos_data_list)
         price_map: dict[int, PricePredictionResult] = {
             r.id_kos: r for r in price_results
         }
 
-        # ─────────────────────────────────────────────────────────
-        # LANGKAH 10: Bangun KosScoringInput untuk Fusion Scorer
-        # ─────────────────────────────────────────────────────────
         scoring_inputs: list[KosScoringInput] = []
         for kos in kos_data_list:
             kos_id = int(kos.get("id_kos", 0))
@@ -236,9 +183,30 @@ class SearchService:
             )
 
         # ─────────────────────────────────────────────────────────
-        # LANGKAH 11: Fusion Scoring + Sort + Return top_k
+        # 🔥 LANGKAH 11: Fusion Scoring & Terapkan DYNAMIC BOOSTING
         # ─────────────────────────────────────────────────────────
         ranked_results = self.fusion_scorer.score_and_rank(scoring_inputs)
+
+        # Modifikasi Skor sesuai Intent Harga/Eksklusif (Booster & Penalty)
+        for res in ranked_results:
+            current_score = res.final_score
+            
+            if intent_murah:
+                if res.price_label == "overpriced":
+                    current_score -= 0.30  # Penalti berat buat kos mahal
+                elif res.is_super_deal or res.harga_per_bulan <= 1500000:
+                    current_score += 0.25  # Booster buat kos murah meriah
+                    
+            if intent_eksklusif:
+                if res.ac and res.wifi and res.kamar_mandi_dalam:
+                    current_score += 0.15  # Booster fasilitas lengkap
+                if res.harga_per_bulan < 1000000:
+                    current_score -= 0.20  # Penalti kos zonk terlalu murah
+
+            res.final_score = max(0.0, min(1.0, current_score))
+
+        # Re-sort karena skor barusan kita acak-acak, lalu potong Top K
+        ranked_results = sorted(ranked_results, key=lambda x: x.final_score, reverse=True)
         final_results = ranked_results[:top_k]
 
         elapsed_ms = round((time.perf_counter() - t_start) * 1000, 2)
@@ -270,19 +238,6 @@ class SearchService:
         db: AsyncSession,
         kos_ids: list[int],
     ) -> list[str]:
-        """
-        Ambil kolom 'deskripsi_clean' dari PostgreSQL untuk PRF feedback set.
-
-        Hanya mengambil dokumen yang deskripsi_clean-nya tidak kosong.
-        Urutan tidak dijamin (tidak diperlukan untuk PRF averaging).
-
-        Args:
-            db     : AsyncSession SQLAlchemy.
-            kos_ids: List id_kos dari FAISS Search Putaran 1.
-
-        Returns:
-            List string 'deskripsi_clean' untuk PRF.extract_expansion_terms().
-        """
         if not kos_ids:
             return []
 
@@ -304,56 +259,25 @@ class SearchService:
         kos_ids: list[int],
         user_lat: float,
         user_lon: float,
+        tipe_kos_filter: str | None = None,
+        hard_filters: dict | None = None,
     ) -> list[dict]:
-        """
-        Ambil seluruh data kos + hitung jarak Haversine dari lokasi user.
-
-        Query PostGIS:
-            ST_Distance(geom, user_point::GEOGRAPHY) / 1000.0 → jarak km
-
-        Menggunakan tipe GEOGRAPHY (bukan GEOMETRY) untuk akurasi jarak
-        geodesik (ellipsoidal earth model) yang lebih akurat dari flat-earth.
-
-        Kos tanpa data geom (geom IS NULL) mendapatkan fallback distance=999 km
-        agar tidak muncul di posisi teratas ranking.
-
-        Args:
-            db      : AsyncSession SQLAlchemy.
-            kos_ids : List id_kos kandidat dari FAISS Re-rank.
-            user_lat: Latitude GPS user (WGS84).
-            user_lon: Longitude GPS user (WGS84).
-
-        Returns:
-            List dict — satu per kos, berisi semua kolom + 'distance_km'.
-        """
         if not kos_ids:
             return []
+            
+        if hard_filters is None:
+            hard_filters = {}
 
-        sql = text("""
+        base_sql = """
             SELECT
-                k.id_kos,
-                k.nama_kos,
-                k.kota,
-                k.wilayah,
-                k.harga_per_bulan,
-                k.ac,
-                k.kamar_mandi_dalam,
-                k.wifi,
-                k.listrik_include,
-                k.parkir,
-                k.dapur,
-                k.laundry,
-                k.security_24jam,
-                k.total_fasilitas,
-                k.jarak_ke_kampus_km,
-                k.jarak_ke_transportasi_km,
-                k.jarak_kampus_dekat,
-                k.jarak_transportasi_dekat,
-                k.kota_encoded,
-                k.tipe_kos_encoded,
-                k.ukuran_kamar,
-                k.foto_path,
-                k.rating,
+                k.id_kos, k.nama_kos, k.kota, k.wilayah, k.harga_per_bulan,
+                k.ac, k.kamar_mandi_dalam, k.wifi, k.listrik_include,
+                k.parkir, k.dapur, k.laundry, k.security_24jam,
+                k.total_fasilitas, k.jarak_ke_kampus_km,
+                k.jarak_ke_transportasi_km, k.jarak_kampus_dekat,
+                k.jarak_transportasi_dekat, k.kota_encoded,
+                k.tipe_kos_encoded, k.ukuran_kamar, k.foto_path, k.rating,
+                k.tipe_kos,  -- Ditambahkan supaya gender kosnya ditarik
                 CASE
                     WHEN k.geom IS NOT NULL THEN
                         ST_Distance(
@@ -367,14 +291,27 @@ class SearchService:
                 END AS distance_km
             FROM kos_listings k
             WHERE k.id_kos = ANY(:kos_ids)
-        """)
+        """
 
-        result = await db.execute(
-            sql,
-            {
-                "user_lat": float(user_lat),
-                "user_lon": float(user_lon),
-                "kos_ids": kos_ids,
-            },
-        )
+        params = {
+            "user_lat": float(user_lat),
+            "user_lon": float(user_lon),
+            "kos_ids": kos_ids,
+        }
+
+        # SUNTIKAN FILTER KETAT (PENGHALANG ZONK)
+        if tipe_kos_filter:
+            base_sql += " AND k.tipe_kos = :tipe_kos_filter"
+            params["tipe_kos_filter"] = tipe_kos_filter
+
+        if hard_filters.get("ac"):
+            base_sql += " AND k.ac = 1"
+        if hard_filters.get("kamar_mandi_dalam"):
+            base_sql += " AND k.kamar_mandi_dalam = 1"
+        if hard_filters.get("wifi"):
+            base_sql += " AND k.wifi = 1"
+        if hard_filters.get("parkir"):
+            base_sql += " AND k.parkir = 1"
+
+        result = await db.execute(text(base_sql), params)
         return [dict(row._mapping) for row in result.fetchall()]
