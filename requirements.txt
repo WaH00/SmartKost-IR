@@ -16,17 +16,17 @@ asyncpg==0.29.0           # Async PostgreSQL driver (FastAPI runtime)
 psycopg2-binary==2.9.9    # Sync PostgreSQL driver (scripts admin/migration)
 
 # === Data Processing ===
-pandas==2.2.2
-numpy==1.26.4
+pandas
+numpy
 
 # === Machine Learning ===
-scikit-learn==1.5.0        # TF-IDF, RandomForest, StandardScaler
+scikit-learn     # TF-IDF, RandomForest, StandardScaler
 
 # === Vector Search ===
-faiss-cpu==1.7.4           # CPU FAISS (ganti faiss-gpu jika ada GPU)
+faiss-cpu          # CPU FAISS (ganti faiss-gpu jika ada GPU)
 
 # === Indonesian NLP ===
-PySastrawi==1.2.0          # Stemmer + Stopword Remover Bahasa Indonesia
+PySastrawi       # Stemmer + Stopword Remover Bahasa Indonesia
 
 # === Utilities ===
 python-dotenv==1.0.1
@@ -35,6 +35,6 @@ regex==2024.5.15
 
 
 # === Tahap 2: IndoBERT + Transformers ===
-transformers==4.41.2
-torch>=2.0.0               # CPU default; install torch+cuda di Colab untuk GPU
-sentencepiece==0.2.0        # Required by IndoBERT tokenizer
+transformers
+torch
+sentencepiece

@@ -93,7 +93,7 @@ def rebuild_faiss_indobert(
     logger.info(f"Dokumen valid: {len(df_valid)}/{len(df)}")
 
     documents: list[str] = df_valid["deskripsi_clean"].tolist()
-    kos_ids: list[int] = df_valid["id_kos"].astype(int).tolist()
+    kos_ids: list[int] = df_valid["id_kos"].str.replace('KOS-', '', regex=False).astype(int).tolist()
 
     # Tentukan batch_size optimal berdasarkan device
     is_gpu = torch.cuda.is_available()

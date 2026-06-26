@@ -250,7 +250,7 @@ def augment_dataset(
 
         # --- 2. Path foto kamar ---
         foto_list.append(
-            f"assets/kos_photos/kos_{int(row.get('id_kos', idx + 1)):04d}.jpg"
+            f"assets/kos_photos/kos_{int(str(row.get('id_kos', idx + 1)).upper().replace('KOS-', '')):04d}.jpg"
         )
 
         # --- 3. Deskripsi promosi (pilih template acak, isi dengan data baris) ---

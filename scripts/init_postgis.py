@@ -55,7 +55,7 @@ def get_connection() -> psycopg2.extensions.connection:
     Digunakan hanya untuk admin scripts — bukan untuk FastAPI runtime.
     """
     logger.info("Menghubungkan ke PostgreSQL...")
-    conn = psycopg2.connect(settings.database_dsn)
+    conn = psycopg2.connect("host=127.0.0.1 dbname=smartkos user=postgres password=1234 port=5432")
     logger.info("Koneksi PostgreSQL berhasil.")
     return conn
 
@@ -158,7 +158,7 @@ def load_data_to_postgis(
 
     for _, row in df.iterrows():
         records.append((
-            int(row["id_kos"]),
+            int(str(row["id_kos"]).replace("KOS-", "").strip()),
             str(row.get("nama_kos", f"Kos-{row['id_kos']}")),
             str(row["kota"]),
             str(row.get("wilayah", "")),

@@ -1,0 +1,40 @@
+name: smart_kos
+description: Smart-Kos Hybrid Engine — Flutter Mobile App
+version: 1.0.0+1
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # HTTP Client — Dio: lebih powerful dari package http (interceptors, retry, logging)
+  dio: ^5.4.3
+
+  # GPS / Location
+  geolocator: ^11.0.0
+
+  # State Management — simple, no boilerplate
+  provider: ^6.1.2
+
+  # UI Utilities
+  cached_network_image: ^3.3.1   # Cache foto kos dari URL
+  shimmer: ^3.0.0                # Loading skeleton animation
+  flutter_animate: ^4.5.0        # Badge animation (Super Deal pulse effect)
+
+  # Format angka Rupiah
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/

@@ -70,7 +70,7 @@ def build_faiss_index(
     logger.info(f"Dokumen valid untuk diindeks: {len(df_valid)}/{len(df)}")
 
     documents: list[str] = df_valid["deskripsi_clean"].tolist()
-    kos_ids: list[int] = df_valid["id_kos"].astype(int).tolist()
+    kos_ids: list[int] = df_valid["id_kos"].str.replace('KOS-', '', regex=False).astype(int).tolist()
 
     # Bangun FAISS index menggunakan KosVectorIndexer
     indexer = KosVectorIndexer(

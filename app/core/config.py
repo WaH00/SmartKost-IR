@@ -70,6 +70,18 @@ class Settings(BaseSettings):
     # === PRF ===
     prf_n_feedback_docs: int = 5
     prf_n_expansion_terms: int = 5
+    
+    # === API Server ===
+    api_host: str = "0.0.0.0"
+    api_port: int = 8000
+    # CORS: ganti "*" dengan IP Flutter emulator di production
+    # Emulator Android mengakses host via 10.0.2.2 (bukan localhost)
+    cors_origins: list[str] = ["*"]
+
+    # === Search defaults ===
+    default_top_k: int = 10
+    max_top_k: int = 50
+    default_n_candidates: int = 20
 
 
 # Instans singleton — diimpor oleh seluruh modul lain dengan:
