@@ -240,19 +240,4 @@ requirements.txt     dependensi Python
 .env.example         template konfigurasi lokal
 ```
 
-## Persiapan sebelum upload ke GitHub
 
-Pastikan file rahasia dan file lokal tidak ikut masuk commit:
-
-```bash
-git status
-git check-ignore .env .venv
-```
-
-Jika `__pycache__`, file `.pyc`, `.env`, atau `.venv` pernah terlanjur masuk Git index, hapus hanya dari index lalu commit ulang:
-
-```bash
-git rm -r --cached --ignore-unmatch .env .venv
-git rm -r --cached --ignore-unmatch "**/__pycache__" "**/*.pyc"
-git add .
-```
