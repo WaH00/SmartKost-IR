@@ -55,7 +55,7 @@ def get_connection() -> psycopg2.extensions.connection:
     Digunakan hanya untuk admin scripts — bukan untuk FastAPI runtime.
     """
     logger.info("Menghubungkan ke PostgreSQL...")
-    conn = psycopg2.connect("host=127.0.0.1 dbname=smartkos user=postgres password=1234 port=5432")
+    conn = psycopg2.connect(settings.database_dsn)
     logger.info("Koneksi PostgreSQL berhasil.")
     return conn
 
