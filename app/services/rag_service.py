@@ -1,8 +1,10 @@
+import asyncio
 import logging
+import random
 
 from sqlalchemy import select
 from google import genai
-from google.genai import types
+from google.genai import errors, types
 from app.services.search_service import SearchService
 from app.core.database import ChatHistory
 from app.core.config import settings
@@ -11,6 +13,9 @@ from app.core.config import settings
 logger = logging.getLogger(__name__)
 
 class VisionaryRAGService:
+    # Batasi seluruh instance service agar hanya satu request Gemini berjalan.
+    _gemini_semaphore = asyncio.Semaphore(1)
+
     def __init__(self, search_service: SearchService):
         self.search_service = search_service
 
@@ -31,15 +36,18 @@ class VisionaryRAGService:
     async def _get_clean_history(
         self, db, session_id: str
     ) -> list[types.Content]:
-        """Menarik 10 obrolan terakhir dari PostgreSQL biar token API gak jebol."""
+        """Menarik maksimal 6 pesan terbaru dalam urutan kronologis."""
         stmt = (
             select(ChatHistory)
-            .where(ChatHistory.session_id == session_id)
-            .order_by(ChatHistory.timestamp.asc())
-            .limit(10) 
+            .where(
+                ChatHistory.session_id == session_id,
+                ChatHistory.role.in_(("user", "model")),
+            )
+            .order_by(ChatHistory.timestamp.desc())
+            .limit(6)
         )
         result = await db.execute(stmt)
-        rows = result.scalars().all()
+        rows = list(reversed(result.scalars().all()))
         # SDK membutuhkan objek Part; list[str] memicu ValidationError saat
         # history tidak kosong (biasanya mulai request chat kedua).
         return [
@@ -73,6 +81,32 @@ class VisionaryRAGService:
         except Exception:
             return user_message # Fallback aman
 
+    async def _send_message_with_retry(self, chat_session, user_message: str):
+        """Kirim satu request Gemini dengan retry terbatas untuk 429/503."""
+        max_attempts = 3
+
+        async with self._gemini_semaphore:
+            for attempt in range(1, max_attempts + 1):
+                try:
+                    return await asyncio.to_thread(
+                        chat_session.send_message, user_message
+                    )
+                except errors.APIError as exc:
+                    is_retryable = exc.code in (429, 503)
+                    if not is_retryable or attempt == max_attempts:
+                        raise
+
+                    delay = (2 ** (attempt - 1)) + random.uniform(0, 0.5)
+                    logger.warning(
+                        "Gemini mengembalikan status %s; retry %s/%s "
+                        "dalam %.2f detik",
+                        exc.code,
+                        attempt + 1,
+                        max_attempts,
+                        delay,
+                    )
+                    await asyncio.sleep(delay)
+
     # ─────────────────────────────────────────────────────────
     # FUNGSI 3: JANTUNG UTAMA (GENERATE SMART REPLY)
     # ─────────────────────────────────────────────────────────
@@ -87,11 +121,12 @@ class VisionaryRAGService:
                 "suggested_action": "REDIRECT_TO_SEARCH"
             }
 
-        # 2. PANGGIL INGATAN & REPHRASE
+        # 2. PANGGIL INGATAN
         past_history = await self._get_clean_history(db, session_id)
-        standalone_query = await self._rephrase_query(user_message, past_history)
+        # Rephrase dinonaktifkan untuk menghemat rate limit Gemini free tier.
+        standalone_query = user_message
 
-        # 3. HYBRID SEARCH KE DATABASE (Pake Kueri Hasil Rephrase)
+        # 3. HYBRID SEARCH KE DATABASE (pakai pesan user langsung)
         search_results = await self.search_service.search(
             query=standalone_query, 
             user_lat=lat, 
@@ -101,7 +136,7 @@ class VisionaryRAGService:
         
         # 4. RANGKUM DATA KOS BUAT MAKANAN LLM
         context_kos = ""
-        for i, kos in enumerate(search_results.results, 1):
+        for i, kos in enumerate(search_results.results[:3], 1):
             nama = getattr(kos, "nama_kos", f"Kosan ID {kos.id_kos}")
             harga = getattr(kos, "harga_per_bulan", "Menyesuaikan")
             tipe = getattr(kos, "tipe_kos", getattr(kos, "gender", "Campur")) 
@@ -141,7 +176,9 @@ class VisionaryRAGService:
                 config={"system_instruction": system_prompt}
             )
             
-            response = chat_session.send_message(user_message)
+            response = await self._send_message_with_retry(
+                chat_session, user_message
+            )
             reply_text = response.text
             
             # Semantic Double-Check
@@ -155,10 +192,23 @@ class VisionaryRAGService:
                 "suggested_action": "NONE" if is_related else "SHOW_FUNNY_EMOTE"
             }
             
+        except errors.APIError as exc:
+            logger.exception("Gemini gagal menghasilkan balasan")
+            if exc.code == 429:
+                return {
+                    "reply": "Kuota Makelar AI sedang penuh, Bosku. Hasil pencarian kos tetap dapat digunakan. Coba kirim pesan kembali beberapa saat lagi.",
+                    "is_kos_related": True,
+                    "suggested_action": "SHOW_SEARCH_RESULTS"
+                }
+            return {
+                "reply": "Aman Bosku! Layanan Makelar AI sedang mengalami gangguan. Coba kirim ulang pesannya beberapa saat lagi.",
+                "is_kos_related": True,
+                "suggested_action": "RETRY"
+            }
         except Exception:
             logger.exception("Gemini gagal menghasilkan balasan")
             return {
-                "reply": "Aman Bosku! Server makelar lagi tarik napas bentar karena kepenuhan. Coba ketik ulang pesannya ya!",
+                "reply": "Aman Bosku! Layanan Makelar AI sedang mengalami gangguan. Coba kirim ulang pesannya beberapa saat lagi.",
                 "is_kos_related": True,
                 "suggested_action": "RETRY"
             }
