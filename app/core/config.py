@@ -17,11 +17,11 @@ class Settings(BaseSettings):
 
     # --- Konfigurasi Database PostgreSQL ---
     database_url: str = (
-        "postgresql+asyncpg://postgres:password@localhost:5432/smart_kos_db"
+        "postgresql+asyncpg://postgres:1234@localhost:5432/smartkos"
     )
     # DATABASE_DSN digunakan oleh psycopg2 di scripts admin (bukan FastAPI runtime)
     database_dsn: str = (
-        "host=localhost port=5432 dbname=smart_kos_db user=postgres password=password"
+        "host=localhost port=5432 dbname=smartkos user=postgres password=1234"
     )
 
     # --- Konfigurasi FAISS Vector Index ---

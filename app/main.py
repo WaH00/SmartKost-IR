@@ -19,9 +19,12 @@ from fastapi import FastAPI, Request, status
 from fastapi.exceptions import RequestValidationError
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
+from fastapi import FastAPI
 
 from app.api.v1.router import api_v1_router
 from app.core.config import settings
+from app.api.v1.endpoints import chat
+
 
 logging.basicConfig(
     level=logging.DEBUG if settings.debug else logging.INFO,
@@ -232,6 +235,10 @@ async def not_found_handler(request: Request, exc: Exception) -> JSONResponse:
 # ─────────────────────────────────────────────────────────────────────────────
 app.include_router(api_v1_router, prefix=settings.api_v1_prefix)
 
+# 🔥 KABEL MAKELAR AI LU MASUK DI SINI BOSKU:
+app.include_router(chat.router, prefix="/api/v1", tags=["Makelar AI"])
+
+
 # Root endpoint — konfirmasi server aktif (diakses Flutter saat app dibuka)
 @app.get("/", tags=["Root"], include_in_schema=False)
 async def root() -> dict:
@@ -242,8 +249,8 @@ async def root() -> dict:
         "docs": "/docs",
         "health": f"{settings.api_v1_prefix}/health",
         "search": f"{settings.api_v1_prefix}/search-kos",
+        "chat": "/api/v1/chat"  # 🔥 Tambahin ini biar temen Flutter lu tau rutenya!
     }
-
 
 # ─────────────────────────────────────────────────────────────────────────────
 # ENTRY POINT

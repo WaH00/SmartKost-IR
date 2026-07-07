@@ -83,7 +83,7 @@ class KosScoringInput:
     dapur: int = 0
     laundry: int = 0
     security_24jam: int = 0
-
+    highlight_alasan: str = ""
 
 @dataclass
 class KosScoringResult:
