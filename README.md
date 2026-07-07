@@ -240,4 +240,3 @@ requirements.txt     dependensi Python
 .env.example         template konfigurasi lokal
 ```
 
-

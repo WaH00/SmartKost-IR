@@ -1,3 +1,4 @@
+from pydantic import Field
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
@@ -13,15 +14,16 @@ class Settings(BaseSettings):
         env_file_encoding="utf-8",
         case_sensitive=False,
         extra="ignore",
+        protected_namespaces=("settings_",),
     )
 
     # --- Konfigurasi Database PostgreSQL ---
     database_url: str = (
-        "postgresql+asyncpg://postgres:password@localhost:5432/smart_kos_db"
+        "postgresql+asyncpg://postgres:1234@localhost:5432/smartkos"
     )
     # DATABASE_DSN digunakan oleh psycopg2 di scripts admin (bukan FastAPI runtime)
     database_dsn: str = (
-        "host=localhost port=5432 dbname=smart_kos_db user=postgres password=password"
+        "host=localhost port=5432 dbname=smartkos user=postgres password=1234"
     )
 
     # --- Konfigurasi FAISS Vector Index ---
@@ -42,10 +44,14 @@ class Settings(BaseSettings):
     # --- Konfigurasi Aplikasi ---
     app_name: str = "Smart-Kos Hybrid Engine API"
     app_version: str = "1.0.0"
-    debug: bool = True
+    # Gunakan nama khusus agar tidak bentrok dengan DEBUG milik shell/tool lain.
+    debug: bool = Field(default=True, validation_alias="SMARTKOS_DEBUG")
     api_v1_prefix: str = "/api/v1"
     
     # Tambahkan field-field ini ke class Settings yang sudah ada di Tahap 1:
+    # === Gemini AI ===
+    gemini_api_key: str = ""
+    gemini_model_name: str = "gemini-3.5-flash"
 
     # === IndoBERT ===
     indobert_model_name: str = "indobenchmark/indobert-base-p1"
