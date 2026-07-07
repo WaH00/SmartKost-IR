@@ -32,6 +32,9 @@ PySastrawi       # Stemmer + Stopword Remover Bahasa Indonesia
 python-dotenv==1.0.1
 regex==2024.5.15
 
+# === Generative AI ===
+google-genai==2.10.0
+
 
 
 # === Tahap 2: IndoBERT + Transformers ===

@@ -1,6 +1,7 @@
 import logging
 from typing import AsyncGenerator
-
+from sqlalchemy import Column, Integer, String, Text, DateTime
+from datetime import datetime
 from sqlalchemy.ext.asyncio import (
     AsyncSession,
     async_sessionmaker,
@@ -57,3 +58,13 @@ async def get_db_session() -> AsyncGenerator[AsyncSession, None]:
             raise
         finally:
             await session.close()
+            
+class ChatHistory(Base):
+    """Tabel untuk menyimpan ingatan AI secara permanen."""
+    __tablename__ = "chat_histories"
+
+    id = Column(Integer, primary_key=True, index=True)
+    session_id = Column(String(100), index=True, nullable=False) # Kunci pengingat per user
+    role = Column(String(20), nullable=False)                    # Isinya: 'user' atau 'model'
+    message = Column(Text, nullable=False)
+    timestamp = Column(DateTime, default=datetime.utcnow)

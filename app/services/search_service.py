@@ -22,7 +22,8 @@ from stki.fusion_scorer import FusionScorer, KosScoringInput, KosScoringResult
 from stki.indexer import KosVectorIndexer
 from stki.preprocessor import IndonesianTextPreprocessor
 from stki.prf_engine import PseudoRelevanceFeedback
-
+import re
+from app.services.intent_parser import SmartIntentNER
 logger = logging.getLogger(__name__)
 
 
@@ -71,6 +72,31 @@ class SearchService:
     ) -> SearchResponse:
         
         t_start = time.perf_counter()
+        
+        # ─────────────────────────────────────────────────────────
+        # 🔥 STEP 1: SUNTIK MESIN NER DI SINI (PALING ATAS)
+        # ─────────────────────────────────────────────────────────
+        ner_engine = SmartIntentNER()
+        intent = ner_engine.extract_intent(query)
+        
+        # Ganti variabel query teks lu pakai yang udah bersih dari angka budget & gender
+        # Biar pas masuk IndoBERT / FAISS nanti hasilnya jauh lebih akurat
+        query_preprocessed = intent["clean_query"] if intent["clean_query"] else query
+
+        # ─────────────────────────────────────────────────────────
+        # 🔥 STEP 2: SUSUN KONDISI UNTUK SATPAM SQL LU
+        # ─────────────────────────────────────────────────────────
+        # Kita kumpulin filter hasil ekstraksi AI NER tadi ke dalam array
+        sql_filters = []
+        
+        if intent["gender"]:
+            sql_filters.append(f"k.tipe_kos = '{intent['gender']}'")
+            
+        if intent["budget_max"]:
+            sql_filters.append(f"k.harga_per_bulan <= {intent['budget_max']}")
+            
+        for fas in intent["fasilitas_wajib"]:
+            sql_filters.append(f"k.{fas} = 1")
 
         # ─────────────────────────────────────────────────────────
         # 🔥 LANGKAH 0: Ekstraksi Niat User (Hybrid Hard Filters)
@@ -203,11 +229,23 @@ class SearchService:
                 if res.harga_per_bulan < 1000000:
                     current_score -= 0.20  # Penalti kos zonk terlalu murah
 
-            res.final_score = max(0.0, min(1.0, current_score))
+            res.final_score = max(0.0, min  (1.0, current_score))
 
-        # Re-sort karena skor barusan kita acak-acak, lalu potong Top K
+       # Re-sort karena skor barusan kita acak-acak, lalu potong Top K
         ranked_results = sorted(ranked_results, key=lambda x: x.final_score, reverse=True)
         final_results = ranked_results[:top_k]
+
+        # ===============================================================
+        # 🔥 GENERATE DYNAMIC SNIPPET HANYA UNTUK TOP K (Biar Cepat!)
+        # ===============================================================
+        # Note: Pastikan 'kos_data_list' adalah variabel list dari hasil fetch SQL awal lu ya!
+        kos_dict_map = {int(k["id_kos"]): str(k.get("deskripsi_clean", "")) for k in kos_data_list}
+        
+        for res in final_results:
+            deskripsi_asli = kos_dict_map.get(res.id_kos, "")
+            # Kita pakai query_expanded biar mesin snippetnya makin pinter nyari kata
+            res.highlight_alasan = self._extract_dynamic_snippet(query_expanded, deskripsi_asli)
+        # ===============================================================
 
         elapsed_ms = round((time.perf_counter() - t_start) * 1000, 2)
         super_deal_count = sum(1 for r in final_results if r.is_super_deal)
@@ -229,6 +267,7 @@ class SearchService:
             search_time_ms=elapsed_ms,
         )
 
+        
     # ──────────────────────────────────────────────────────────────
     # HELPER: Database Queries (PostgreSQL + PostGIS)
     # ──────────────────────────────────────────────────────────────
@@ -257,7 +296,7 @@ class SearchService:
         self,
         db: AsyncSession,
         kos_ids: list[int],
-        user_lat: float,
+        user_lat: float, 
         user_lon: float,
         tipe_kos_filter: str | None = None,
         hard_filters: dict | None = None,
@@ -277,7 +316,7 @@ class SearchService:
                 k.jarak_ke_transportasi_km, k.jarak_kampus_dekat,
                 k.jarak_transportasi_dekat, k.kota_encoded,
                 k.tipe_kos_encoded, k.ukuran_kamar, k.foto_path, k.rating,
-                k.tipe_kos,  -- Ditambahkan supaya gender kosnya ditarik
+                k.tipe_kos, k.deskripsi_clean, -- Ditambahkan supaya gender kosnya ditarik
                 CASE
                     WHEN k.geom IS NOT NULL THEN
                         ST_Distance(
@@ -315,3 +354,50 @@ class SearchService:
 
         result = await db.execute(text(base_sql), params)
         return [dict(row._mapping) for row in result.fetchall()]
+    
+  
+
+    def _extract_dynamic_snippet(self, query: str, deskripsi: str) -> str:
+        """
+        Mencari 1 kalimat paling relevan dari deskripsi berdasarkan kueri user.
+        """
+        if not deskripsi:
+            return "✨ Kosan nyaman dengan fasilitas memadai."
+
+        # 1. Pecah paragraf jadi daftar kalimat (berdasarkan titik atau enter)
+        sentences = [s.strip() for s in re.split(r'[.!?\n]', str(deskripsi)) if len(s.strip()) > 15]
+        
+        if not sentences:
+            return f"✨ Highlight: {str(deskripsi)[:80]}..."
+
+        # 2. Siapkan kata kunci pencarian
+        query_words = set(query.lower().split())
+        best_sentence = sentences[0]
+        max_score = -1.0
+
+        # 3. Adu setiap kalimat dengan kueri user (Jaccard Index sederhana)
+        for sentence in sentences:
+            sentence_words = set(sentence.lower().split())
+            
+            # Hitung irisan (kata yang sama-sama muncul)
+            overlap = len(query_words.intersection(sentence_words))
+            
+            # Kasih bobot tambahan buat keyword fasilitas penting
+            if "ac" in query_words and "ac" in sentence.lower(): overlap += 3
+            if "wifi" in query_words and "wifi" in sentence.lower(): overlap += 3
+            if "murah" in query_words and any(w in sentence.lower() for w in ["murah", "terjangkau", "hemat"]): overlap += 3
+            if "kampus" in query_words and "kampus" in sentence.lower(): overlap += 3
+            
+            # Normalisasi skor
+            score = overlap / (len(sentence_words) + 1)
+
+            if score > max_score:
+                max_score = score
+                best_sentence = sentence
+
+        # 4. Kembalikan dengan UI text yang cantik untuk Flutter
+        if max_score > 0:
+            return f"💡 Cocok karena: '{best_sentence}'"
+        else:
+            return f"✨ Highlight: '{sentences[0]}'"
+    
